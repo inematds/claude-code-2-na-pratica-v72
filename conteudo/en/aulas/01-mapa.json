@@ -2,10 +2,10 @@
   "slug": "mapa",
   "num": 1,
   "menu": "The map",
-  "titulo": "The updates map: what changed and what you already have",
+  "titulo": "The new features map: what changed and what you already have",
   "titulo_curto": "The map of the 13",
   "minutos": 14,
-  "lead": "Many people talk about \"Claude Code 2.0,\" but few explain what actually changed or what you can use today. In this lesson, you’ll see the 13 updates in six groups, learn what each one requires (app, plan, version), and check in your own Claude what you already have, what you don’t, and what’s on the waitlist.",
+  "lead": "Many people talk about \"Claude Code 2.0,\" but few explain what actually changed or what you can use today. In this lesson, you’ll see the 13 new features in six groups, learn what each one requires (app, plan, version), and check in your own Claude what you already have, what you don’t, and what’s on the waitlist.",
   "objetivo": "Understand what changed in Claude Code, what you can use today, and get the app ready to try it.",
   "competencias": [
     "map-claude-code-updates",
@@ -15,7 +15,7 @@
   "aprende": [
     {
       "icone": "camadas",
-      "t": "The 13 updates in six groups"
+      "t": "The 13 new features in six groups"
     },
     {
       "icone": "lupa",
@@ -34,7 +34,7 @@
   "secoes": [
     {
       "tipo": "diagrama",
-      "titulo": "The 13 updates in six groups",
+      "titulo": "The 13 new features in six groups",
       "sub": "Tap or click each group. Each group is a lesson in the course.",
       "nos": [
         {
@@ -100,7 +100,7 @@
             },
             {
               "icone": "relogio",
-              "t": "Claude Duet (US only)"
+              "t": "Claude Duet (US only, preview, waitlist)"
             }
           ],
           "detalhe": "Keep up with work from your phone (Remote Control, with your computer on) and send work to the cloud (Projects, which keeps going with your computer off). Projects is in beta (being tested and rolling out gradually) and requires joining a waitlist: you sign up and wait for access on your account. Claude Duet brings the next task to you, but it is currently available only in the US, with a waitlist. Lesson 5."
@@ -180,7 +180,7 @@
           "sub": "Pro, Max, Ultra",
           "texto": [
             "The new features require a paid plan (Pro, Max, Ultra, Team, or Enterprise). What you see depends on your plan.",
-            "Computer use isn’t available on Team or Enterprise. Motion, on the other hand, is only available on Team and Enterprise. Projects and Claude Duet require joining a waitlist, and Duet is currently available only in the US"
+            "Computer use isn’t available on Team or Enterprise. Motion, on the other hand, is only available on Team and Enterprise. Projects and Claude Duet require joining a waitlist, and Duet is currently available only in the US."
           ],
           "exemplo": {
             "rot": "Carla",

@@ -5,7 +5,7 @@
  "titulo": "Ayudantes: un trabajo grande dividido en partes",
  "titulo_curto": "Ayudantes (subagentes)",
  "minutos": 15,
- "lead": "Un guion listo puede convertirse en resumen, clips y publicaciones. Pedir todo en una sola conversación la llena y mezcla las partes. Con ayudantes, la conversación divide el trabajo: cada ayudante hace una parte y devuelve solo el resultado. En esta clase, Carla lo hace con la clase 1 del curso de hojas de cálculo, y tú lo haces con un texto tuyo.",
+ "lead": "Un guion listo puede convertirse en resumen, cortes y publicaciones. Pedir todo en una sola conversación la llena y mezcla las partes. Con ayudantes, la conversación divide el trabajo: cada ayudante hace una parte y devuelve solo el resultado. En esta clase, Carla lo hace con la clase 1 del curso de hojas de cálculo, y tú lo haces con un texto tuyo.",
  "objetivo": "Dividir un trabajo grande entre ayudantes (subagentes) y revisar el resultado antes de usarlo.",
  "competencias": [
   "dividir-trabajo-en-partes",
@@ -48,7 +48,7 @@
        "t": "guion.md de la clase 1"
       }
      ],
-     "detalhe": "Entregas todo el trabajo de una vez, indicando las partes. Carla pide: a partir del guion de la clase 1, un resumen, 5 clips cortos y 3 publicaciones."
+     "detalhe": "Entregas todo el trabajo de una vez, indicando las partes. Carla pide: a partir del guion de la clase 1, un resumen, 5 cortes y 3 publicaciones."
     },
     {
      "icone": "chat",
@@ -91,7 +91,7 @@
     }
    ],
    "volta": "¿Una parte no quedó bien? Pide que rehaga solo esa parte",
-   "legenda": "Ejemplo de Carla: guion de la clase 1 → resumen, clips y publicaciones. Los ayudantes están en la app (pestaña Code) y en la terminal.",
+   "legenda": "Ejemplo de Carla: guion de la clase 1 → resumen, cortes y publicaciones. Los ayudantes están en la app (pestaña Code) y en la terminal.",
    "rolagem": true,
    "rolagem_fim": {
     "titulo": "El proceso completo",
@@ -118,14 +118,14 @@
     },
     {
      "titulo": "Una entrega cada uno",
-     "sub": "archivo y extensión",
+     "sub": "archivo y largo",
      "texto": [
-      "Di qué entrega cada ayudante, en qué archivo y de qué extensión. «Haz algunas publicaciones» no tiene fin; «3 publicaciones de hasta 280 caracteres en publicaciones.md» sí.",
+      "Di qué entrega cada ayudante, en qué archivo y de qué largo. «Haz algunas publicaciones» no tiene fin; «3 publicaciones de hasta 280 caracteres en publicaciones.md» sí.",
       "Con la entrega clara, la revisión sabe qué buscar."
      ],
      "exemplo": {
       "rot": "Entrega clara",
-      "texto": "Ayudante 2: 5 cortes cortos, cada uno con inicio, fin y una frase gancho, en cortes.md."
+      "texto": "Ayudante 2: 5 cortes, cada uno con inicio, fin y una frase gancho, en cortes.md."
      }
     },
     {
@@ -162,12 +162,12 @@
     {
      "rot": "Pedido · clase 1 en tres partes",
      "icone": "chat",
-     "conteudo": "Lee el guion de la clase 1 en curso-hojas-de-calculo/clase-1/guion.md.\nUsa un subagente para cada elemento de abajo. Cada uno hace solo su parte y guarda el resultado:\n1. Un resumen de la clase, de hasta 150 palabras, en curso-hojas-de-calculo/clase-1/resumen.md\n2. 5 cortes cortos para el canal, cada uno con inicio, fin y una frase gancho, en curso-hojas-de-calculo/clase-1/cortes.md\n3. 3 publicaciones cortas para redes sociales, de hasta 280 caracteres cada una, en curso-hojas-de-calculo/clase-1/publicaciones.md\nAl final, compara los tres archivos con el guion (marcas de tiempo, nombres de funciones, números).\nCorrige lo que no coincida y dime en una lista qué corregiste.\nNo publiques nada ni modifiques el guion."
+     "conteudo": "Lee el guion de la clase 1 en curso-hojas-de-calculo/clase-1/guion.md.\nUsa un subagente para cada elemento de abajo. Cada uno hace solo su parte y guarda el resultado:\n1. Un resumen de la clase, de hasta 150 palabras, en curso-hojas-de-calculo/clase-1/resumen.md\n2. 5 cortes para el canal, cada uno con inicio, fin y una frase gancho, en curso-hojas-de-calculo/clase-1/cortes.md\n3. 3 publicaciones cortas para redes sociales, de hasta 280 caracteres cada una, en curso-hojas-de-calculo/clase-1/publicaciones.md\nAl final, compara los tres archivos con el guion (marcas de tiempo, nombres de funciones, números).\nCorrige lo que no coincida y dime en una lista qué corregiste.\nNo publiques nada ni modifiques el guion."
     },
     {
      "rot": "Plantilla · pedido-ayudantes.txt (la tuya)",
      "icone": "copiar",
-     "conteudo": "Trabajo: <qué hacer y dónde está el texto original, ej.: carpeta/texto.md>\nAyudante 1: un subagente hace <entrega 1, con extensión> y la guarda en <archivo1.md>\nAyudante 2: un subagente hace <entrega 2, con extensión> y la guarda en <archivo2.md>\nAyudante 3: un subagente hace <entrega 3, con extensión> y la guarda en <archivo3.md>\nRevisión: al final, compara los tres archivos con el texto original y dime en una lista qué corregiste.\nLímites: no publiques nada ni modifiques el texto original."
+     "conteudo": "Trabajo: <qué hacer y dónde está el texto original, ej.: carpeta/texto.md>\nAyudante 1: un subagente hace <entrega 1, con largo> y la guarda en <archivo1.md>\nAyudante 2: un subagente hace <entrega 2, con largo> y la guarda en <archivo2.md>\nAyudante 3: un subagente hace <entrega 3, con largo> y la guarda en <archivo3.md>\nRevisión: al final, compara los tres archivos con el texto original y dime en una lista qué corregiste.\nLímites: no publiques nada ni modifiques el texto original."
     }
    ],
    "saida": {
@@ -183,7 +183,7 @@
      },
      {
       "rot": "Errores comunes",
-      "html": "<ul><li><b>Sin revisión</b>: cada ayudante hace bien su parte, pero nadie la compara con el original. El error llega hasta ti.</li><li><b>Partes que dependen una de otra</b>: el ayudante de las publicaciones necesitaba el resumen terminado e inventó el suyo.</li><li><b>Entrega sin extensión definida</b>: «haz algunas publicaciones» da como resultado 12 publicaciones largas y pierdes tiempo recortándolas.</li><li><b>Demasiados ayudantes</b>: cada uno consume parte de tu límite. Empieza con 2 o 3.</li></ul>"
+      "html": "<ul><li><b>Sin revisión</b>: cada ayudante hace bien su parte, pero nadie la compara con el original. El error llega hasta ti.</li><li><b>Partes que dependen una de otra</b>: el ayudante de las publicaciones necesitaba el resumen terminado e inventó el suyo.</li><li><b>Entrega sin largo definido</b>: «haz algunas publicaciones» da como resultado 12 publicaciones largas y pierdes tiempo recortándolas.</li><li><b>Demasiados ayudantes</b>: cada uno consume parte de tu límite. Empieza con 2 o 3.</li></ul>"
      }
     ]
    }
@@ -299,14 +299,14 @@
        "rot": "en los Límites, qué no hacer",
        "campo": "Límites",
        "termos": [
-        "não publique / nao publique / não apague / nao apague / não altere / nao altere / não mexa / nao mexa / não envie / nao envie / don't publish / do not publish / don't delete / do not delete / don't change / do not change / don't touch / do not touch / no publiques / no publique / no borres / no borre / no cambies / no cambie / no toques / no toque / no envíes / no envíe"
+        "não publique / nao publique / não apague / nao apague / não altere / nao altere / não mexa / nao mexa / não envie / nao envie / don't publish / do not publish / don't delete / do not delete / don't change / do not change / don't touch / do not touch / no publiques / no modifiques / no subas / no edites / no publique / no borres / no borre / no cambies / no cambie / no toques / no toque / no envíes / no envíe"
        ]
       }
      ]
     }
    ],
    "ok": "OK: pedido con los {n} campos, un subagente por parte y revisión con lista",
-   "exemplo": "Trabajo: transformar el guion de la clase 1 (curso-hojas-de-calculo/clase-1/guion.md) en material para el canal y las redes.\nAyudante 1: un subagente escribe un resumen de hasta 150 palabras y lo guarda en resumen.md.\nAyudante 2: un subagente elige 5 cortes cortos con inicio, fin y frase gancho y los guarda en cortes.md.\nAyudante 3: un subagente escribe 3 publicaciones de hasta 280 caracteres y las guarda en publicaciones.md.\nRevisión: al final, compara los tres archivos con el guion (minutaje, nombres de funciones, números) y dime en una lista qué corregiste.\nLímites: no publiques nada ni modifiques el guion.",
+   "exemplo": "Trabajo: transformar el guion de la clase 1 (curso-hojas-de-calculo/clase-1/guion.md) en material para el canal y las redes.\nAyudante 1: un subagente escribe un resumen de hasta 150 palabras y lo guarda en resumen.md.\nAyudante 2: un subagente elige 5 cortes con inicio, fin y frase gancho y los guarda en cortes.md.\nAyudante 3: un subagente escribe 3 publicaciones de hasta 280 caracteres y las guarda en publicaciones.md.\nRevisión: al final, compara los tres archivos con el guion (minutaje, nombres de funciones, números) y dime en una lista qué corregiste.\nLímites: no publiques nada ni modifiques el guion.",
    "exemplo_errado": "Trabajo: aprovechar la clase 1 del curso de hojas de cálculo.\nAyudante 1: haz un buen resumen de la clase.\nAyudante 2: selecciona algunos cortes buenos para el canal.\nAyudante 3: escribe algunas publicaciones para las redes.\nRevisión: da una mirada general si lo consideras necesario.\nLímites: siéntete libre de hacer lo que te parezca mejor."
   },
   {

@@ -5,7 +5,7 @@
   "titulo": "Away from your computer: approve on your phone and send work to the cloud",
   "titulo_curto": "Away from your computer",
   "minutos": 15,
-  "lead": "Big projects don’t have to keep you in your chair. With Remote Control, you can follow a session running on your computer from your phone. With Projects, research runs in the cloud, even with your laptop closed. In this lesson, Carla approves a plan from the sofa and sends research to the cloud, knowing what leaves her computer.",
+  "lead": "Big projects don’t have to keep you in your chair. With Remote Control, you can follow a session running on your computer from your phone. With Projects, research runs in the cloud, even with your laptop closed. In this lesson, Carla approves a plan from the couch and sends research to the cloud, knowing what leaves her computer.",
   "objetivo": "Follow and approve work from your phone, and send research to the cloud, knowing what leaves your computer.",
   "competencias": [
     "follow-from-your-phone",
@@ -30,7 +30,7 @@
       "t": "Decide what can leave your computer"
     }
   ],
-  "hero_alt": "Living room sofa at night: a woman holds her phone with a plan to approve. In the background, an open laptop keeps working on the table.",
+  "hero_alt": "Living room couch at night: a woman holds her phone with a plan to approve. In the background, an open laptop keeps working on the table.",
   "secoes": [
     {
       "tipo": "diagrama",

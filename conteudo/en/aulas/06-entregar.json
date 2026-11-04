@@ -148,7 +148,7 @@
           "conteudo": "Create a 7-slide presentation from the lesson 1 script (spreadsheet-course/lesson-1/script.md).\nAudience: adults who have never used formulas.\nOne idea per slide, no more than 20 words per slide, large text.\nColors: black and yellow.\nSlide 7: an exercise for the student to do on their own."
         },
         {
-          "rot": "2 · Word edits",
+          "rot": "2 · Edits in plain English",
           "icone": "caneta",
           "conteudo": "Slide 3: replace the text with a spreadsheet example with 4 rows.\nSlide 5: larger text and fewer words.\nDon’t change the other slides."
         },
@@ -194,7 +194,7 @@
         {
           "rot": "Shared document",
           "icone": "arquivo",
-          "conteudo": "Create a document to track guests for my community’s live streams in December.\nA table with: name, live stream topic, date, time, and status (invited, confirmed, recorded).\nStart with 3 sample rows marked EXAMPLE.\nBelow the table, add a short list of what to do during the week of the live stream.\nMake it ready to share with my assistant."
+          "conteudo": "Create a document to track guests for my community’s livestreams in December.\nA table with: name, livestream topic, date, time, and status (invited, confirmed, recorded).\nStart with 3 sample rows marked EXAMPLE.\nBelow the table, add a short list of what to do during the week of the live stream.\nMake it ready to share with my assistant."
         }
       ],
       "saida": {
@@ -206,7 +206,7 @@
           },
           {
             "rot": "@Claude in a comment",
-            "html": "<p>Carla, the doc owner, comments on a live stream row:</p><p><i>\"@Claude, check whether any date falls on a December holiday and let me know here.\"</i></p><p>Claude replies in the comment itself, so Carla doesn’t need to start another conversation.</p>"
+            "html": "<p>Carla, the doc owner, comments on a livestream row:</p><p><i>\"@Claude, check whether any date falls on a December holiday and let me know here.\"</i></p><p>Claude replies in the comment itself, so Carla doesn’t need to start another conversation.</p>"
           },
           {
             "rot": "Limits",
@@ -224,21 +224,21 @@
           "id": "e1",
           "titulo": "E1 · The slides",
           "min": "20 min",
-          "texto": "Ask for 7 slides based on one of your scripts, lessons, or texts, using Carla’s template. Make at least one word edit. Then run the fact-check request.",
-          "pronto": "the presentation has 7 slides, you made 1 word edit, and you noted 3 numbers, dates, or formulas checked against the original text."
+          "texto": "Ask for 7 slides based on one of your scripts, lessons, or texts, using Carla’s template. Make at least one change by typing a request. Then run the fact-check request.",
+          "pronto": "the presentation has 7 slides, you made 1 change by typing a request, and you noted 3 numbers, dates, or formulas checked against the original text."
         },
         {
           "id": "e2",
           "titulo": "E2 · The shared document",
           "min": "15 min",
           "texto": "Create a tracking document (guests, deliverables, or weekly tasks) using Carla’s adapted prompt, and share it with someone on your team using the Share button. Choose view, comment, or edit access. They’ll need to sign in with a Claude account to open it.",
-          "pronto": "you replaced the 3 EXAMPLE rows with 3 real live streams (or tasks), checked the dates against your calendar, sent the link to someone on your team, and they opened it."
+          "pronto": "you replaced the 3 EXAMPLE rows with 3 real livestreams (or tasks), checked the dates against your calendar, sent the link to someone on your team, and they opened it (working alone? you shared it and confirmed the share setting shows the access you chose, such as view)."
         },
         {
           "id": "e3",
           "titulo": "E3 · A request to @Claude",
           "min": "5 min",
-          "texto": "In your document, leave a comment tagging @Claude with a request to review one row of the table. Only you, the document owner, can call on @Claude; anyone with the link can view, comment, or edit.",
+          "texto": "In your document, leave a comment tagging @Claude with a request to review one row of the table. Only you, the document owner, can call on @Claude; the people you shared it with can view, comment, or edit, depending on the access you gave each one.",
           "pronto": "Claude’s reply appears in the comment itself."
         },
         {
@@ -252,8 +252,8 @@
           "id": "e5",
           "titulo": "E5 · An image (Design)",
           "min": "10 min",
-          "texto": "Paste the \"An image\" prompt with what you want to promote. Make one word edit (color, text size, or wording).",
-          "pronto": "the image appears in the conversation, you made 1 word edit, and you read the text in the image without finding any errors."
+          "texto": "Paste the \"An image\" prompt with what you want to promote. Make one change by typing a request (color, text size, or wording).",
+          "pronto": "the image appears in the conversation, you made 1 change by typing a request, and you read the text in the image without finding any errors."
         }
       ]
     },
@@ -314,7 +314,7 @@
           "p": "Carla sent the guest document link to the moderator. What does the moderator need to open it?",
           "opcoes": [
             "Nothing: the link opens for anyone, without an account.",
-            "A Team plan, just like Carla’s.",
+            "A Team plan, because Pro isn’t enough.",
             "Sign in with a Claude account.",
             "Install the Claude app on her computer."
           ],

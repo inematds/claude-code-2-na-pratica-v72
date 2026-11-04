@@ -129,7 +129,7 @@
           "titulo": "Chat lateral",
           "sub": "pregunta aparte",
           "texto": [
-            "En medio del trabajo, presiona Cmd + ; en Mac (Ctrl + ; en Windows). En un teclado latinoamericano, la tecla «;» puede requerir Shift. Se abre el chat lateral: pregunta, lee la respuesta y ciérralo.",
+            "En medio del trabajo, presiona Cmd + ; en Mac (Ctrl + ; en Windows). En un teclado latinoamericano, la tecla «;» puede requerir Shift. Se abre el chat lateral: pregunta, lee la respuesta y ciérralo. Si no se abre, pregúntale a Claude en la pestaña Code: «¿cómo abro el chat lateral en esta app?».",
             "Responde solo con lo que la sesión ya sabe y no usa herramientas. Sirve para preguntar «¿qué es esto?», pedir un sinónimo o hacer un cálculo. Para el trabajo de verdad, vuelve a la conversación principal."
           ],
           "exemplo": {

@@ -76,14 +76,14 @@
      "itens": [
       {
        "icone": "chip",
-       "t": "Computer use (versión preliminar)"
+       "t": "Computer use (vista previa)"
       },
       {
        "icone": "lupa",
        "t": "Navegador integrado"
       }
      ],
-     "detalhe": "Claude usa por ti programas de la computadora (computer use) y sitios web (navegador integrado en la app). Computer use está en versión preliminar (una versión de prueba que aún puede cambiar), para Mac y Windows, en los planes Pro, Max y Ultra, y viene desactivado. Clase 4."
+     "detalhe": "Claude usa por ti programas de la computadora (computer use) y sitios web (navegador integrado en la app). Computer use está en vista previa (una versión de prueba que aún puede cambiar), para Mac y Windows, en los planes Pro, Max y Ultra, y viene desactivado. Clase 4."
     },
     {
      "icone": "nuvem",
@@ -226,7 +226,7 @@
      },
      {
       "rot": "Respuesta de Claude (Carla)",
-      "html": "<p><b>Windows · Pro · 2.1.312</b></p><ul><li><b>TENGO:</b> secciones, chat lateral, vista dividida, subagentes, computer use (versión preliminar, viene desactivado: actívalo en la configuración), Remote Control, navegador integrado, Slides y Design, Dashboards (beta), Docs compartidos, comandos de barra, mods (tu versión es posterior a la 2.1.287).</li><li><b>NO TENGO:</b> Motion (solo Team y Enterprise).</li><li><b>LISTA DE ESPERA:</b> Projects (beta, apúntate a la lista); Claude Duet (por ahora, solo en EE. UU.).</li></ul><p>Revisa en pantalla si Projects ya aparece en la barra lateral de la pestaña Code y si computer use aparece en la configuración. La disponibilidad cambia según la cuenta.</p>"
+      "html": "<p><b>Windows · Pro · 2.1.312</b></p><ul><li><b>TENGO:</b> secciones, chat lateral, vista dividida, subagentes, computer use (vista previa, viene desactivado: actívalo en la configuración), Remote Control, navegador integrado, Slides y Design, Dashboards (beta), Docs compartidos, comandos de barra, mods (tu versión es posterior a la 2.1.287).</li><li><b>NO TENGO:</b> Motion (solo Team y Enterprise).</li><li><b>LISTA DE ESPERA:</b> Projects (beta, apúntate a la lista); Claude Duet (por ahora, solo en EE. UU.).</li></ul><p>Revisa en pantalla si Projects ya aparece en la barra lateral de la pestaña Code y si computer use aparece en la configuración. La disponibilidad cambia según la cuenta.</p>"
      }
     ]
    }

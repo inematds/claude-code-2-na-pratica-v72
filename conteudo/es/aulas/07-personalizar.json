@@ -320,11 +320,11 @@
                 "sexta / sexta-feira / sextas / friday / fridays / viernes",
                 "sábado / sábados / saturday / saturdays",
                 "domingo / domingos / sunday / sundays",
-                "todo dia / todos os dias / toda manhã / toda tarde / toda noite / every day / every morning / daily / cada día / todos los días / cada mañana",
+                "todo dia / todos os dias / toda manhã / toda tarde / toda noite / every day / every morning / daily / cada día / todos los días / cada mañana / en las mañanas / a diario / diariamente",
                 "toda semana / todas as semanas / every week / weekly / cada semana / todas las semanas",
                 "fim de semana / weekend / fin de semana",
                 "sempre que / toda vez que / every time / whenever / siempre que / cada vez que",
-                "de manhã / à tarde / à noite / no almoço / in the morning / in the afternoon / at night / por la mañana / por la tarde / por la noche"
+                "de manhã / à tarde / à noite / no almoço / in the morning / in the afternoon / at night / por la mañana / por la tarde / por la noche / en la mañana / en la tarde / en la noche"
               ]
             }
           ]
@@ -350,7 +350,7 @@
           "id": "e2",
           "titulo": "E2 · Un mod revisado (opcional)",
           "min": "15 min",
-          "texto": "Elige un mod de inematds/inema-mods y pega el prompt de Carla con su enlace. Lee el resumen antes de responder.",
+          "texto": "Elige un mod de inematds/inema-mods y pega el prompt de Carla con su enlace. Esos mods están en portugués, pero el resumen de Claude sale en español, porque se lo pides en español. Lee el resumen antes de responder.",
           "pronto": "tienes, en un máximo de 5 líneas y con palabras sencillas, qué puede consultar el mod y cómo desactivarlo; instalarlo o no es decisión tuya."
         },
         {

@@ -132,7 +132,7 @@
           ],
           "exemplo": {
             "rot": "Carla",
-            "texto": "Control de invitados de las transmisiones en vivo del mes, que la monitora actualiza."
+            "texto": "Control de invitados de las transmisiones en vivo del mes, que su asistente actualiza."
           }
         }
       ]
@@ -194,7 +194,7 @@
         {
           "rot": "Documento compartido",
           "icone": "arquivo",
-          "conteudo": "Crea un documento para llevar el control de los invitados de las transmisiones en vivo de mi comunidad en diciembre.\nUna tabla con: nombre, tema de la transmisión, fecha, horario y estado (invitado, confirmado, grabado).\nEmpieza con 3 filas de ejemplo marcadas como EJEMPLO.\nDebajo, una lista breve de lo que hay que hacer durante la semana de la transmisión.\nDéjalo listo para compartirlo con mi monitora."
+          "conteudo": "Crea un documento para llevar el control de los invitados de las transmisiones en vivo de mi comunidad en diciembre.\nUna tabla con: nombre, tema de la transmisión, fecha, horario y estado (invitado, confirmado, grabado).\nEmpieza con 3 filas de ejemplo marcadas como EJEMPLO.\nDebajo, una lista breve de lo que hay que hacer durante la semana de la transmisión.\nDéjalo listo para compartirlo con mi asistente."
         }
       ],
       "saida": {
@@ -202,7 +202,7 @@
         "abas": [
           {
             "rot": "Cómo compartir",
-            "html": "<ol><li>Haz clic en <b>Share</b> (compartir) en el documento.</li><li>Elige el acceso; por ejemplo, <b>Only you</b> (solo tú) o <b>Anyone with the link</b> (cualquiera que tenga el enlace), además de la invitación por correo electrónico. Las opciones cambian según el plan.</li><li>Para la monitora: envíale una invitación por correo electrónico con permiso para <b>editar</b>.</li><li>Haz una prueba: envíale el enlace a una persona del equipo y pídele que lo abra. Tendrá que iniciar sesión con su cuenta de Claude.</li></ol>"
+            "html": "<ol><li>Haz clic en <b>Share</b> (compartir) en el documento.</li><li>Elige el acceso; por ejemplo, <b>Only you</b> (solo tú) o <b>Anyone with the link</b> (cualquiera que tenga el enlace), además de la invitación por correo electrónico. Las opciones cambian según el plan.</li><li>Para tu asistente: envíale una invitación por correo electrónico con permiso para <b>editar</b>.</li><li>Haz una prueba: envíale el enlace a una persona del equipo y pídele que lo abra. Tendrá que iniciar sesión con su cuenta de Claude.</li></ol>"
           },
           {
             "rot": "@Claude en el comentario",
@@ -238,7 +238,7 @@
           "id": "e3",
           "titulo": "E3 · Un pedido a @Claude",
           "min": "5 min",
-          "texto": "En tu documento, deja un comentario que mencione a @Claude y pídele que revise una fila de la tabla. Solo tú, como dueño del documento, puedes llamar a @Claude; quien recibe el enlace puede ver, comentar o editar.",
+          "texto": "En tu documento, deja un comentario que mencione a @Claude y pídele que revise una fila de la tabla. Solo tú, que eres el dueño del documento, puedes llamar a @Claude; quien recibe el enlace puede ver, comentar o editar.",
           "pronto": "la respuesta de Claude aparece en el mismo comentario."
         },
         {
@@ -292,10 +292,10 @@
             "Cualquier persona que tenga el enlace.",
             "Solo quien tiene un plan Team.",
             "Nadie: Claude solo lee el documento cuando se crea.",
-            "Tú, quien es dueño del documento."
+            "Tú, que eres el dueño del documento."
           ],
           "certa": 3,
-          "explica": "Quien lo recibe puede verlo, comentarlo o editarlo, según los permisos. Quien llama a @Claude en los comentarios eres tú, quien es dueño del documento.",
+          "explica": "Quien lo recibe puede verlo, comentarlo o editarlo, según los permisos. Quien llama a @Claude en los comentarios eres tú, que eres el dueño del documento.",
           "ref": "codigo"
         },
         {
@@ -311,7 +311,7 @@
           "ref": "codigo"
         },
         {
-          "p": "Carla le envió a la monitora el enlace del documento de invitados. ¿Qué necesita la monitora para abrirlo?",
+          "p": "Carla le envió a su asistente el enlace del documento de invitados. ¿Qué necesita su asistente para abrirlo?",
           "opcoes": [
             "Nada: el enlace se abre para cualquier persona, sin cuenta.",
             "Un plan Team, igual al de Carla.",
@@ -319,7 +319,7 @@
             "Instalar la app de Claude en su computadora."
           ],
           "certa": 2,
-          "explica": "Para abrir un Claude Docs, hay que iniciar sesión con una cuenta de Claude; Carla elige si la monitora puede verlo, comentarlo o editarlo. El error común es pensar que el enlace se abre sin una cuenta.",
+          "explica": "Para abrir un Claude Docs, hay que iniciar sesión con una cuenta de Claude; Carla elige si su asistente puede verlo, comentarlo o editarlo. El error común es pensar que el enlace se abre sin una cuenta.",
           "ref": "passos"
         }
       ]
@@ -347,12 +347,12 @@
       "titulo": "Para profundizar",
       "links": [
         {
-          "t": "Compartir artifacts en Claude (ayuda oficial, en inglés)",
+          "t": "Compartir artifacts (las páginas que Claude crea y se pueden compartir), ayuda oficial en inglés",
           "href": "https://support.claude.com/en/articles/9547008-share-artifacts",
           "icone": "compartilhar"
         },
         {
-          "t": "Artifacts en la documentación oficial (en inglés)",
+          "t": "Artifacts (páginas que Claude crea) en la documentación oficial, en inglés",
           "href": "https://code.claude.com/docs/en/artifacts",
           "icone": "arquivo"
         }
