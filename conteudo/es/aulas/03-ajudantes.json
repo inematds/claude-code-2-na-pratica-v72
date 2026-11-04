@@ -45,7 +45,7 @@
      "itens": [
       {
        "icone": "arquivo",
-       "t": "roteiro.md de la clase 1"
+       "t": "guion.md de la clase 1"
       }
      ],
      "detalhe": "Entregas todo el trabajo de una vez, indicando las partes. Carla pide: a partir del guion de la clase 1, un resumen, 5 clips cortos y 3 publicaciones."
@@ -64,7 +64,7 @@
      "itens": [
       {
        "icone": "arquivo",
-       "t": "resumo.md"
+       "t": "resumen.md"
       },
       {
        "icone": "video",
@@ -72,7 +72,7 @@
       },
       {
        "icone": "megafone",
-       "t": "posts.md"
+       "t": "publicaciones.md"
       }
      ],
      "detalhe": "Ayudante es el nombre que este curso le da al subagente, que es el nombre oficial. Cada uno hace solo su parte, en su propio contexto (la memoria de esa tarea), y le devuelve un resumen a la conversación. Así, la conversación principal no se llena con los borradores de todos. Mucha gente lo llama \"sesiones anidadas\", pero ese no es el nombre oficial."
@@ -108,11 +108,11 @@
      "titulo": "Partes independientes",
      "sub": "una no tiene que esperar a la otra",
      "texto": [
-      "El asistente funciona bien cuando cada parte avanza por su cuenta. El resumen, los cortes y las publicaciones salen del mismo guion, pero una no necesita esperar a la otra.",
+      "Los ayudantes funcionan bien cuando cada parte avanza por su cuenta. El resumen, los cortes y las publicaciones salen del mismo guion, pero una no necesita esperar a la otra.",
       "Si la parte B depende del resultado de la parte A, haz primero la A y después pide la B."
      ],
      "exemplo": {
-      "rot": "Ideal para asistentes",
+      "rot": "Ideal para ayudantes",
       "texto": "Resumen, cortes y publicaciones de la misma clase. O: revisar la ortografía de 3 clases diferentes."
      }
     },
@@ -120,12 +120,12 @@
      "titulo": "Una entrega cada uno",
      "sub": "archivo y extensión",
      "texto": [
-      "Di qué entrega cada asistente, en qué archivo y de qué extensión. «Haz algunas publicaciones» no tiene fin; «3 publicaciones de hasta 280 caracteres en posts.md» sí.",
+      "Di qué entrega cada ayudante, en qué archivo y de qué extensión. «Haz algunas publicaciones» no tiene fin; «3 publicaciones de hasta 280 caracteres en publicaciones.md» sí.",
       "Con la entrega clara, la revisión sabe qué buscar."
      ],
      "exemplo": {
       "rot": "Entrega clara",
-      "texto": "Asistente 2: 5 cortes cortos, cada uno con inicio, fin y una frase gancho, en cortes.md."
+      "texto": "Ayudante 2: 5 cortes cortos, cada uno con inicio, fin y una frase gancho, en cortes.md."
      }
     },
     {
@@ -144,7 +144,7 @@
      "titulo": "Revisa el consumo",
      "sub": "empieza con 2 o 3",
      "texto": [
-      "Cada asistente tiene su propio contexto, y eso consume el límite de tu plan. Empieza con 2 o 3 asistentes, no con 20.",
+      "Cada ayudante tiene su propio contexto, y eso consume el límite de tu plan. Empieza con 2 o 3 ayudantes, no con 20.",
       "En la app, el anillo de uso es un círculo al lado de donde eliges el modelo y muestra cuánto del límite ya se usó. En la terminal (opcional), <code>/usage</code> muestra el uso del plan y <code>/context</code> muestra cuánto espacio de la conversación ya está ocupado."
      ],
      "exemplo": {
@@ -157,17 +157,17 @@
   {
    "tipo": "codigo",
    "titulo": "El pedido de Carla",
-   "sub": "El primero es el pedido de Carla, en una lista. El segundo es el modelo para ti: el mismo pedido, un campo por línea. Pasa la comprobación de abajo y funciona si lo pegas directamente en la conversación. Cambia lo que está entre < > por lo tuyo, y la ruta curso-planilhas/… por la de tu archivo (.md, Word o PDF; mira la clase 2).",
+   "sub": "El primero es el pedido de Carla, en una lista. El segundo es la plantilla para ti: el mismo pedido, un campo por línea. Pasa la comprobación de abajo y funciona si lo pegas directamente en la conversación. Cambia lo que está entre < > por lo tuyo, y la ruta curso-hojas-de-calculo/… por la de tu archivo (.md, Word o PDF; mira la clase 2).",
    "blocos": [
     {
      "rot": "Pedido · clase 1 en tres partes",
      "icone": "chat",
-     "conteudo": "Lee el guion de la clase 1 en curso-planilhas/aula-1/roteiro.md.\nUsa un subagente para cada elemento de abajo. Cada uno hace solo su parte y guarda el resultado:\n1. Un resumen de la clase, de hasta 150 palabras, en curso-planilhas/aula-1/resumo.md\n2. 5 cortes cortos para el canal, cada uno con inicio, fin y una frase gancho, en curso-planilhas/aula-1/cortes.md\n3. 3 publicaciones cortas para redes sociales, de hasta 280 caracteres cada una, en curso-planilhas/aula-1/posts.md\nAl final, compara los tres archivos con el guion (marcas de tiempo, nombres de funciones, números).\nCorrige lo que no coincida y dime en una lista qué corregiste.\nNo publiques nada ni modifiques el guion."
+     "conteudo": "Lee el guion de la clase 1 en curso-hojas-de-calculo/clase-1/guion.md.\nUsa un subagente para cada elemento de abajo. Cada uno hace solo su parte y guarda el resultado:\n1. Un resumen de la clase, de hasta 150 palabras, en curso-hojas-de-calculo/clase-1/resumen.md\n2. 5 cortes cortos para el canal, cada uno con inicio, fin y una frase gancho, en curso-hojas-de-calculo/clase-1/cortes.md\n3. 3 publicaciones cortas para redes sociales, de hasta 280 caracteres cada una, en curso-hojas-de-calculo/clase-1/publicaciones.md\nAl final, compara los tres archivos con el guion (marcas de tiempo, nombres de funciones, números).\nCorrige lo que no coincida y dime en una lista qué corregiste.\nNo publiques nada ni modifiques el guion."
     },
     {
-     "rot": "Modelo · pedido-ayudantes.txt (el tuyo)",
+     "rot": "Plantilla · pedido-ayudantes.txt (la tuya)",
      "icone": "copiar",
-     "conteudo": "Trabajo: <qué hacer y dónde está el texto original, ej.: carpeta/texto.md>\nAsistente 1: un subagente hace <entrega 1, con extensión> y la guarda en <archivo1.md>\nAsistente 2: un subagente hace <entrega 2, con extensión> y la guarda en <archivo2.md>\nAsistente 3: un subagente hace <entrega 3, con extensión> y la guarda en <archivo3.md>\nRevisión: al final, compara los tres archivos con el texto original y dime en una lista qué corregiste.\nLímites: no publiques nada ni modifiques el texto original."
+     "conteudo": "Trabajo: <qué hacer y dónde está el texto original, ej.: carpeta/texto.md>\nAyudante 1: un subagente hace <entrega 1, con extensión> y la guarda en <archivo1.md>\nAyudante 2: un subagente hace <entrega 2, con extensión> y la guarda en <archivo2.md>\nAyudante 3: un subagente hace <entrega 3, con extensión> y la guarda en <archivo3.md>\nRevisión: al final, compara los tres archivos con el texto original y dime en una lista qué corregiste.\nLímites: no publiques nada ni modifiques el texto original."
     }
    ],
    "saida": {
@@ -175,15 +175,15 @@
     "abas": [
      {
       "rot": "Lo que devolvió Claude",
-      "html": "<p>Listo. Los tres subagentes terminaron y comparé todo con el guion.</p><p><b>Archivos</b></p><ul><li>resumo.md · 132 palabras</li><li>cortes.md · 5 cortes</li><li>posts.md · 3 publicaciones</li></ul><p><b>Lo que corregí</b></p><ol><li>El corte 4 terminaba en 12:40, pero el guion termina en 11:05. Lo cambié por el fragmento de PROCV, de 08:15 a 08:52.</li><li>La publicación 2 decía «Excel avanzado». La clase es para principiantes; lo cambié por «hojas de cálculo desde cero».</li><li>El resumen llamaba a la función «SOMA.SE» y el guion usa «SOMASE». Lo dejé igual que en el guion.</li></ol><p>No se publicó nada. El guion no se modificó.</p>"
+      "html": "<p>Listo. Los tres subagentes terminaron y comparé todo con el guion.</p><p><b>Archivos</b></p><ul><li>resumen.md · 132 palabras</li><li>cortes.md · 5 cortes</li><li>publicaciones.md · 3 publicaciones</li></ul><p><b>Lo que corregí</b></p><ol><li>El corte 4 terminaba en 12:40, pero el guion termina en 11:05. Lo cambié por el fragmento de BUSCARV, de 08:15 a 08:52.</li><li>La publicación 2 decía «Excel avanzado». La clase es para principiantes; lo cambié por «hojas de cálculo desde cero».</li><li>El resumen llamaba a la función «SUMA.SI» y el guion usa «SUMAR.SI». Lo dejé igual que en el guion.</li></ol><p>No se publicó nada. El guion no se modificó.</p>"
      },
      {
       "rot": "Cómo comprobarlo",
-      "html": "<ol><li>Abre la carpeta curso-planilhas/aula-1: ahí están los tres archivos nuevos.</li><li>Elige un elemento de la lista de correcciones y compruébalo en el guion (por ejemplo: ¿el guion realmente termina en 11:05?).</li><li>Abre cortes.md y compara un corte completo con el guion.</li><li>Mira el anillo de uso en la app (o <code>/usage</code> en la terminal) para saber cuánto consumió el trabajo.</li></ol>"
+      "html": "<ol><li>Abre la carpeta curso-hojas-de-calculo/clase-1: ahí están los tres archivos nuevos.</li><li>Elige un elemento de la lista de correcciones y compruébalo en el guion (por ejemplo: ¿el guion realmente termina en 11:05?).</li><li>Abre cortes.md y compara un corte completo con el guion.</li><li>Mira el anillo de uso en la app (o <code>/usage</code> en la terminal) para saber cuánto consumió el trabajo.</li></ol>"
      },
      {
       "rot": "Errores comunes",
-      "html": "<ul><li><b>Sin revisión</b>: cada asistente hace bien su parte, pero nadie la compara con el original. El error llega hasta ti.</li><li><b>Partes que dependen una de otra</b>: el asistente de las publicaciones necesitaba el resumen terminado e inventó el suyo.</li><li><b>Entrega sin extensión definida</b>: «haz algunas publicaciones» da como resultado 12 publicaciones largas y pierdes tiempo recortándolas.</li><li><b>Demasiados asistentes</b>: cada uno consume parte de tu límite. Empieza con 2 o 3.</li></ul>"
+      "html": "<ul><li><b>Sin revisión</b>: cada ayudante hace bien su parte, pero nadie la compara con el original. El error llega hasta ti.</li><li><b>Partes que dependen una de otra</b>: el ayudante de las publicaciones necesitaba el resumen terminado e inventó el suyo.</li><li><b>Entrega sin extensión definida</b>: «haz algunas publicaciones» da como resultado 12 publicaciones largas y pierdes tiempo recortándolas.</li><li><b>Demasiados ayudantes</b>: cada uno consume parte de tu límite. Empieza con 2 o 3.</li></ul>"
      }
     ]
    }
@@ -192,7 +192,7 @@
    "tipo": "conferidor",
    "titulo": "Revisa tu pedido antes de enviarlo",
    "sub": "Escribe tu pedido con este formato (un campo por línea) y pégalo aquí. La página comprueba si cada ayudante es un subagente con un archivo de entrega, si la Revisión compara con el original y pide la lista de lo que se corrigió, y si los Límites indican qué no hacer. Es una comprobación de formato: tú decides si las partes tienen sentido.",
-   "arquivo": "pedido-ajudantes.txt",
+   "arquivo": "pedido-ayudantes.txt",
    "rot": "Pega aquí tu pedido (un campo por línea):",
    "modelo": "Trabajo: ...\nAyudante 1: ...\nAyudante 2: ...\nAyudante 3: ...\nRevisión: ...\nLímites: ...",
    "regras": [
@@ -306,26 +306,26 @@
     }
    ],
    "ok": "OK: pedido con los {n} campos, un subagente por parte y revisión con lista",
-   "exemplo": "Trabajo: transformar el guion de la clase 1 (curso-planilhas/aula-1/roteiro.md) en material para el canal y las redes.\nAyudante 1: un subagente escribe un resumen de hasta 150 palabras y lo guarda en resumo.md.\nAyudante 2: un subagente elige 5 cortes cortos con inicio, fin y frase gancho y los guarda en cortes.md.\nAyudante 3: un subagente escribe 3 publicaciones de hasta 280 caracteres y las guarda en posts.md.\nRevisión: al final, compara los tres archivos con el guion (minutaje, nombres de funciones, números) y dime en una lista qué corregiste.\nLímites: no publiques nada ni modifiques el guion.",
+   "exemplo": "Trabajo: transformar el guion de la clase 1 (curso-hojas-de-calculo/clase-1/guion.md) en material para el canal y las redes.\nAyudante 1: un subagente escribe un resumen de hasta 150 palabras y lo guarda en resumen.md.\nAyudante 2: un subagente elige 5 cortes cortos con inicio, fin y frase gancho y los guarda en cortes.md.\nAyudante 3: un subagente escribe 3 publicaciones de hasta 280 caracteres y las guarda en publicaciones.md.\nRevisión: al final, compara los tres archivos con el guion (minutaje, nombres de funciones, números) y dime en una lista qué corregiste.\nLímites: no publiques nada ni modifiques el guion.",
    "exemplo_errado": "Trabajo: aprovechar la clase 1 del curso de hojas de cálculo.\nAyudante 1: haz un buen resumen de la clase.\nAyudante 2: selecciona algunos cortes buenos para el canal.\nAyudante 3: escribe algunas publicaciones para las redes.\nRevisión: da una mirada general si lo consideras necesario.\nLímites: siéntete libre de hacer lo que te parezca mejor."
   },
   {
    "tipo": "pratica",
    "titulo": "Práctica: un texto tuyo en tres partes",
-   "sub": "Usa un texto que ya tengas: guion, clase, artículo o acta. En la app Desktop (pestaña Code) o en la terminal; en Linux, solo en la terminal.",
+   "sub": "Usa un texto que ya tengas: guion, clase, artículo o acta. En la app de escritorio (pestaña Code) o en la terminal; en Linux, solo en la terminal.",
    "exercicios": [
     {
      "id": "e1",
      "titulo": "E1 · El pedido",
      "min": "10 min",
-     "texto": "Elige el texto y las tres entregas (por ejemplo: resumen, cortes y publicaciones; o resumen, preguntas para el examen y correo a los alumnos). Completa la plantilla pedido-ajudantes.txt. Si tu texto no tiene minutaje, pide «el fragmento» en lugar del inicio y el fin.",
+     "texto": "Elige el texto y las tres entregas (por ejemplo: resumen, cortes y publicaciones; o resumen, preguntas para el examen y correo a los alumnos). Completa la plantilla pedido-ayudantes.txt. Si tu texto no tiene minutaje, pide «el fragmento» en lugar del inicio y el fin.",
      "pronto": "el verificador de arriba responde «OK: pedido con los 6 campos, un subagente por parte y revisión con lista»."
     },
     {
      "id": "e2",
      "titulo": "E2 · Trabajar con ayudantes",
      "min": "15 min",
-     "texto": "Abre una sesión en la carpeta del texto (en la app: pestaña Code, elige la carpeta al abrir la sesión, como en la clase 2; en la terminal, opcionalmente: entra en la carpeta y escribe claude). Pega el pedido-ajudantes.txt que pasó el verificador, tal como está, y espera la respuesta final.",
+     "texto": "Abre una sesión en la carpeta del texto (en la app: pestaña Code, elige la carpeta al abrir la sesión, como en la clase 2; en la terminal, opcionalmente: entra en la carpeta y escribe claude). Pega el pedido-ayudantes.txt que pasó el verificador, tal como está, y espera la respuesta final.",
      "pronto": "los 3 archivos que pediste existen en la carpeta y la respuesta final incluye la lista de lo que se corrigió (o explica cómo se verificó, si no se corrigió nada)."
     },
     {
@@ -346,7 +346,7 @@
      "p": "¿Qué es un ayudante (subagente) en Claude Code?",
      "opcoes": [
       "Una segunda cuenta de Claude que contratas y pagas por separado, cada mes.",
-      "Un asistente extra, en la misma sesión, que hace una parte y te devuelve el resultado.",
+      "Un ayudante extra, en la misma sesión, que hace una parte y te devuelve el resultado.",
       "Una segunda sesión que tú mismo abres junto a la primera usando la vista dividida.",
       "Un modelo más potente que lee y revisa todas las respuestas al final de la conversación."
      ],

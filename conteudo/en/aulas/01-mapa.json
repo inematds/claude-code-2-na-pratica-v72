@@ -5,8 +5,8 @@
   "titulo": "The updates map: what changed and what you already have",
   "titulo_curto": "The map of the 13",
   "minutos": 14,
-  "lead": "Many people talk about \"Claude Code 2.0,\" but no one explains what changed or what already works in Brazil. In this lesson, you’ll see the 13 updates in six groups, learn what each one requires (app, plan, version), and check in your own Claude what you already have, what you don’t, and what’s on the waitlist.",
-  "objetivo": "Understand what changed in Claude Code, what you can already use in Brazil, and get the app ready to try it.",
+  "lead": "Many people talk about \"Claude Code 2.0,\" but few explain what actually changed or what you can use today. In this lesson, you’ll see the 13 updates in six groups, learn what each one requires (app, plan, version), and check in your own Claude what you already have, what you don’t, and what’s on the waitlist.",
+  "objetivo": "Understand what changed in Claude Code, what you can use today, and get the app ready to try it.",
   "competencias": [
     "map-claude-code-updates",
     "check-version-and-plan",
@@ -180,7 +180,7 @@
           "sub": "Pro, Max, Ultra",
           "texto": [
             "The new features require a paid plan (Pro, Max, Ultra, Team, or Enterprise). What you see depends on your plan.",
-            "Computer use isn’t available on Team or Enterprise. Motion, on the other hand, is only available on Team and Enterprise. Projects and Claude Duet require joining a waitlist, and Duet is currently available only in the U.S."
+            "Computer use isn’t available on Team or Enterprise. Motion, on the other hand, is only available on Team and Enterprise. Projects and Claude Duet require joining a waitlist, and Duet is currently available only in the US"
           ],
           "exemplo": {
             "rot": "Carla",
@@ -226,7 +226,7 @@
           },
           {
             "rot": "Claude’s answer (Carla)",
-            "html": "<p><b>Windows · Pro · 2.1.312</b></p><ul><li><b>HAVE:</b> sections, side chat, split view, subagents, computer use (preview, off by default: turn it on in settings), Remote Control, built-in browser, Slides and Design, Dashboards (beta), shared Docs, slash commands, mods (your version is newer than 2.1.287).</li><li><b>DON’T HAVE:</b> Motion (only on Team and Enterprise).</li><li><b>WAITLIST:</b> Projects (beta, join the waitlist); Claude Duet (currently available only in the U.S.).</li></ul><p>Check on screen: whether Projects already appears in the Code tab’s sidebar and whether computer use appears in settings. Availability varies by account.</p>"
+            "html": "<p><b>Windows · Pro · 2.1.312</b></p><ul><li><b>HAVE:</b> sections, side chat, split view, subagents, computer use (preview, off by default: turn it on in settings), Remote Control, built-in browser, Slides and Design, Dashboards (beta), shared Docs, slash commands, mods (your version is newer than 2.1.287).</li><li><b>DON’T HAVE:</b> Motion (only on Team and Enterprise).</li><li><b>WAITLIST:</b> Projects (beta, join the waitlist); Claude Duet (currently available only in the US).</li></ul><p>Check on screen: whether Projects already appears in the Code tab’s sidebar and whether computer use appears in settings. Availability varies by account.</p>"
           }
         ]
       }
@@ -235,7 +235,7 @@
       "tipo": "conferidor",
       "titulo": "Check your list",
       "sub": "Write your list using the five lines below (or paste the one Claude made, adjusted to match what you see on screen). The page checks that none are blank and that your plan is listed. For Version, enter the terminal number or “app updated on [date].” This is a formatting check: you’re responsible for making sure the list is accurate by checking your app.",
-      "arquivo": "minha-lista.txt",
+      "arquivo": "my-list.txt",
       "rot": "Paste your list here (one line per field):",
       "modelo": "Version: ... (the terminal number starting with 2.1…, or: app updated on [date])\nPlan: ...\nHave: ...\nDon’t have: ...\nWaitlist: ...",
       "regras": [
@@ -261,15 +261,14 @@
                 "max",
                 "ultra",
                 "team",
-                "enterprise",
-                "free / gratuito / gratis"
+                "enterprise"
               ]
             }
           ]
         }
       ],
       "ok": "OK: all {n} fields are filled in",
-      "exemplo": "Version: app updated on 11/03/2026\nPlan: Pro\nHave: sections, side chat, split view, subagents, computer use, Remote Control, built-in browser, Slides, Design, Dashboards, Docs, commands, mods\nDon’t have: Motion (only on Team and Enterprise)\nWaitlist: Projects and Claude Duet",
+      "exemplo": "Version: app updated on Nov 3, 2026\nPlan: Pro\nHave: sections, side chat, split view, subagents, computer use, Remote Control, built-in browser, Slides, Design, Dashboards, Docs, commands, mods\nDon’t have: Motion (only on Team and Enterprise)\nWaitlist: Projects and Claude Duet",
       "exemplo_errado": "Version: 2.1.312\nPlan: the cheapest one\nHave: almost everything\nDon’t have: Motion"
     },
     {
@@ -295,7 +294,7 @@
           "id": "e3",
           "titulo": "E3 · Check on screen",
           "min": "5 min",
-          "texto": "Check in the app the items Claude marked “check on screen” (Projects in the sidebar, computer use in settings). Update the list in the checker above and save it with the “Download the file” button: it downloads the ready-to-use minha-lista.txt file.",
+          "texto": "Check in the app the items Claude marked “check on screen” (Projects in the sidebar, computer use in settings). Update the list in the checker above and save it with the “Download the file” button: it downloads the ready-to-use my-list.txt file.",
           "pronto": "the checker above says “OK: all 5 fields are filled in” (for Version, enter the number or the date you updated the app) and each of the 13 features appears in one of the three lines."
         }
       ]
@@ -318,15 +317,15 @@
           "ref": "passos"
         },
         {
-          "p": "Carla lives in Brazil and subscribes to Pro. What can she expect from Claude Duet today?",
+          "p": "Carla subscribes to Pro. What can she expect from Claude Duet today?",
           "opcoes": [
             "It’s already available in the Code tab for Pro subscribers in any country, with no waitlist.",
             "It only works in the terminal, with the /duet command.",
             "It’s available on Pro, but requires version 2.1.287.",
-            "Not yet: today it’s only in the US, as a preview, with a waitlist."
+            "It’s a preview available only in the US, with a waitlist for Pro, Max, and Ultra."
           ],
           "certa": 3,
-          "explica": "Duet is only available in the US, as a preview, with a waitlist. Having the right plan isn’t enough: your country matters too.",
+          "explica": "Duet is only available in the US, as a preview, with a waitlist. Having the right plan isn’t enough: where you live matters too.",
           "ref": "diagrama"
         },
         {
@@ -390,18 +389,18 @@
       "titulo": "Go further",
       "links": [
         {
-          "t": "The Claude desktop app (documentation, in English)",
+          "t": "The Claude desktop app (documentation)",
           "href": "https://code.claude.com/docs/en/desktop",
           "icone": "lista"
         },
         {
-          "t": "What changed in each version (changelog, in English)",
+          "t": "What changed in each version (changelog)",
           "href": "https://code.claude.com/docs/en/changelog",
           "icone": "relogio"
         },
         {
           "t": "Guide to the 13 new features with a ready-to-use prompt",
-          "href": "https://inematds.github.io/claude-code-2/guia/",
+          "href": "https://inematds.github.io/claude-code-2/guia/en/",
           "icone": "seta"
         }
       ]

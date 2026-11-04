@@ -45,7 +45,7 @@
      "itens": [
       {
        "icone": "arquivo",
-       "t": "lesson 1 script.md"
+       "t": "lesson-1/script.md"
       }
      ],
      "detalhe": "You hand over the whole job at once, already saying what the parts are. Carla asks for a summary, 5 short clips, and 3 posts based on the lesson 1 script."
@@ -125,7 +125,7 @@
      ],
      "exemplo": {
       "rot": "Clear deliverable",
-      "texto": "Helper 2: 5 short clips, each with a start, end, and hook sentence, in cortes.md."
+      "texto": "Helper 2: 5 short clips, each with a start, end, and hook sentence, in clips.md."
      }
     },
     {
@@ -157,15 +157,15 @@
   {
    "tipo": "codigo",
    "titulo": "Carla’s request",
-   "sub": "The first is Carla’s request, as a list. The second is the template for you: the same request, with one field per line. It passes the checker below and works when pasted straight into the conversation. Replace what’s between < > with your own text, and replace the curso-planilhas/… path with the path to your file (.md, Word, or PDF; see lesson 2).",
+   "sub": "The first is Carla’s request, as a list. The second is the template for you: the same request, with one field per line. It passes the checker below and works when pasted straight into the conversation. Replace what’s between < > with your own text, and replace the spreadsheet-course/… path with the path to your file (.md, Word, or PDF; see lesson 2).",
    "blocos": [
     {
      "rot": "Request · lesson 1 in three parts",
      "icone": "chat",
-     "conteudo": "Read the script for lesson 1 in curso-planilhas/aula-1/roteiro.md.\nUse one subagent for each item below. Each one does only its part and saves the result:\n1. A summary of the lesson, up to 150 words, in curso-planilhas/aula-1/resumo.md\n2. 5 short clips for the channel, each with a start, end, and hook sentence, in curso-planilhas/aula-1/cortes.md\n3. 3 short social media posts, each up to 280 characters, in curso-planilhas/aula-1/posts.md\nAt the end, check the three files against the script (timestamps, function names, numbers).\nCorrect anything that doesn’t match and give me a list of what you corrected.\nDon’t publish anything or change the script."
+     "conteudo": "Read the script for lesson 1 in spreadsheet-course/lesson-1/script.md.\nUse one subagent for each item below. Each one does only its part and saves the result:\n1. A summary of the lesson, up to 150 words, in spreadsheet-course/lesson-1/summary.md\n2. 5 short clips for the channel, each with a start, end, and hook sentence, in spreadsheet-course/lesson-1/clips.md\n3. 3 short social media posts, each up to 280 characters, in spreadsheet-course/lesson-1/posts.md\nAt the end, check the three files against the script (timestamps, function names, numbers).\nCorrect anything that doesn’t match and give me a list of what you corrected.\nDon’t publish anything or change the script."
     },
     {
-     "rot": "Template · pedido-ajudantes.txt (yours)",
+     "rot": "Template · helpers-request.txt (yours)",
      "icone": "copiar",
      "conteudo": "Task: <what to do and where the original text is, e.g., folder/text.md>\nHelper 1: one subagent does <deliverable 1, with length> and saves it in <file1.md>\nHelper 2: one subagent does <deliverable 2, with length> and saves it in <file2.md>\nHelper 3: one subagent does <deliverable 3, with length> and saves it in <file3.md>\nReview: at the end, check the three files against the original text and give me a list of what you corrected.\nLimits: don’t publish anything or change the original text."
     }
@@ -175,11 +175,11 @@
     "abas": [
      {
       "rot": "What Claude returned",
-      "html": "<p>Done. The three subagents finished, and I checked everything against the script.</p><p><b>Files</b></p><ul><li>resumo.md · 132 words</li><li>cortes.md · 5 clips</li><li>posts.md · 3 posts</li></ul><p><b>What I corrected</b></p><ol><li>Clip 4 ended at 12:40, but the script ends at 11:05. I replaced it with the VLOOKUP section, from 08:15 to 08:52.</li><li>Post 2 said “advanced Excel.” The lesson is for beginners; I changed it to “spreadsheets from scratch.”</li><li>The summary called the function “SOMA.SE,” but the script uses “SOMASE.” I matched the script.</li></ol><p>Nothing was published. The script wasn’t changed.</p>"
+      "html": "<p>Done. The three subagents finished, and I checked everything against the script.</p><p><b>Files</b></p><ul><li>summary.md · 132 words</li><li>clips.md · 5 clips</li><li>posts.md · 3 posts</li></ul><p><b>What I corrected</b></p><ol><li>Clip 4 ended at 12:40, but the script ends at 11:05. I replaced it with the VLOOKUP section, from 08:15 to 08:52.</li><li>Post 2 said “advanced Excel.” The lesson is for beginners; I changed it to “spreadsheets from scratch.”</li><li>The summary called the function “SUMIFS,” but the script uses “SUMIF.” I matched the script.</li></ol><p>Nothing was published. The script wasn’t changed.</p>"
      },
      {
       "rot": "How to check",
-      "html": "<ol><li>Open the curso-planilhas/aula-1 folder: the three new files are there.</li><li>Pick an item from the correction list and check it in the script (for example, does the script really end at 11:05?).</li><li>Open cortes.md and check one full clip against the script.</li><li>Check the usage ring in the app (or <code>/usage</code> in the terminal) to see how much the work used.</li></ol>"
+      "html": "<ol><li>Open the spreadsheet-course/lesson-1 folder: the three new files are there.</li><li>Pick an item from the correction list and check it in the script (for example, does the script really end at 11:05?).</li><li>Open clips.md and check one full clip against the script.</li><li>Check the usage ring in the app (or <code>/usage</code> in the terminal) to see how much the work used.</li></ol>"
      },
      {
       "rot": "Common mistakes",
@@ -192,7 +192,7 @@
    "tipo": "conferidor",
    "titulo": "Check your request before sending it",
    "sub": "Write your request in this format (one field per line) and paste it here. The page checks whether each helper is a subagent with a delivery file, whether the Review compares with the original and asks for a list of corrections, and whether the Limits say what not to do. This is a format check: you decide whether the parts make sense.",
-   "arquivo": "pedido-ajudantes.txt",
+   "arquivo": "helpers-request.txt",
    "rot": "Paste your request here (one field per line):",
    "modelo": "Task: ...\nHelper 1: ...\nHelper 2: ...\nHelper 3: ...\nReview: ...\nLimits: ...",
    "regras": [
@@ -306,7 +306,7 @@
     }
    ],
    "ok": "OK: request has the {n} fields, one subagent per part, and review with a list",
-   "exemplo": "Task: turn the script for lesson 1 (curso-planilhas/aula-1/roteiro.md) into material for the channel and social media.\nHelper 1: one subagent writes a summary of up to 150 words and saves it in resumo.md.\nHelper 2: one subagent chooses 5 short clips with a start, end, and hook line and saves them in cortes.md.\nHelper 3: one subagent writes 3 posts of up to 280 characters and saves them in posts.md.\nReview: at the end, check the three files against the script (timestamps, function names, numbers) and give me a list of what you corrected.\nLimits: don't publish anything or edit the script.",
+   "exemplo": "Task: turn the script for lesson 1 (spreadsheet-course/lesson-1/script.md) into material for the channel and social media.\nHelper 1: one subagent writes a summary of up to 150 words and saves it in summary.md.\nHelper 2: one subagent chooses 5 short clips with a start, end, and hook line and saves them in clips.md.\nHelper 3: one subagent writes 3 posts of up to 280 characters and saves them in posts.md.\nReview: at the end, check the three files against the script (timestamps, function names, numbers) and give me a list of what you corrected.\nLimits: don't publish anything or edit the script.",
    "exemplo_errado": "Task: make use of lesson 1 from the spreadsheet course.\nHelper 1: write a good summary of the lesson.\nHelper 2: pick some good clips for the channel.\nHelper 3: write some social media posts.\nReview: take a general look if you think it's necessary.\nLimits: feel free to do whatever seems best."
   },
   {
@@ -318,14 +318,14 @@
      "id": "e1",
      "titulo": "E1 · The request",
      "min": "10 min",
-     "texto": "Choose the text and the three deliverables (e.g., summary, clips, and posts; or summary, quiz questions, and an email to students). Fill in the pedido-ajudantes.txt template. If your text has no timestamps, ask for “the excerpt” instead of a start and end time.",
+     "texto": "Choose the text and the three deliverables (e.g., summary, clips, and posts; or summary, quiz questions, and an email to students). Fill in the helpers-request.txt template. If your text has no timestamps, ask for “the excerpt” instead of a start and end time.",
      "pronto": "the checker above responds, “OK: request has the 6 fields, one subagent per part, and review with a list.”"
     },
     {
      "id": "e2",
      "titulo": "E2 · Run with helpers",
      "min": "15 min",
-     "texto": "Open a session in the text’s folder (in the app: Code tab, choose the folder when opening the session, as in lesson 2; in the terminal, optionally: go to the folder and type claude). Paste the pedido-ajudantes.txt request that passed the checker, exactly as it is, and wait for the final response.",
+     "texto": "Open a session in the text’s folder (in the app: Code tab, choose the folder when opening the session, as in lesson 2; in the terminal, optionally: go to the folder and type claude). Paste the helpers-request.txt request that passed the checker, exactly as it is, and wait for the final response.",
      "pronto": "the 3 files you requested are in the folder, and the final response includes a list of what was corrected (or says how it checked if nothing needed correcting)."
     },
     {
@@ -427,7 +427,7 @@
    "titulo": "Go further",
    "links": [
     {
-     "t": "Claude Code in the desktop app (official documentation, in English)",
+     "t": "Claude Code in the desktop app (official documentation)",
      "href": "https://code.claude.com/docs/en/desktop",
      "icone": "lista"
     },
@@ -438,7 +438,7 @@
     },
     {
      "t": "Guide to Claude Code’s 13 new features",
-     "href": "https://inematds.github.io/claude-code-2/guia/",
+     "href": "https://inematds.github.io/claude-code-2/guia/en/",
      "icone": "arquivo"
     }
    ]

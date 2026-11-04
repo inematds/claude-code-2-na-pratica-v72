@@ -160,12 +160,12 @@
         {
           "rot": "Navegador integrado · solo lectura",
           "icone": "lupa",
-          "conteudo": "Abre en el navegador la página de mi comunidad de alumnos. Ya inicié sesión.\nLee las 30 publicaciones más recientes.\nEnumera las 5 preguntas que más se repiten, cada una con el enlace a una publicación donde aparece.\nGuarda la lista en comunidad/perguntas.md.\nNo publiques, no respondas, no borres ni cambies nada en el sitio.\nSi hace falta cambiar algo, detente y pregúntame."
+          "conteudo": "Abre en el navegador la página de mi comunidad de alumnos. Ya inicié sesión.\nLee las 30 publicaciones más recientes.\nEnumera las 5 preguntas que más se repiten, cada una con el enlace a una publicación donde aparece.\nGuarda la lista en comunidad/preguntas.md.\nNo publiques, no respondas, no borres ni cambies nada en el sitio.\nSi hace falta cambiar algo, detente y pregúntame."
         },
         {
           "rot": "Computer use · organizar capturas (opcional)",
           "icone": "chip",
-          "conteudo": "Usa computer use.\nAntes de empezar, cuenta cuántos archivos de capturas hay en mi Escritorio y dímelo.\nCrea la carpeta \"Prints\" y, dentro de ella, una carpeta por mes. Mueve cada captura a su mes.\nNo borres ni cambies el nombre de nada.\nAl final, dime cuántos archivos moviste."
+          "conteudo": "Usa computer use.\nAntes de empezar, cuenta cuántos archivos de capturas hay en mi Escritorio y dímelo.\nCrea la carpeta \"Capturas\" y, dentro de ella, una carpeta por mes. Mueve cada captura a su mes.\nNo borres ni cambies el nombre de nada.\nAl final, dime cuántos archivos moviste."
         },
         {
           "rot": "Plantilla · un sitio tuyo",
@@ -178,11 +178,11 @@
         "abas": [
           {
             "rot": "Lo que devolvió Claude",
-            "html": "<p>Leí las 30 publicaciones más recientes de la comunidad. Guardé la lista en comunidade/perguntas.md.</p><ol><li>¿Cómo inmovilizar la primera fila de la hoja de cálculo? (6 publicaciones)</li><li>¿Por qué BUSCARV devuelve #N/D? (5 publicaciones)</li><li>¿Se puede hacer la clase desde el celular? (4 publicaciones)</li><li>¿Cómo sumar solo los valores de un mes? (4 publicaciones)</li><li>¿Dónde descargo la hoja de cálculo de la clase 1? (3 publicaciones)</li></ol><p>Cada pregunta tiene el enlace a una publicación en el archivo. No publiqué, no respondí ni cambié nada. Vi una publicación con publicidad de otro curso; dejé el enlace al final del archivo para que decidas.</p>"
+            "html": "<p>Leí las 30 publicaciones más recientes de la comunidad. Guardé la lista en comunidad/preguntas.md.</p><ol><li>¿Cómo inmovilizar la primera fila de la hoja de cálculo? (6 publicaciones)</li><li>¿Por qué BUSCARV devuelve #N/A? (5 publicaciones)</li><li>¿Se puede hacer la clase desde el celular? (4 publicaciones)</li><li>¿Cómo sumar solo los valores de un mes? (4 publicaciones)</li><li>¿Dónde descargo la hoja de cálculo de la clase 1? (3 publicaciones)</li></ol><p>Cada pregunta tiene el enlace a una publicación en el archivo. No publiqué, no respondí ni cambié nada. Vi una publicación con publicidad de otro curso; dejé el enlace al final del archivo para que decidas.</p>"
           },
           {
             "rot": "Cómo comprobar que nada cambió",
-            "html": "<ol><li>Antes: anota la cantidad de publicaciones de la comunidad y la fecha de tu última publicación.</li><li>Después: vuelve a revisar. Los dos datos tienen que ser iguales.</li><li>Abre comunidade/perguntas.md y haz clic en un enlace: la publicación existe y contiene la pregunta.</li><li>Para las capturas: compara la cantidad de archivos antes y después. Tiene que coincidir.</li></ol>"
+            "html": "<ol><li>Antes: anota la cantidad de publicaciones de la comunidad y la fecha de tu última publicación.</li><li>Después: vuelve a revisar. Los dos datos tienen que ser iguales.</li><li>Abre comunidad/preguntas.md y haz clic en un enlace: la publicación existe y contiene la pregunta.</li><li>Para las capturas: compara la cantidad de archivos antes y después. Tiene que coincidir.</li></ol>"
           },
           {
             "rot": "Errores comunes",
@@ -299,7 +299,7 @@
           "id": "e2",
           "titulo": "E2 · La tarea",
           "min": "15 min",
-          "texto": "Adapta el bloque \"Modelo · un sitio tuyo\" y pégalo en la conversación. Espera el archivo y la respuesta. Después vuelve a revisar la señal que anotaste.",
+          "texto": "Adapta el bloque \"Plantilla · un sitio tuyo\" y pégalo en la conversación. Espera el archivo y la respuesta. Después vuelve a revisar la señal que anotaste.",
           "pronto": "El archivo con la lista existe, abriste uno de los enlaces y la señal anotada sigue igual que antes."
         },
         {
@@ -307,7 +307,7 @@
           "titulo": "E3 · Computer use (opcional)",
           "min": "15 min",
           "texto": "Solo si tienes Mac o Windows y un plan Pro, Max o Ultra. Activa computer use en la configuración de la app (Settings); si no encuentras la opción, pregúntale a Claude dónde está en esta app. En Mac, permite Accesibilidad y Grabación de pantalla. Cuenta las capturas de pantalla del Escritorio y pega la solicitud \"organizar capturas\". En Windows, no uses el mouse ni el teclado hasta que Claude termine.",
-          "pronto": "La carpeta Prints tiene una carpeta por mes y el total de archivos coincide con lo que contaste antes."
+          "pronto": "La carpeta Capturas tiene una carpeta por mes y el total de archivos coincide con lo que contaste antes."
         }
       ]
     },

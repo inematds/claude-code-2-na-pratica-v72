@@ -140,7 +140,7 @@
           "titulo": "Split view",
           "sub": "two side by side",
           "texto": [
-            "In the sidebar, hold Option and click a session on Mac (Alt + click on Windows). Or right-click the session and choose Open in → Split view (open in → split screen).",
+            "In the sidebar, hold Option and click a session on Mac (Alt + click on Windows). Or right-click the session and choose Open in → Split view.",
             "To remove a session from split view, use Cmd + Ctrl + W on Mac (Ctrl + Alt + W on Windows). Start a new session with Cmd + N on Mac (Ctrl + N on Windows)."
           ],
           "exemplo": {
@@ -171,12 +171,12 @@
           "titulo": ".md file",
           "sub": "plain text",
           "texto": [
-            "The course prompts refer to files like roteiro.md. An .md file is just plain text, like a notepad, that Claude can read and write without a special program. You can open it with Notepad on Windows or TextEdit on Mac.",
+            "The course prompts refer to files like script.md. An .md file is just plain text, like a notepad, that Claude can read and write without a special program. You can open it with Notepad on Windows or TextEdit on Mac.",
             "Claude can also read other common formats, like Word, PDF, or spreadsheets, if you ask. Just say the name of the file you have."
           ],
           "exemplo": {
             "rot": "Carla",
-            "texto": "Her script is in Word. She writes \"read roteiro-aula-1.docx\" instead of roteiro.md."
+            "texto": "Her script is in Word. She writes \"read lesson-1-script.docx\" instead of script.md."
           }
         },
         {
@@ -195,12 +195,12 @@
           "titulo": "The path",
           "sub": "replace it with yours",
           "texto": [
-            "curso-planilhas/aula-1/roteiro.md means: inside the curso-planilhas folder, in the aula-1 folder, the roteiro.md file. This is Carla's file path.",
+            "spreadsheet-course/lesson-1/script.md means: inside the spreadsheet-course folder, in the lesson-1 folder, the script.md file. This is Carla's file path.",
             "In your prompt, replace this path with the path to your file. If you don't know how to write the path, just say the file name and ask: \"find this file in the project folder\"."
           ],
           "exemplo": {
             "rot": "Example",
-            "texto": "Instead of curso-planilhas/aula-1/roteiro.md, you can write only the name of your file, like ata-reuniao.docx."
+            "texto": "Instead of spreadsheet-course/lesson-1/script.md, you can write only the name of your file, like meeting-notes.docx."
           }
         }
       ]
@@ -208,12 +208,12 @@
     {
       "tipo": "codigo",
       "titulo": "Carla's prompts",
-      "sub": "One for the main conversation, two questions for side chat (paste one at a time), and one for the second split view session. Replace the example paths (curso-planilhas/…) with your own files, as explained above.",
+      "sub": "One for the main conversation, two questions for side chat (paste one at a time), and one for the second split view session. Replace the example paths (spreadsheet-course/…) with your own files, as explained above.",
       "blocos": [
         {
           "rot": "Main conversation · the task",
           "icone": "chat",
-          "conteudo": "Read curso-planilhas/aula-1/roteiro.md.\nCreate 5 exercises for students to practice what the lesson teaches, from easiest to hardest.\nEach exercise should include: what to do, sample data, and the correct answer.\nSave to curso-planilhas/aula-1/exercicios.md.\nAsk before changing or deleting any file that already exists."
+          "conteudo": "Read spreadsheet-course/lesson-1/script.md.\nCreate 5 exercises for students to practice what the lesson teaches, from easiest to hardest.\nEach exercise should include: what to do, sample data, and the correct answer.\nSave to spreadsheet-course/lesson-1/exercises.md.\nAsk before changing or deleting any file that already exists."
         },
         {
           "rot": "Side chat · 2 questions (one at a time)",
@@ -228,7 +228,7 @@
         {
           "rot": "Second session (split view) · another task",
           "icone": "camadas",
-          "conteudo": "Read curso-planilhas/aula-1/roteiro.md.\nWrite the community announcement about lesson 1: up to 100 words, simple language, and a question at the end for people to answer.\nSave to comunidade/aviso-aula-1.md.\nDon't change anything inside curso-planilhas/. Don't publish anything."
+          "conteudo": "Read spreadsheet-course/lesson-1/script.md.\nWrite the community announcement about lesson 1: up to 100 words, simple language, and a question at the end for people to answer.\nSave to community/lesson-1-notice.md.\nDon't change anything inside spreadsheet-course/. Don't publish anything."
         }
       ],
       "saida": {
@@ -240,11 +240,11 @@
           },
           {
             "rot": "Main conversation (clean)",
-            "html": "<p><b>Carla:</b> Read curso-planilhas/aula-1/roteiro.md. Create 5 exercises…</p><p><b>Claude:</b> I read the script (sum, average, VLOOKUP, and IF). I created curso-planilhas/aula-1/exercicios.md with 5 exercises, from 1 (add a column) to 5 (VLOOKUP with IF), each with sample data and an answer. I didn't change any other files.</p><p><i>Neither of the side chat questions appears here.</i></p>"
+            "html": "<p><b>Carla:</b> Read spreadsheet-course/lesson-1/script.md. Create 5 exercises…</p><p><b>Claude:</b> I read the script (sum, average, VLOOKUP, and IF). I created spreadsheet-course/lesson-1/exercises.md with 5 exercises, from 1 (add a column) to 5 (VLOOKUP with IF), each with sample data and an answer. I didn't change any other files.</p><p><i>Neither of the side chat questions appears here.</i></p>"
           },
           {
             "rot": "Second session (split view)",
-            "html": "<p><b>Claude:</b> I saved comunidade/aviso-aula-1.md (86 words). It ends with the question: \"Which calculation do you do by hand most often today?\". I didn't publish anything or change anything in curso-planilhas/.</p>"
+            "html": "<p><b>Claude:</b> I saved community/lesson-1-notice.md (86 words). It ends with the question: \"Which calculation do you do by hand most often today?\". I didn't publish anything or change anything in spreadsheet-course/.</p>"
           }
         ]
       }
@@ -272,7 +272,7 @@
           "id": "e3",
           "titulo": "E3 · Two sessions side by side",
           "min": "10 min",
-          "texto": "Open a second session for another task in a different file, and put both in split view (the screen divided in two) (Option + click on Mac, Alt + click on Windows). Then take one out of split view.",
+          "texto": "Open a second session for another task in a different file, and put both in split view (Option + click on Mac, Alt + click on Windows). Then take one out of split view.",
           "pronto": "You saw both sessions in the same window, each saved its own file, and neither changed the other’s file."
         }
       ]
@@ -367,12 +367,12 @@
       "titulo": "Go further",
       "links": [
         {
-          "t": "The Claude desktop app: sessions and split view (in English)",
+          "t": "The Claude desktop app: sessions and split view",
           "href": "https://code.claude.com/docs/en/desktop",
           "icone": "lista"
         },
         {
-          "t": "Interactive mode and /btw (in English)",
+          "t": "Interactive mode and /btw",
           "href": "https://code.claude.com/docs/en/interactive-mode",
           "icone": "terminal"
         },

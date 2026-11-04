@@ -72,7 +72,7 @@
               "t": "computadora apagada"
             }
           ],
-          "detalhe": "El nuevo Projects de Claude Code es una conversación continua en la que Claude abre un thread (un frente de trabajo) para cada tarea. Los threads se ejecutan en la nube: puedes cerrar la laptop. El costo es que los archivos que entregas salen de tu computadora. Está en beta, con lista de espera, en los planes Pro, Max y Ultra."
+          "detalhe": "El nuevo Projects de Claude Code es una conversación continua en la que Claude abre un hilo (thread: un frente de trabajo) para cada tarea. Los hilos se ejecutan en la nube: puedes cerrar la laptop. El costo es que los archivos que entregas salen de tu computadora. Está en beta, con lista de espera, en los planes Pro, Max y Ultra."
         },
         {
           "icone": "portao",
@@ -84,7 +84,7 @@
               "t": "solo en EE. UU."
             }
           ],
-          "detalhe": "Duet es un ayudante que te acerca el trabajo pendiente de tus proyectos, prepara un borrador y pregunta antes de actuar. Por ahora solo está en EE. UU., en vista previa y con lista de espera (Pro, Max y Ultra). Todavía no llegó a Brasil: solo necesitas saber que existe."
+          "detalhe": "Duet es un ayudante que te acerca el trabajo pendiente de tus proyectos, prepara un borrador y pregunta antes de actuar. Por ahora solo está en EE. UU., en vista previa y con lista de espera (Pro, Max y Ultra). Si vives fuera de EE. UU., todavía no puedes usarlo: solo necesitas saber que existe."
         }
       ],
       "legenda": "De la computadora al celular, del celular a la nube: cada paso te libera de la silla y te plantea una nueva decisión sobre tus archivos.",
@@ -103,12 +103,12 @@
           "titulo": "Pide un plan",
           "sub": "antes de irte",
           "texto": [
-            "Abre una sesión en la carpeta del trabajo (eliges la carpeta al abrir la sesión, como en la lección 2) y pide la tarea con una pausa: \"muéstrame el plan y espera mi OK\".",
+            "Abre una sesión en la carpeta del trabajo (eliges la carpeta al abrir la sesión, como en la clase 2) y pide la tarea con una pausa: \"muéstrame el plan y espera mi OK\".",
             "Así Claude trabaja hasta llegar al punto de decisión y te espera, en lugar de seguir por su cuenta."
           ],
           "exemplo": {
             "rot": "Carla",
-            "texto": "Pide el guion de la lección 2 del curso de hojas de cálculo, con un plan antes."
+            "texto": "Pide el guion de la clase 2 del curso de hojas de cálculo, con un plan antes."
           }
         },
         {
@@ -152,12 +152,12 @@
     {
       "tipo": "codigo",
       "titulo": "Prompt de Carla: el plan que aprueba desde el sofá",
-      "sub": "Pégalo en la sesión abierta en la carpeta del curso y luego activa el control escribiendo /remote-control en el mismo cuadro de mensaje. Cambia la ruta curso-planilhas/… por la de tu archivo (consulta la lección 2).",
+      "sub": "Pégalo en la sesión abierta en la carpeta del curso y luego activa el control escribiendo /remote-control en el mismo cuadro de mensaje. Cambia la ruta curso-hojas-de-calculo/… por la de tu archivo (consulta la clase 2).",
       "blocos": [
         {
           "rot": "1 · Pedido con pausa para aprobar",
           "icone": "chat",
-          "conteudo": "Escribe el guion de la lección 2 de mi curso de hojas de cálculo en curso-planilhas/aula-2/roteiro.md.\nUsa el mismo formato que curso-planilhas/aula-1/roteiro.md.\nTema: PROCV explicado con una lista de estudiantes y calificaciones.\nAntes de escribir, muéstrame el plan en hasta 6 puntos y espera mi OK.\nNo borres ni cambies nada en la carpeta aula-1."
+          "conteudo": "Escribe el guion de la clase 2 de mi curso de hojas de cálculo en curso-hojas-de-calculo/clase-2/guion.md.\nUsa el mismo formato que curso-hojas-de-calculo/clase-1/guion.md.\nTema: BUSCARV explicado con una lista de estudiantes y calificaciones.\nAntes de escribir, muéstrame el plan en hasta 6 puntos y espera mi OK.\nNo borres ni cambies nada en la carpeta clase-1."
         },
         {
           "rot": "2 · Activar el control (en el cuadro de mensaje de la sesión)",
@@ -170,11 +170,11 @@
         "abas": [
           {
             "rot": "Lo que aparece en el celular",
-            "html": "<p><b>Plan para curso-planilhas/aula-2/roteiro.md</b></p><ol><li>Inicio: el problema de encontrar la nota de un alumno en una lista grande.</li><li>Qué hace BUSCARV, en una frase.</li><li>Cómo armar la lista de alumnos y notas.</li><li>La fórmula paso a paso, con un alumno de ejemplo.</li><li>Los dos errores más comunes (#N/D y columna incorrecta).</li><li>Ejercicio final e invitación a la comunidad.</li></ol><p>Sigo el formato de la clase 1 y no toco la carpeta aula-1. <b>¿Puedo empezar?</b></p>"
+            "html": "<p><b>Plan para curso-hojas-de-calculo/clase-2/guion.md</b></p><ol><li>Inicio: el problema de encontrar la nota de un alumno en una lista grande.</li><li>Qué hace BUSCARV, en una frase.</li><li>Cómo armar la lista de alumnos y notas.</li><li>La fórmula paso a paso, con un alumno de ejemplo.</li><li>Los dos errores más comunes (#N/A y columna incorrecta).</li><li>Ejercicio final e invitación a la comunidad.</li></ol><p>Sigo el formato de la clase 1 y no toco la carpeta clase-1. <b>¿Puedo empezar?</b></p>"
           },
           {
             "rot": "Respuestas de Carla",
-            "html": "<ul><li><b>Aprobar:</b> \"Puedes seguir.\"</li><li><b>Ajustar:</b> \"Cambia el tema 5: muestra solo el error #N/D, con la corrección.\"</li><li><b>Parar:</b> \"Detente aquí. Termino mañana en la computadora.\"</li></ul>"
+            "html": "<ul><li><b>Aprobar:</b> \"Puedes seguir.\"</li><li><b>Ajustar:</b> \"Cambia el tema 5: muestra solo el error #N/A, con la corrección.\"</li><li><b>Parar:</b> \"Detente aquí. Termino mañana en la computadora.\"</li></ul>"
           },
           {
             "rot": "Cuando no funciona",
@@ -234,7 +234,7 @@
         {
           "rot": "Investigación para el canal",
           "icone": "nuvem",
-          "conteudo": "Investiga qué cambió en las hojas de cálculo en línea (Excel y Google Sheets) en los últimos 30 días.\nEnumera 5 cambios útiles para quienes enseñan hojas de cálculo, cada uno con el enlace a la fuente oficial.\nPara cada cambio, escribe una idea para un video corto para mi canal.\nPropón los hilos y espera mi OK antes de empezar.\nGuarda todo en pesquisa.md y avísame cuando termines."
+          "conteudo": "Investiga qué cambió en las hojas de cálculo en línea (Excel y Google Sheets) en los últimos 30 días.\nEnumera 5 cambios útiles para quienes enseñan hojas de cálculo, cada uno con el enlace a la fuente oficial.\nPara cada cambio, escribe una idea para un video corto para mi canal.\nPropón los hilos y espera mi OK antes de empezar.\nGuarda todo en investigacion.md y avísame cuando termines."
         }
       ],
       "saida": {
@@ -242,10 +242,10 @@
         "abas": [
           {
             "rot": "Respuesta de Claude",
-            "html": "<p>Propongo 3 hilos:</p><ol><li><b>Excel:</b> cambios de los últimos 30 días, con el enlace oficial.</li><li><b>Google Sheets:</b> lo mismo, con el enlace oficial.</li><li><b>Ideas de video:</b> después de los dos primeros, 5 ideas cortas y el archivo pesquisa.md.</li></ol><p>Ejecuto los dos primeros al mismo tiempo. <b>¿Puedo empezar?</b></p>"
+            "html": "<p>Propongo 3 hilos:</p><ol><li><b>Excel:</b> cambios de los últimos 30 días, con el enlace oficial.</li><li><b>Google Sheets:</b> lo mismo, con el enlace oficial.</li><li><b>Ideas de video:</b> después de los dos primeros, 5 ideas cortas y el archivo investigacion.md.</li></ol><p>Ejecuto los dos primeros al mismo tiempo. <b>¿Puedo empezar?</b></p>"
           },
           {
-            "rot": "pesquisa.md (fragmento)",
+            "rot": "investigacion.md (fragmento)",
             "html": "<p><b>1. [nombre del cambio]</b>: qué cambió, en una frase. Fuente: [enlace oficial]. Idea para video: \"[título corto]\".</p><p>… 4 cambios más en el mismo formato.</p><p><i>Simulación: el contenido real depende de lo que se haya publicado durante el mes.</i></p>"
           },
           {
@@ -272,7 +272,7 @@
           "titulo": "E2 · Una investigación en la nube",
           "min": "15 min",
           "texto": "Si Projects ya aparece para ti, crea un proyecto y pide una investigación con información pública, siguiendo el modelo del prompt de Carla. Cierra la laptop y vuelve después.",
-          "pronto": "hay un archivo pesquisa.md en Library (biblioteca) del proyecto, y abriste 2 enlaces de fuentes para comprobar que funcionan."
+          "pronto": "hay un archivo investigacion.md en Library (biblioteca) del proyecto, y abriste 2 enlaces de fuentes para comprobar que funcionan."
         },
         {
           "id": "e3",
@@ -329,11 +329,11 @@
           "opcoes": [
             "Sí, solo le cambiaron el nombre.",
             "Sí, pero ahora funciona en el celular.",
-            "No: es el de Claude Code, con threads que funcionan en la nube.",
-            "No: es una aplicación independiente que hay que instalar en el celular."
+            "No: es el de Claude Code, con hilos que funcionan en la nube.",
+            "No: es una app independiente que hay que instalar en el celular."
           ],
           "certa": 2,
-          "explica": "Proyectos del chat es una carpeta de conversaciones con archivos. Projects de Claude Code es una conversación continua que abre threads en la nube. Está en claude.ai/code o en la pestaña Code de la app.",
+          "explica": "Proyectos del chat es una carpeta de conversaciones con archivos. Projects de Claude Code es una conversación continua que abre hilos en la nube. Está en claude.ai/code o en la pestaña Code de la app.",
           "ref": "passos"
         },
         {

@@ -165,7 +165,7 @@
         {
           "rot": "A measurable goal",
           "icone": "alvo",
-          "conteudo": "/goal Create curso-planilhas/aula-2/exercicios.md with 5 VLOOKUP exercises, each with a sample spreadsheet and the correct answer."
+          "conteudo": "/goal Create spreadsheet-course/lesson-2/exercises.md with 5 VLOOKUP exercises, each with a sample spreadsheet and the correct answer."
         },
         {
           "rot": "See what’s taking up the conversation",
@@ -182,7 +182,7 @@
           },
           {
             "rot": "After /goal",
-            "html": "<ul><li>Created curso-planilhas/aula-2/exercicios.md.</li><li>5 exercises, each with a sample spreadsheet and an answer.</li><li>Checked all 5 answers by applying the formula to the sample spreadsheets.</li></ul><p>Goal reached.</p>"
+            "html": "<ul><li>Created spreadsheet-course/lesson-2/exercises.md.</li><li>5 exercises, each with a sample spreadsheet and an answer.</li><li>Checked all 5 answers by applying the formula to the sample spreadsheets.</li></ul><p>Goal reached.</p>"
           },
           {
             "rot": "Common mistakes",
@@ -194,7 +194,7 @@
     {
       "tipo": "passos",
       "titulo": "Mods: check before installing (optional, more technical)",
-      "sub": "You can skip this if you just want to use the app as it is. Ready-to-use examples: 18 mods in Portuguese, tested, in the inematds/inema-mods repository on GitHub. GitHub is a site where people store and share code; a repository is a project folder there.",
+      "sub": "You can skip this if you just want to use the app as it is. Ready-to-use examples: 18 tested mods in the inematds/inema-mods repository on GitHub. Heads up: that repository is in Portuguese, so ask Claude to explain any mod in English. GitHub is a site where people store and share code; a repository is a project folder there.",
       "passos": [
         {
           "titulo": "Update",
@@ -272,10 +272,10 @@
     {
       "tipo": "conferidor",
       "titulo": "Check your routine",
-      "sub": "Write 3 numbered lines: new thing | when you use it | what for. The page checks whether each line mentions something new from the course and a day or time, and whether the 3 new things are different. This is a format check: you decide whether the routine works for you.",
-      "arquivo": "rotina.md",
+      "sub": "Write 3 numbered lines: number | feature | when you use it | what for. The page checks whether each line mentions something new from the course and a day or time, and whether the 3 new things are different. This is a format check: you decide whether the routine works for you.",
+      "arquivo": "routine.md",
       "rot": "Paste your routine here (3 numbered lines):",
-      "modelo": "1 | [new feature] | [when] | [what for]\n2 | ...\n3 | ...",
+      "modelo": "1 | [feature] | [when] | [what for]\n2 | [feature] | [when] | [what for]\n3 | [feature] | [when] | [what for]",
       "regras": [
         {
           "tipo": "planos",
@@ -350,15 +350,15 @@
           "id": "e2",
           "titulo": "E2 · One checked mod (optional)",
           "min": "15 min",
-          "texto": "Choose a mod from inematds/inema-mods and paste Carla’s prompt with its link. Read the summary before replying.",
+          "texto": "Choose a mod from inematds/inema-mods (the repository is in Portuguese; Claude’s summary will be in English) and paste Carla’s prompt with its link. Read the summary before replying.",
           "pronto": "You have, in up to 5 lines and in simple words, what the mod can access and how to turn it off; installing it or not is your choice."
         },
         {
           "id": "e3",
           "titulo": "E3 · Your routine",
           "min": "10 min",
-          "texto": "Choose 3 course features you’ll use and write one line for each: feature | when you’ll use it | what for. Paste them into the checker above and save as rotina.md: the checker’s \"Download file\" button saves the ready-to-use file. Or ask Claude, in the Code tab: \"create rotina.md in the project folder with this text\" and paste in your routine.",
-          "pronto": "rotina.md is saved, and the checker replies \"OK: routine with 3 features, each with a day or time\"."
+          "texto": "Choose 3 course features you’ll use and write one numbered line for each: number | feature | when you’ll use it | what for (e.g., 1 | side chat | Monday | questions). Paste them into the checker above and save as routine.md: the checker’s \"Download the file\" button saves the ready-to-use file. Or ask Claude, in the Code tab: \"create routine.md in the project folder with this text\" and paste in your routine.",
+          "pronto": "routine.md is saved, and the checker replies \"OK: routine with 3 features, each with a day or time\"."
         }
       ]
     },
@@ -443,7 +443,7 @@
         },
         {
           "t": "Routine",
-          "texto": "Three new things, each with a day or moment and a reason, saved in rotina.md."
+          "texto": "Three new things, each with a day or moment and a reason, saved in routine.md."
         }
       ]
     },
@@ -452,23 +452,23 @@
       "titulo": "Go further",
       "links": [
         {
-          "t": "Commands and interactive mode in the official documentation (in English)",
+          "t": "Commands and interactive mode in the official documentation",
           "href": "https://code.claude.com/docs/en/interactive-mode",
           "icone": "terminal"
         },
         {
-          "t": "18 mods in Portuguese: inematds/inema-mods",
+          "t": "18 sample mods (repository in Portuguese): inematds/inema-mods",
           "href": "https://github.com/inematds/inema-mods",
           "icone": "camadas"
         },
         {
-          "t": "Status line in the official documentation (in English)",
+          "t": "Status line in the official documentation",
           "href": "https://code.claude.com/docs/en/statusline",
           "icone": "lista"
         },
         {
           "t": "Guide to the 13 new things",
-          "href": "https://inematds.github.io/claude-code-2/guia/",
+          "href": "https://inematds.github.io/claude-code-2/guia/en/",
           "icone": "marca"
         }
       ]

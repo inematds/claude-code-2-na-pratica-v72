@@ -160,12 +160,12 @@
         {
           "rot": "Built-in browser · read-only",
           "icone": "lupa",
-          "conteudo": "Open my student community page in the browser. I’m already signed in.\nRead the 30 most recent posts.\nList the 5 questions that come up most often, each with a link to a post where it appears.\nSave the list in comunidade/perguntas.md.\nDon’t publish, reply, delete, or change anything on the website.\nIf something needs to change, stop and ask me."
+          "conteudo": "Open my student community page in the browser. I’m already signed in.\nRead the 30 most recent posts.\nList the 5 questions that come up most often, each with a link to a post where it appears.\nSave the list in community/questions.md.\nDon’t publish, reply, delete, or change anything on the website.\nIf something needs to change, stop and ask me."
         },
         {
           "rot": "Computer use · organize screenshots (optional)",
           "icone": "chip",
-          "conteudo": "Use computer use.\nBefore you start, count how many screenshot files are on my Desktop and tell me.\nCreate the folder \"Prints\" and, inside it, one folder per month. Move each screenshot into its month’s folder.\nDon’t delete or rename anything.\nAt the end, tell me how many files you moved."
+          "conteudo": "Use computer use.\nBefore you start, count how many screenshot files are on my Desktop and tell me.\nCreate the folder \"Screenshots\" on my Desktop and, inside it, one folder per month. Move each screenshot into its month’s folder.\nDon’t delete or rename anything.\nAt the end, tell me how many files you moved."
         },
         {
           "rot": "Template · one of your websites",
@@ -178,11 +178,11 @@
         "abas": [
           {
             "rot": "What Claude returned",
-            "html": "<p>I read the 30 most recent posts in the community. I saved the list in comunidade/perguntas.md.</p><ol><li>How do I freeze the first row in the spreadsheet? (6 posts)</li><li>Why does VLOOKUP return #N/A? (5 posts)</li><li>Can I take the lesson on my phone? (4 posts)</li><li>How do I add up only the values from one month? (4 posts)</li><li>Where can I download the spreadsheet for lesson 1? (3 posts)</li></ol><p>Each question has a link to a post in the file. I didn’t publish, reply, or change anything. I saw a post advertising another course; I left the link at the end of the file for you to decide what to do.</p>"
+            "html": "<p>I read the 30 most recent posts in the community. I saved the list in community/questions.md.</p><ol><li>How do I freeze the first row in the spreadsheet? (6 posts)</li><li>Why does VLOOKUP return #N/A? (5 posts)</li><li>Can I take the lesson on my phone? (4 posts)</li><li>How do I add up only the values from one month? (4 posts)</li><li>Where can I download the spreadsheet for lesson 1? (3 posts)</li></ol><p>Each question has a link to a post in the file. I didn’t publish, reply, or change anything. I saw a post advertising another course; I left the link at the end of the file for you to decide what to do.</p>"
           },
           {
             "rot": "How to check that nothing changed",
-            "html": "<ol><li>Before: note the number of posts in the community and the date of your last post.</li><li>After: check again. Both should be the same.</li><li>Open comunidade/perguntas.md and click a link: the post exists and includes the question.</li><li>For screenshots: compare the number of files before and after. They should match.</li></ol>"
+            "html": "<ol><li>Before: note the number of posts in the community and the date of your last post.</li><li>After: check again. Both should be the same.</li><li>Open community/questions.md and click a link: the post exists and includes the question.</li><li>For screenshots: compare the number of files before and after. They should match.</li></ol>"
           },
           {
             "rot": "Common mistakes",
@@ -299,15 +299,15 @@
           "id": "e2",
           "titulo": "E2 · The task",
           "min": "15 min",
-          "texto": "Adapt the block \"Template · one of your sites\" and paste it into the chat. Wait for the file and the response. Then check the thing you wrote down.",
+          "texto": "Adapt the block \"Template · one of your websites\" and paste it into the chat. Wait for the file and the response. Then check the thing you wrote down.",
           "pronto": "the file with the list exists, you opened one of the links, and the thing you wrote down is the same as before."
         },
         {
           "id": "e3",
           "titulo": "E3 · Computer use (optional)",
           "min": "15 min",
-          "texto": "Only if you have a Mac or Windows computer and a Pro, Max, or Ultra plan. Turn on computer use in the app settings (Settings); if you can’t find it, ask Claude where it is in this app. On Mac, allow Accessibility and Screen Recording. Count the files in Desktop’s Prints folder and paste the request \"organize screenshots\". On Windows, don’t use the mouse or keyboard until Claude is done.",
-          "pronto": "the Prints folder has one folder for each month, and the total number of files matches what you counted before."
+          "texto": "Only if you have a Mac or Windows computer and a Pro, Max, or Ultra plan. Turn on computer use in the app settings (Settings); if you can’t find it, ask Claude where it is in this app. On Mac, allow Accessibility and Screen Recording. Count the screenshot files on your Desktop and paste the request \"organize screenshots\". On Windows, don’t use the mouse or keyboard until Claude is done.",
+          "pronto": "the Screenshots folder on your Desktop has one folder for each month, and the total number of files inside it matches what you counted before."
         }
       ]
     },
@@ -401,18 +401,18 @@
       "titulo": "Go further",
       "links": [
         {
-          "t": "Computer use in Claude Code (official documentation, in English)",
+          "t": "Computer use in Claude Code (official documentation)",
           "href": "https://code.claude.com/docs/en/computer-use",
           "icone": "chip"
         },
         {
-          "t": "Claude Code in the desktop app (official documentation, in English)",
+          "t": "Claude Code in the desktop app (official documentation)",
           "href": "https://code.claude.com/docs/en/desktop",
           "icone": "lista"
         },
         {
           "t": "Guide to Claude Code’s 13 new features",
-          "href": "https://inematds.github.io/claude-code-2/guia/",
+          "href": "https://inematds.github.io/claude-code-2/guia/en/",
           "icone": "arquivo"
         }
       ]

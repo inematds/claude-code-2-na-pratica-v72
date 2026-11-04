@@ -81,10 +81,10 @@
           "itens": [
             {
               "icone": "x",
-              "t": "U.S. only"
+              "t": "US only, waitlist"
             }
           ],
-          "detalhe": "Duet is an assistant that brings you pending work from your projects, prepares a draft, and asks before taking action. For now, it’s only in the U.S., in preview, with a waitlist (Pro, Max, and Ultra). It hasn’t arrived in Brazil yet; just know that it exists."
+          "detalhe": "Duet is an assistant that brings you pending work from your projects, prepares a draft, and asks before taking action. For now, it’s a preview available only in the US, with a waitlist for Pro, Max, and Ultra plans. If you’re in the US and want to try it, join the waitlist at claude.com/product/claude-duet; otherwise, just know that it exists."
         }
       ],
       "legenda": "From your computer to your phone, from your phone to the cloud: each step frees you from your chair and calls for a new decision about your files.",
@@ -152,12 +152,12 @@
     {
       "tipo": "codigo",
       "titulo": "Carla’s prompt: the plan she approves from the couch",
-      "sub": "Paste this into the session opened in the course folder, then turn on control by typing /remote-control in the same message box. Replace the course-planilhas/… path with your file’s path (see lesson 2).",
+      "sub": "Paste this into the session opened in the course folder, then turn on control by typing /remote-control in the same message box. Replace the spreadsheet-course/… path with your file’s path (see lesson 2).",
       "blocos": [
         {
           "rot": "1 · Request with a pause for approval",
           "icone": "chat",
-          "conteudo": "Write the script for lesson 2 of my spreadsheet course in curso-planilhas/aula-2/roteiro.md.\nUse the same format as curso-planilhas/aula-1/roteiro.md.\nTopic: VLOOKUP explained with a list of students and grades.\nBefore writing, show me the plan in up to 6 bullet points and wait for my OK.\nDon’t delete or change anything in the aula-1 folder."
+          "conteudo": "Write the script for lesson 2 of my spreadsheet course in spreadsheet-course/lesson-2/script.md.\nUse the same format as spreadsheet-course/lesson-1/script.md.\nTopic: VLOOKUP explained with a list of students and grades.\nBefore writing, show me the plan in up to 6 bullet points and wait for my OK.\nDon’t delete or change anything in the lesson-1 folder."
         },
         {
           "rot": "2 · Turn on control (in the session message box)",
@@ -170,11 +170,11 @@
         "abas": [
           {
             "rot": "What you see on your phone",
-            "html": "<p><b>Plan for curso-planilhas/aula-2/roteiro.md</b></p><ol><li>Opening: the problem of finding a student’s grade in a long list.</li><li>What VLOOKUP does, in one sentence.</li><li>Building the list of students and grades.</li><li>The formula step by step, with a sample student.</li><li>The two most common errors (#N/D and the wrong column).</li><li>Final exercise and invitation to the community.</li></ol><p>I’ll follow the format of lesson 1 and won’t touch the aula-1 folder. <b>Can I get started?</b></p>"
+            "html": "<p><b>Plan for spreadsheet-course/lesson-2/script.md</b></p><ol><li>Opening: the problem of finding a student’s grade in a long list.</li><li>What VLOOKUP does, in one sentence.</li><li>Building the list of students and grades.</li><li>The formula step by step, with a sample student.</li><li>The two most common errors (#N/A and the wrong column).</li><li>Final exercise and invitation to the community.</li></ol><p>I’ll follow the format of lesson 1 and won’t touch the lesson-1 folder. <b>Can I get started?</b></p>"
           },
           {
             "rot": "Carla’s replies",
-            "html": "<ul><li><b>Approve:</b> \"Go ahead.\"</li><li><b>Adjust:</b> \"Change topic 5: show only the #N/D error and how to fix it.\"</li><li><b>Stop:</b> \"Stop here. I’ll finish tomorrow on my computer.\"</li></ul>"
+            "html": "<ul><li><b>Approve:</b> \"Go ahead.\"</li><li><b>Adjust:</b> \"Change topic 5: show only the #N/A error and how to fix it.\"</li><li><b>Stop:</b> \"Stop here. I’ll finish tomorrow on my computer.\"</li></ul>"
           },
           {
             "rot": "When it doesn’t work",
@@ -212,7 +212,7 @@
           "titulo": "Ask and keep track",
           "sub": "in Overview",
           "texto": [
-            "Describe the task in your own words. Claude opens a thread (a workstream) for each part and shows them in Overview (the overview), the panel alongside it. A dot appears when a thread is waiting for you.",
+            "Describe the task in your own words. Claude opens a thread (a workstream) for each part and shows them in Overview, the side panel that tracks every thread. A dot appears when a thread is waiting for you.",
             "Coordinating many threads is covered in the course <a href=\"https://inematds.github.io/claude-gestor-de-agentes-v72/en/\">Claude as an agent manager</a>."
           ]
         },
@@ -234,7 +234,7 @@
         {
           "rot": "Research for the channel",
           "icone": "nuvem",
-          "conteudo": "Research what has changed in online spreadsheets (Excel and Google Sheets) in the last 30 days.\nList 5 changes that are useful for someone who teaches spreadsheets, each with a link to the official source.\nFor each change, write an idea for a short video for my channel.\nPropose the threads and wait for my OK before starting.\nSave everything in pesquisa.md and let me know when you’re done."
+          "conteudo": "Research what has changed in online spreadsheets (Excel and Google Sheets) in the last 30 days.\nList 5 changes that are useful for someone who teaches spreadsheets, each with a link to the official source.\nFor each change, write an idea for a short video for my channel.\nPropose the threads and wait for my OK before starting.\nSave everything in research.md and let me know when you’re done."
         }
       ],
       "saida": {
@@ -242,10 +242,10 @@
         "abas": [
           {
             "rot": "Claude’s reply",
-            "html": "<p>I propose 3 threads:</p><ol><li><b>Excel:</b> changes from the last 30 days, with the official link.</li><li><b>Google Sheets:</b> the same, with the official link.</li><li><b>Video ideas:</b> after the first two, 5 short ideas and the pesquisa.md file.</li></ol><p>I’ll run the first two at the same time. <b>Can I get started?</b></p>"
+            "html": "<p>I propose 3 threads:</p><ol><li><b>Excel:</b> changes from the last 30 days, with the official link.</li><li><b>Google Sheets:</b> the same, with the official link.</li><li><b>Video ideas:</b> after the first two, 5 short ideas and the research.md file.</li></ol><p>I’ll run the first two at the same time. <b>Can I get started?</b></p>"
           },
           {
-            "rot": "pesquisa.md (excerpt)",
+            "rot": "research.md (excerpt)",
             "html": "<p><b>1. [change name]</b>: what changed, in one sentence. Source: [official link]. Video idea: \"[short title]\".</p><p>… 4 more changes in the same format.</p><p><i>Simulation: the actual content depends on what was released that month.</i></p>"
           },
           {
@@ -272,7 +272,7 @@
           "titulo": "E2 · Cloud research",
           "min": "15 min",
           "texto": "If Projects is available to you, create a project and request research using public information, based on Carla’s prompt. Close your laptop and come back later.",
-          "pronto": "there’s a pesquisa.md file in the project’s Library, and you opened 2 source links to check that they work."
+          "pronto": "there’s a research.md file in the project’s Library, and you opened 2 source links to check that they work."
         },
         {
           "id": "e3",
@@ -373,12 +373,12 @@
       "titulo": "Go further",
       "links": [
         {
-          "t": "Remote Control in the official documentation (in English)",
+          "t": "Remote Control in the official documentation",
           "href": "https://code.claude.com/docs/en/remote-control",
           "icone": "chat"
         },
         {
-          "t": "Claude Code Projects in the official documentation (in English)",
+          "t": "Claude Code Projects in the official documentation",
           "href": "https://code.claude.com/docs/en/claude-projects",
           "icone": "nuvem"
         },

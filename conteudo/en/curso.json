@@ -13,18 +13,18 @@
     "t": "All 13 new features on one page",
     "texto": "Each feature includes what it is, how to turn it on, what to avoid, and a ready-to-copy prompt.",
     "link": "Open the guide",
-    "href": "https://inematds.github.io/claude-code-2/guia/"
+    "href": "https://inematds.github.io/claude-code-2/guia/en/"
   },
-  "rodape": "INEMA.CLUB · open and free content · INEMA Learning v7.2 format · <a href=\"https://inema.club/\">inema.club</a> · <a href=\"https://inematds.github.io/claude-code-2/guia/\">Guide to the 13 new features</a> · <a href=\"https://www.inema.club/aprender-inteligencia-artificial/\">Guide: how to learn artificial intelligence</a>",
+  "rodape": "INEMA.CLUB · open and free content · INEMA Learning v7.2 format · <a href=\"https://inema.club/\">inema.club</a> · <a href=\"https://inematds.github.io/claude-code-2/guia/en/\">Guide to the 13 new features</a> · <a href=\"https://www.inema.club/aprender-inteligencia-artificial/\">Guide: how to learn artificial intelligence</a>",
   "videos": {},
   "inicio": {
     "kicker": "Course · 7 lessons · Claude Code updates in practice",
     "titulo": "Claude Code 2.0 in Practice: New Features That Change Your Day",
-    "lead": "Claude Code added side chat, split screen, helpers, phone control, cloud work, its own browser, mods, and more. In seven short lessons, you’ll try each feature on a real task with a ready-to-use prompt, and learn what you can already use in Brazil. Duet and Motion are introduced, not tested.",
+    "lead": "Claude Code added side chat, split screen, helpers, phone control, cloud work, its own browser, mods, and more. In seven short lessons, you’ll try each feature on a real task with a ready-to-use prompt, and see what you can use today. Duet and Motion are introduced, not tested.",
     "cta": "Start with lesson 1",
     "cta2": {
       "t": "Open the guide to all 13 new features",
-      "href": "https://inematds.github.io/claude-code-2/guia/"
+      "href": "https://inematds.github.io/claude-code-2/guia/en/"
     },
     "capa_alt": "A desk at night: a laptop with two windows side by side and a phone next to it showing a plan to approve.",
     "numeros": [
@@ -185,10 +185,10 @@
     "conf_vazio": "Paste the text or upload the file before checking.",
     "conf_falta": "Not yet. What’s missing:",
     "conf_campo": "The line {c}: with the description is missing (at least {x} characters).",
-    "conf_planos": "I found {n} numbered shots; the request is for {x} to {y}. Start each shot with its number (1 | ...).",
-    "conf_no_plano": "Shot {i}: {g} is missing.",
-    "conf_um_so": "Shot {i}: {n} {g} choices; keep just one.",
-    "conf_variedade": "Only {n} different types of {g} across the shots; use at least {x}.",
+    "conf_planos": "I found {n} numbered lines; the request is for {x} to {y}. Start each line with its number (1 | ...).",
+    "conf_no_plano": "Line {i}: {g} is missing.",
+    "conf_um_so": "Line {i}: {n} {g} choices; keep just one.",
+    "conf_variedade": "Only {n} different types of {g} across the lines; use at least {x}.",
     "conf_sem_duracao": "Shot {i}: duration in seconds is missing (e.g., 4 s).",
     "conf_duracao": "The shots add up to {s} s; the request is for {x} to {y} s.",
     "conf_termo": "Mention {g}.",

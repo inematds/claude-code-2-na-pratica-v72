@@ -31,3 +31,9 @@ Legenda: 🧠 sessão com o Nei · ⚙️ script/timer · 🤖 `claude -p` / sub
 9. 🧠 Vídeos (explicavideo 16:9 + 9:16 e rtex 9:16) → lives4, INEMA.CCODE, metritds; portal inema.club (skill `atualiza-portal`).
 
 Conteúdo aberto e gratuito · [INEMA.CLUB](https://inema.club)
+
+## Mais no INEMA.CLUB
+
+- [Ficha completa deste curso](https://www.inema.club/cursos/389-claude-code-2-0-na-pratica-as-novidades-do-claude-code-para-quem-nao-programa/)
+- [Guia: como aprender inteligência artificial](https://www.inema.club/aprender-inteligencia-artificial/)
+- [Todos os cursos](https://www.inema.club/cursos/)

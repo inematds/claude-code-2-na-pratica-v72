@@ -140,12 +140,12 @@
     {
       "tipo": "codigo",
       "titulo": "Prompts de Carla: diapositivas, panel y diseño",
-      "sub": "Funciona en claude.ai y en la app. Envía el guion junto o menciona el archivo si estás en la pestaña Code; cambia la ruta curso-planilhas/… por la de tu archivo (.md, Word o PDF; consulta la lección 2).",
+      "sub": "Funciona en claude.ai y en la app. Envía el guion junto o menciona el archivo si estás en la pestaña Code; cambia la ruta curso-hojas-de-calculo/… por la de tu archivo (.md, Word o PDF; consulta la clase 2).",
       "blocos": [
         {
           "rot": "1 · Pedido de diapositivas",
           "icone": "chat",
-          "conteudo": "Crea una presentación de 7 diapositivas a partir del guion de la lección 1 (curso-planilhas/aula-1/roteiro.md).\nPúblico: adultos que nunca han usado fórmulas.\nUna idea por diapositiva, máximo 20 palabras por diapositiva, letras grandes.\nColores: negro y amarillo.\nDiapositiva 7: un ejercicio para que el alumno lo haga solo."
+          "conteudo": "Crea una presentación de 7 diapositivas a partir del guion de la clase 1 (curso-hojas-de-calculo/clase-1/guion.md).\nPúblico: adultos que nunca han usado fórmulas.\nUna idea por diapositiva, máximo 20 palabras por diapositiva, letras grandes.\nColores: negro y amarillo.\nDiapositiva 7: un ejercicio para que el alumno lo haga solo."
         },
         {
           "rot": "2 · Ajustes de texto",
@@ -173,11 +173,11 @@
         "abas": [
           {
             "rot": "Las 7 diapositivas",
-            "html": "<ol><li>Una hoja de cálculo no es ningún monstruo.</li><li>Celda, fila y columna: la dirección de todo.</li><li>Una lista de compras con 4 artículos.</li><li>La primera fórmula: =SOMA(B2:B5).</li><li>Cuando la suma sale mal: una celda con texto.</li><li>Copiar la fórmula hacia abajo.</li><li>Ejercicio: suma los gastos de la semana.</li></ol>"
+            "html": "<ol><li>Una hoja de cálculo no es ningún monstruo.</li><li>Celda, fila y columna: la dirección de todo.</li><li>Una lista de compras con 4 artículos.</li><li>La primera fórmula: =SUMA(B2:B5).</li><li>Cuando la suma sale mal: una celda con texto.</li><li>Copiar la fórmula hacia abajo.</li><li>Ejercicio: suma los gastos de la semana.</li></ol>"
           },
           {
             "rot": "Respuesta a la revisión",
-            "html": "<ul><li><b>=SOMA(B2:B5)</b> (diapositiva 4): guion, línea 18.</li><li><b>4 artículos</b> (diapositiva 3): guion, línea 12.</li><li><b>ATENCIÓN: \"7 días\"</b> (diapositiva 7): no aparece en el guion; lo añadí. ¿Quieres mantenerlo?</li></ul>"
+            "html": "<ul><li><b>=SUMA(B2:B5)</b> (diapositiva 4): guion, línea 18.</li><li><b>4 artículos</b> (diapositiva 3): guion, línea 12.</li><li><b>ATENCIÓN: \"7 días\"</b> (diapositiva 7): no aparece en el guion; lo añadí. ¿Quieres mantenerlo?</li></ul>"
           },
           {
             "rot": "Errores comunes",
@@ -329,7 +329,7 @@
       "titulo": "La clase en tres frases",
       "itens": [
         {
-          "t": "Pide ajustes concretos",
+          "t": "Qué hay en cada plan",
           "texto": "Slides y Design están disponibles en todos los planes; Dashboards está en beta; Motion solo está disponible para Team y Enterprise."
         },
         {

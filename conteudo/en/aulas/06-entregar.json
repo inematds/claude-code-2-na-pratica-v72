@@ -140,12 +140,12 @@
     {
       "tipo": "codigo",
       "titulo": "Carla’s prompts: slides, dashboard, and artwork",
-      "sub": "Works on claude.ai and in the app. Send the script with your request or mention the file if you’re in the Code tab; replace curso-planilhas/… with the path to your file (.md, Word, or PDF; see lesson 2).",
+      "sub": "Works on claude.ai and in the app. Send the script with your request or mention the file if you’re in the Code tab; replace spreadsheet-course/… with the path to your file (.md, Word, or PDF; see lesson 2).",
       "blocos": [
         {
           "rot": "1 · Slide request",
           "icone": "chat",
-          "conteudo": "Create a 7-slide presentation from the lesson 1 script (curso-planilhas/aula-1/roteiro.md).\nAudience: adults who have never used formulas.\nOne idea per slide, no more than 20 words per slide, large text.\nColors: black and yellow.\nSlide 7: an exercise for the student to do on their own."
+          "conteudo": "Create a 7-slide presentation from the lesson 1 script (spreadsheet-course/lesson-1/script.md).\nAudience: adults who have never used formulas.\nOne idea per slide, no more than 20 words per slide, large text.\nColors: black and yellow.\nSlide 7: an exercise for the student to do on their own."
         },
         {
           "rot": "2 · Word edits",
@@ -173,11 +173,11 @@
         "abas": [
           {
             "rot": "The 7 slides",
-            "html": "<ol><li>A spreadsheet isn’t rocket science.</li><li>Cell, row, and column: the address of everything.</li><li>A shopping list with 4 items.</li><li>The first formula: =SOMA(B2:B5).</li><li>When the sum is wrong: a cell with text.</li><li>Copy the formula down.</li><li>Exercise: add up the week’s expenses.</li></ol>"
+            "html": "<ol><li>A spreadsheet isn’t rocket science.</li><li>Cell, row, and column: the address of everything.</li><li>A shopping list with 4 items.</li><li>The first formula: =SUM(B2:B5).</li><li>When the sum is wrong: a cell with text.</li><li>Copy the formula down.</li><li>Exercise: add up the week’s expenses.</li></ol>"
           },
           {
             "rot": "Fact-check results",
-            "html": "<ul><li><b>=SOMA(B2:B5)</b> (slide 4): script, line 18.</li><li><b>4 items</b> (slide 3): script, line 12.</li><li><b>ATTENTION: \"7 days\"</b> (slide 7): it isn’t in the script; I added it. Want to keep it?</li></ul>"
+            "html": "<ul><li><b>=SUM(B2:B5)</b> (slide 4): script, line 18.</li><li><b>4 items</b> (slide 3): script, line 12.</li><li><b>ATTENTION: \"7 days\"</b> (slide 7): it isn’t in the script; I added it. Want to keep it?</li></ul>"
           },
           {
             "rot": "Common mistakes",
@@ -210,7 +210,7 @@
           },
           {
             "rot": "Limits",
-            "html": "<ul><li>The document starts out private; you decide whether to share it.</li><li>Anyone who opens it needs a Claude account.</li><li>\"Anyone with the link\" means anyone with the link can open it. Documents that use Claude internally or are connected to your apps can’t use this option.</li></ul>"
+            "html": "<ul><li>The document starts out private; you decide whether to share it.</li><li>Anyone who opens it needs a Claude account.</li><li>With \"Anyone with the link,\" whoever has the link can open it, so share it only with people you trust. If the document uses Claude inside it or connects to your apps, this option isn’t available.</li></ul>"
           }
         ]
       }
@@ -267,7 +267,7 @@
           "opcoes": [
             "Motion Studio, available on all plans.",
             "Claude Motion, which exports MP4 on any paid plan.",
-            "Claude Motion is in beta for Team and Enterprise only; on Pro, it uses Slides and Design.",
+            "Claude Motion is in beta for Team and Enterprise only; on Pro, she uses Slides and Design instead.",
             "Claude Design, which turns any artwork into an animated video."
           ],
           "certa": 2,
@@ -311,7 +311,7 @@
           "ref": "codigo"
         },
         {
-          "p": "Carla sent the guest document link to the monitor. What does the monitor need to open it?",
+          "p": "Carla sent the guest document link to the moderator. What does the moderator need to open it?",
           "opcoes": [
             "Nothing: the link opens for anyone, without an account.",
             "A Team plan, just like Carla’s.",
@@ -319,7 +319,7 @@
             "Install the Claude app on her computer."
           ],
           "certa": 2,
-          "explica": "Anyone opening a Claude Docs document needs to sign in with a Claude account. Carla chooses whether the monitor can view, comment, or edit. A common mistake is assuming the link opens without an account.",
+          "explica": "Anyone opening a Claude Docs document needs to sign in with a Claude account. Carla chooses whether the moderator can view, comment, or edit. A common mistake is assuming the link opens without an account.",
           "ref": "passos"
         }
       ]
@@ -329,7 +329,7 @@
       "titulo": "The lesson in three sentences",
       "itens": [
         {
-          "t": "Ask for specific changes in a few words",
+          "t": "Know what your plan includes",
           "texto": "Slides and Design on all plans; Dashboards in beta; Motion on Team and Enterprise only."
         },
         {
@@ -347,12 +347,12 @@
       "titulo": "Go further",
       "links": [
         {
-          "t": "Share Claude artifacts (official help, in English)",
+          "t": "Share Claude artifacts (official help)",
           "href": "https://support.claude.com/en/articles/9547008-share-artifacts",
           "icone": "compartilhar"
         },
         {
-          "t": "Artifacts in the official documentation (in English)",
+          "t": "Artifacts in the official documentation",
           "href": "https://code.claude.com/docs/en/artifacts",
           "icone": "arquivo"
         }
