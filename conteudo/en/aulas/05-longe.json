@@ -1,0 +1,393 @@
+{
+  "slug": "longe",
+  "num": 5,
+  "menu": "Away",
+  "titulo": "Away from your computer: approve on your phone and send work to the cloud",
+  "titulo_curto": "Away from your computer",
+  "minutos": 15,
+  "lead": "Big projects don’t have to keep you in your chair. With Remote Control, you can follow a session running on your computer from your phone. With Projects, research runs in the cloud, even with your laptop closed. In this lesson, Carla approves a plan from the sofa and sends research to the cloud, knowing what leaves her computer.",
+  "objetivo": "Follow and approve work from your phone, and send research to the cloud, knowing what leaves your computer.",
+  "competencias": [
+    "follow-from-your-phone",
+    "delegate-to-the-cloud",
+    "decide-what-gets-uploaded"
+  ],
+  "aprende": [
+    {
+      "icone": "usuario",
+      "t": "Three places where work can run"
+    },
+    {
+      "icone": "check",
+      "t": "Turn on Remote Control and approve from your phone"
+    },
+    {
+      "icone": "nuvem",
+      "t": "Send research to Projects in the cloud"
+    },
+    {
+      "icone": "cadeado",
+      "t": "Decide what can leave your computer"
+    }
+  ],
+  "hero_alt": "Living room sofa at night: a woman holds her phone with a plan to approve. In the background, an open laptop keeps working on the table.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Three places to run your work",
+      "sub": "Tap or click each place. The farther away the work runs, the less you need to keep your computer on.",
+      "nos": [
+        {
+          "icone": "usuario",
+          "titulo": "On your computer",
+          "sub": "you watching",
+          "itens": [
+            {
+              "icone": "terminal",
+              "t": "terminal or app"
+            }
+          ],
+          "detalhe": "This is the way you already know: the session runs on your computer, and you follow along on the screen. Session = a conversation with Claude and its own history. If you get up from your chair, the work continues, but you won’t see when it stops and asks for your approval."
+        },
+        {
+          "icone": "chat",
+          "titulo": "Remote Control",
+          "sub": "on your phone",
+          "itens": [
+            {
+              "icone": "relogio",
+              "t": "computer on"
+            }
+          ],
+          "detalhe": "The session stays on your computer, but you can follow along and approve from the Claude app on your phone. You don’t need a terminal on your phone. One rule stays the same: if the computer goes to sleep or shuts down, the work stops."
+        },
+        {
+          "icone": "nuvem",
+          "titulo": "Projects",
+          "sub": "in the cloud",
+          "forte": true,
+          "itens": [
+            {
+              "icone": "lua",
+              "t": "computer off"
+            }
+          ],
+          "detalhe": "The new Projects feature in Claude Code is an ongoing conversation where Claude opens a thread (a workstream) for each task. Threads run in the cloud, so you can close your laptop. The tradeoff is that the files you deliver leave your computer. It’s in beta, with a waitlist, on the Pro, Max, and Ultra plans."
+        },
+        {
+          "icone": "portao",
+          "titulo": "Claude Duet",
+          "sub": "on the radar",
+          "itens": [
+            {
+              "icone": "x",
+              "t": "U.S. only"
+            }
+          ],
+          "detalhe": "Duet is an assistant that brings you pending work from your projects, prepares a draft, and asks before taking action. For now, it’s only in the U.S., in preview, with a waitlist (Pro, Max, and Ultra). It hasn’t arrived in Brazil yet; just know that it exists."
+        }
+      ],
+      "legenda": "From your computer to your phone, from your phone to the cloud: each step frees you from your chair and calls for a new decision about your files.",
+      "rolagem": true,
+      "rolagem_fim": {
+        "titulo": "You choose where it runs",
+        "texto": "Task with a confidential file: on your computer, using Remote Control to approve from afar. Research with public data: in the cloud, with your computer off."
+      }
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Turn on Remote Control",
+      "sub": "It works in the computer app (Code tab) and in the terminal. You only need the Claude app on your phone.",
+      "passos": [
+        {
+          "titulo": "Ask for a plan",
+          "sub": "before you leave",
+          "texto": [
+            "Open a session in the work folder (you choose the folder when opening the session, as in lesson 2) and include a pause point in your request: \"show me the plan and wait for my OK\".",
+            "That way, Claude works up to the decision point and waits for you instead of continuing on its own."
+          ],
+          "exemplo": {
+            "rot": "Carla",
+            "texto": "Asks for the lesson 2 script for her spreadsheet course, with a plan first."
+          }
+        },
+        {
+          "titulo": "Turn on control",
+          "sub": "one command",
+          "texto": [
+            "In the session message box (where you write requests), type <code>/remote-control</code> (or the shortcut <code>/rc</code>) and send it. In the computer app, you can also turn it on from the session’s Environment card.",
+            "Done: the session appears in the Claude app on your phone."
+          ],
+          "exemplo": {
+            "rot": "No terminal",
+            "texto": "In the app’s Code tab, type /remote-control in the message box, or use the session’s Environment card."
+          }
+        },
+        {
+          "titulo": "Keep",
+          "sub": "your computer awake",
+          "texto": [
+            "The work runs on your computer. If it goes to sleep, everything stops.",
+            "In the app, go to Settings → Code and turn on \"Keep this computer awake.\" Keep your laptop plugged in."
+          ],
+          "exemplo": {
+            "rot": "Common mistake",
+            "texto": "Closing the laptop lid, thinking your phone will keep the work going."
+          }
+        },
+        {
+          "titulo": "Approve from your phone",
+          "sub": "and step away",
+          "texto": [
+            "Open the session in the Claude app on your phone, read the plan, and reply: approve it, ask for an adjustment, or tell it to stop.",
+            "Then let it work. Checking your phone every five minutes won’t make the work go faster."
+          ],
+          "exemplo": {
+            "rot": "Takeaway",
+            "texto": "You decide from afar; the computer does the work."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Carla’s prompt: the plan she approves from the couch",
+      "sub": "Paste this into the session opened in the course folder, then turn on control by typing /remote-control in the same message box. Replace the course-planilhas/… path with your file’s path (see lesson 2).",
+      "blocos": [
+        {
+          "rot": "1 · Request with a pause for approval",
+          "icone": "chat",
+          "conteudo": "Write the script for lesson 2 of my spreadsheet course in curso-planilhas/aula-2/roteiro.md.\nUse the same format as curso-planilhas/aula-1/roteiro.md.\nTopic: VLOOKUP explained with a list of students and grades.\nBefore writing, show me the plan in up to 6 bullet points and wait for my OK.\nDon’t delete or change anything in the aula-1 folder."
+        },
+        {
+          "rot": "2 · Turn on control (in the session message box)",
+          "icone": "terminal",
+          "conteudo": "/remote-control"
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "What you see on your phone",
+            "html": "<p><b>Plan for curso-planilhas/aula-2/roteiro.md</b></p><ol><li>Opening: the problem of finding a student’s grade in a long list.</li><li>What VLOOKUP does, in one sentence.</li><li>Building the list of students and grades.</li><li>The formula step by step, with a sample student.</li><li>The two most common errors (#N/D and the wrong column).</li><li>Final exercise and invitation to the community.</li></ol><p>I’ll follow the format of lesson 1 and won’t touch the aula-1 folder. <b>Can I get started?</b></p>"
+          },
+          {
+            "rot": "Carla’s replies",
+            "html": "<ul><li><b>Approve:</b> \"Go ahead.\"</li><li><b>Adjust:</b> \"Change topic 5: show only the #N/D error and how to fix it.\"</li><li><b>Stop:</b> \"Stop here. I’ll finish tomorrow on my computer.\"</li></ul>"
+          },
+          {
+            "rot": "When it doesn’t work",
+            "html": "<ul><li><b>The session disappeared from your phone:</b> the computer went to sleep or lost its internet connection. Check \"Keep this computer awake\".</li><li><b>Claude didn’t wait:</b> the request was missing the phrase \"wait for my OK\".</li></ul>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Projects: work that continues with your laptop closed",
+      "sub": "Beta with a waitlist for Pro, Max, and Ultra plans. If it doesn’t show up for you, read and save the prompt.",
+      "passos": [
+        {
+          "titulo": "Find Projects",
+          "sub": "sidebar",
+          "texto": [
+            "Look for Projects in the sidebar of claude.ai/code or in the app’s Code tab. Don’t see it? Join the waitlist.",
+            "Heads up: this isn’t the old \"Projects\" feature in claude.ai chat, which is a folder for conversations with files. They’re different things."
+          ]
+        },
+        {
+          "titulo": "Decide what to upload",
+          "sub": "first",
+          "texto": [
+            "Threads run in the cloud. Anything you give the project leaves your computer.",
+            "Simple rule: research using public information can be uploaded. A spreadsheet with students’ names and grades, a contract, or customer data stays in a local folder."
+          ],
+          "exemplo": {
+            "rot": "Carla",
+            "texto": "Upload: research on spreadsheet updates. Keep on your computer: the list of students and grades."
+          }
+        },
+        {
+          "titulo": "Ask and keep track",
+          "sub": "in Overview",
+          "texto": [
+            "Describe the task in your own words. Claude opens a thread (a workstream) for each part and shows them in Overview (the overview), the panel alongside it. A dot appears when a thread is waiting for you.",
+            "Coordinating many threads is covered in the course <a href=\"https://inematds.github.io/claude-gestor-de-agentes-v72/en/\">Claude as an agent manager</a>."
+          ]
+        },
+        {
+          "titulo": "Get the file",
+          "sub": "from Library",
+          "texto": [
+            "The result is in the project’s Library tab. Open the file, check the source links, and only then use it.",
+            "Cloud research can be wrong too: broken links and incorrect dates happen. It’s up to you to check."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Carla’s prompt: research that runs in the cloud",
+      "sub": "Paste this into a new Projects project. Public information only.",
+      "blocos": [
+        {
+          "rot": "Research for the channel",
+          "icone": "nuvem",
+          "conteudo": "Research what has changed in online spreadsheets (Excel and Google Sheets) in the last 30 days.\nList 5 changes that are useful for someone who teaches spreadsheets, each with a link to the official source.\nFor each change, write an idea for a short video for my channel.\nPropose the threads and wait for my OK before starting.\nSave everything in pesquisa.md and let me know when you’re done."
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Claude’s reply",
+            "html": "<p>I propose 3 threads:</p><ol><li><b>Excel:</b> changes from the last 30 days, with the official link.</li><li><b>Google Sheets:</b> the same, with the official link.</li><li><b>Video ideas:</b> after the first two, 5 short ideas and the pesquisa.md file.</li></ol><p>I’ll run the first two at the same time. <b>Can I get started?</b></p>"
+          },
+          {
+            "rot": "pesquisa.md (excerpt)",
+            "html": "<p><b>1. [change name]</b>: what changed, in one sentence. Source: [official link]. Video idea: \"[short title]\".</p><p>… 4 more changes in the same format.</p><p><i>Simulation: the actual content depends on what was released that month.</i></p>"
+          },
+          {
+            "rot": "What NOT to send",
+            "html": "<ul><li>Student lists with names, email addresses, or grades.</li><li>Contracts, invoices, or customer data.</li><li>Passwords and access keys, anywhere.</li></ul>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice: approve from a distance",
+      "sub": "Do E1 or E2 (just one, depending on what you have) and E3, which everyone can do.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "E1 · Approve a plan from your phone",
+          "min": "20 min",
+          "texto": "Open a session in the folder for one of your projects, ask for a task with \"show me the plan and wait for my OK,\" and turn on control: type /remote-control in the session’s message box (or use the Environment card in the app). Also turn on \"Keep this computer awake\" in Settings → Code. Step away from the computer and reply from your phone.",
+          "pronto": "your approval (or adjustment), sent from your phone, appears in the session history, and the work continued afterward."
+        },
+        {
+          "id": "e2",
+          "titulo": "E2 · Cloud research",
+          "min": "15 min",
+          "texto": "If Projects is available to you, create a project and request research using public information, based on Carla’s prompt. Close your laptop and come back later.",
+          "pronto": "there’s a pesquisa.md file in the project’s Library, and you opened 2 source links to check that they work."
+        },
+        {
+          "id": "e3",
+          "titulo": "E3 · The list of things that stay off the cloud",
+          "min": "5 min",
+          "texto": "Write down three types of files from your work that will never go to the cloud and where they stay on your computer.",
+          "pronto": "You have a list with 3 file types and each one’s local folder."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Test what you learned",
+      "sub": "The explanation appears after your answer.",
+      "perguntas": [
+        {
+          "p": "Carla turned on Remote Control and closed her laptop lid. What happens?",
+          "opcoes": [
+            "The work moves to the cloud and continues on its own.",
+            "The work stops because it runs on her computer.",
+            "Her phone takes over the work until the laptop is back.",
+            "Nothing changes: Remote Control saves everything in the background."
+          ],
+          "certa": 1,
+          "explica": "With Remote Control, your phone only monitors and approves; the computer does the work. That’s why “Keep this computer awake” exists. If you want the computer turned off, you need Projects in the cloud.",
+          "ref": "diagrama"
+        },
+        {
+          "p": "Which command turns on Remote Control during a session?",
+          "opcoes": [
+            "/btw",
+            "/recap",
+            "/cloud",
+            "/remote-control or /rc"
+          ],
+          "certa": 3,
+          "explica": "/remote-control (or /rc) turns on control; in the app, you can also use the Environment card. /btw is for a side question, and /recap is a one-line summary.",
+          "ref": "passos"
+        },
+        {
+          "p": "What should Carla keep OUT of a cloud project?",
+          "opcoes": [
+            "The spreadsheet with students’ names and grades.",
+            "Research on new Excel features.",
+            "Title ideas for the channel’s next videos.",
+            "Links to official help pages."
+          ],
+          "certa": 0,
+          "explica": "Anything you add to Projects leaves your computer. Student personal data stays in a local folder; public information can be uploaded.",
+          "ref": "passos"
+        },
+        {
+          "p": "Is the “Projects” in this lesson the same as “Projects” in the claude.ai chat?",
+          "opcoes": [
+            "Yes, it just has a new name.",
+            "Yes, but now it runs on your phone.",
+            "No: it’s the one in Claude Code, with threads that run in the cloud.",
+            "No: it’s a separate app you need to install on your phone."
+          ],
+          "certa": 2,
+          "explica": "Projects in chat is a folder of conversations with files. Projects in Claude Code is an ongoing conversation that opens threads in the cloud. You can find it at claude.ai/code or in the app’s Code tab.",
+          "ref": "passos"
+        },
+        {
+          "p": "Why include “wait for my OK” in your request before turning on Remote Control?",
+          "opcoes": [
+            "Because Remote Control can’t turn on during the session without that phrase.",
+            "So Claude stops at the plan and you can decide from your phone.",
+            "So the work moves to the cloud.",
+            "To use less of your plan’s limit."
+          ],
+          "certa": 1,
+          "explica": "The phrase creates a decision point. Without it, Claude may continue right away, and you’ll only see the finished result on your phone.",
+          "ref": "codigo"
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "The lesson in three sentences",
+      "itens": [
+        {
+          "t": "Remote Control",
+          "texto": "The computer does the work; you approve from your phone. Keep the computer awake, always."
+        },
+        {
+          "t": "Projects",
+          "texto": "The research runs in the cloud with the laptop closed. Beta with a waitlist."
+        },
+        {
+          "t": "What gets uploaded",
+          "texto": "Public information can be uploaded; student and customer data stays on the computer."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Go further",
+      "links": [
+        {
+          "t": "Remote Control in the official documentation (in English)",
+          "href": "https://code.claude.com/docs/en/remote-control",
+          "icone": "chat"
+        },
+        {
+          "t": "Claude Code Projects in the official documentation (in English)",
+          "href": "https://code.claude.com/docs/en/claude-projects",
+          "icone": "nuvem"
+        },
+        {
+          "t": "Course: Claude as an agent manager",
+          "href": "https://inematds.github.io/claude-gestor-de-agentes-v72/en/",
+          "icone": "robo"
+        }
+      ]
+    }
+  ]
+}

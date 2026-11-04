@@ -1,0 +1,393 @@
+{
+  "slug": "longe",
+  "num": 5,
+  "menu": "Longe",
+  "titulo": "Longe do computador: aprovar pelo celular e mandar para a nuvem",
+  "titulo_curto": "Longe do computador",
+  "minutos": 15,
+  "lead": "O trabalho grande não precisa prender você na cadeira. Com o Remote Control você acompanha pelo celular uma sessão que roda no seu computador. Com o Projects, a pesquisa roda na nuvem, mesmo com o notebook fechado. Nesta aula a Carla aprova um plano do sofá e manda uma pesquisa para a nuvem, sabendo o que sai do computador dela.",
+  "objetivo": "Acompanhar e aprovar trabalho pelo celular e mandar pesquisa para a nuvem, sabendo o que sai do seu computador.",
+  "competencias": [
+    "acompanhar-pelo-celular",
+    "delegar-para-a-nuvem",
+    "decidir-o-que-sobe"
+  ],
+  "aprende": [
+    {
+      "icone": "usuario",
+      "t": "Os três lugares onde o trabalho pode rodar"
+    },
+    {
+      "icone": "check",
+      "t": "Ligar o Remote Control e aprovar pelo celular"
+    },
+    {
+      "icone": "nuvem",
+      "t": "Mandar uma pesquisa para o Projects na nuvem"
+    },
+    {
+      "icone": "cadeado",
+      "t": "Decidir o que pode sair do seu computador"
+    }
+  ],
+  "hero_alt": "Sofá de sala à noite: uma mulher segura o celular com um plano para aprovar, e ao fundo um notebook aberto continua trabalhando na mesa.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Três lugares para o trabalho rodar",
+      "sub": "Toque ou clique em cada lugar. Quanto mais longe, menos você precisa do computador ligado.",
+      "nos": [
+        {
+          "icone": "usuario",
+          "titulo": "No computador",
+          "sub": "você olhando",
+          "itens": [
+            {
+              "icone": "terminal",
+              "t": "terminal ou app"
+            }
+          ],
+          "detalhe": "É o jeito que você já conhece: a sessão roda no seu computador e você acompanha na tela. Sessão = uma conversa do Claude com o seu próprio histórico. Se você levanta da cadeira, o trabalho segue, mas você não vê quando ele para e pede a sua aprovação."
+        },
+        {
+          "icone": "chat",
+          "titulo": "Remote Control",
+          "sub": "pelo celular",
+          "itens": [
+            {
+              "icone": "relogio",
+              "t": "computador ligado"
+            }
+          ],
+          "detalhe": "A sessão continua no seu computador, mas você acompanha e aprova pelo app do Claude no celular. Não precisa de terminal no celular. A regra que não muda: se o computador dormir ou desligar, o trabalho para."
+        },
+        {
+          "icone": "nuvem",
+          "titulo": "Projects",
+          "sub": "na nuvem",
+          "forte": true,
+          "itens": [
+            {
+              "icone": "lua",
+              "t": "computador desligado"
+            }
+          ],
+          "detalhe": "O novo Projects do Claude Code é uma conversa contínua em que o Claude abre uma thread (uma frente de trabalho) para cada tarefa. As threads rodam na nuvem: você pode fechar o notebook. O preço disso é que os arquivos que você entrega saem do seu computador. Está em beta, com lista de espera, nos planos Pro, Max e Ultra."
+        },
+        {
+          "icone": "portao",
+          "titulo": "Claude Duet",
+          "sub": "no radar",
+          "itens": [
+            {
+              "icone": "x",
+              "t": "só nos EUA"
+            }
+          ],
+          "detalhe": "O Duet é um ajudante que traz até você o trabalho pendente dos seus projetos, prepara o rascunho e pergunta antes de agir. Hoje está só nos EUA, em prévia, com lista de espera (Pro, Max e Ultra). No Brasil ainda não chegou: só vale saber que existe."
+        }
+      ],
+      "legenda": "Do computador para o celular, do celular para a nuvem: cada passo libera você da cadeira e pede uma decisão nova sobre seus arquivos.",
+      "rolagem": true,
+      "rolagem_fim": {
+        "titulo": "Você escolhe onde roda",
+        "texto": "Tarefa com arquivo sigiloso: no computador, com o Remote Control para aprovar de longe. Pesquisa com dados públicos: na nuvem, com o computador desligado."
+      }
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Ligar o Remote Control",
+      "sub": "Funciona no app do computador (aba Code) e no terminal. O celular só precisa do app do Claude.",
+      "passos": [
+        {
+          "titulo": "Peça um plano",
+          "sub": "antes de sair",
+          "texto": [
+            "Abra uma sessão na pasta do trabalho (você escolhe a pasta ao abrir a sessão, como na aula 2) e peça a tarefa já com uma parada: \"me mostre o plano e espere o meu OK\".",
+            "Assim o Claude trabalha até o ponto da decisão e espera você, em vez de seguir sozinho."
+          ],
+          "exemplo": {
+            "rot": "Carla",
+            "texto": "Pede o roteiro da aula 2 do curso de planilhas, com plano antes."
+          }
+        },
+        {
+          "titulo": "Ligue o controle",
+          "sub": "um comando",
+          "texto": [
+            "Na caixa de mensagem da sessão (onde você escreve os pedidos), digite <code>/remote-control</code> (ou o atalho <code>/rc</code>) e envie. No app do computador, também dá para ligar pelo cartão Environment (ambiente) da sessão.",
+            "Pronto: a sessão aparece no app do Claude do seu celular."
+          ],
+          "exemplo": {
+            "rot": "Sem terminal",
+            "texto": "No app, aba Code: digite /remote-control na caixa de mensagem, ou use o cartão Environment (ambiente) da sessão."
+          }
+        },
+        {
+          "titulo": "Deixe acordado",
+          "sub": "o computador",
+          "texto": [
+            "O trabalho roda no seu computador. Se ele dormir, para tudo.",
+            "No app, vá em Settings → Code (Configurações → Code) e ligue \"Keep this computer awake\" (mantenha este computador acordado). Deixe o notebook na tomada."
+          ],
+          "exemplo": {
+            "rot": "Erro comum",
+            "texto": "Fechar a tampa do notebook achando que o celular segura o trabalho."
+          }
+        },
+        {
+          "titulo": "Aprove pelo celular",
+          "sub": "e saia",
+          "texto": [
+            "Abra a sessão no app do Claude do celular, leia o plano e responda: aprove, peça um ajuste ou mande parar.",
+            "Depois deixe trabalhar. Olhar o celular a cada cinco minutos não deixa o trabalho mais rápido."
+          ],
+          "exemplo": {
+            "rot": "Para levar",
+            "texto": "Você decide de longe; o computador faz o trabalho."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Prompt da Carla: o plano que ela aprova do sofá",
+      "sub": "Cole na sessão aberta na pasta do curso, depois ligue o controle digitando /remote-control na mesma caixa de mensagem. Troque o caminho curso-planilhas/… pelo do seu arquivo (veja a aula 2).",
+      "blocos": [
+        {
+          "rot": "1 · Pedido com parada para aprovar",
+          "icone": "chat",
+          "conteudo": "Escreva o roteiro da aula 2 do meu curso de planilhas em curso-planilhas/aula-2/roteiro.md.\nUse o mesmo formato de curso-planilhas/aula-1/roteiro.md.\nTema: PROCV explicado com uma lista de alunos e notas.\nAntes de escrever, me mostre o plano em até 6 tópicos e espere o meu OK.\nNão apague nem mude nada na pasta aula-1."
+        },
+        {
+          "rot": "2 · Ligar o controle (na caixa de mensagem da sessão)",
+          "icone": "terminal",
+          "conteudo": "/remote-control"
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "O que aparece no celular",
+            "html": "<p><b>Plano para curso-planilhas/aula-2/roteiro.md</b></p><ol><li>Abertura: o problema de achar a nota de um aluno numa lista grande.</li><li>O que o PROCV faz, em uma frase.</li><li>Montando a lista de alunos e notas.</li><li>A fórmula passo a passo, com um aluno de exemplo.</li><li>Os dois erros mais comuns (#N/D e coluna errada).</li><li>Exercício final e chamada para a comunidade.</li></ol><p>Sigo o formato da aula 1 e não mexo na pasta aula-1. <b>Posso começar?</b></p>"
+          },
+          {
+            "rot": "Respostas da Carla",
+            "html": "<ul><li><b>Aprovar:</b> \"Pode seguir.\"</li><li><b>Ajustar:</b> \"Troque o tópico 5: mostre só o erro #N/D, com a correção.\"</li><li><b>Parar:</b> \"Pare aqui. Eu termino amanhã no computador.\"</li></ul>"
+          },
+          {
+            "rot": "Quando não funciona",
+            "html": "<ul><li><b>A sessão sumiu do celular:</b> o computador dormiu ou ficou sem internet. Confira o \"Keep this computer awake\".</li><li><b>O Claude não esperou:</b> faltou a frase \"espere o meu OK\" no pedido.</li></ul>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Projects: o trabalho que segue com o notebook fechado",
+      "sub": "Beta com lista de espera nos planos Pro, Max e Ultra. Se não aparecer para você, leia e guarde o prompt.",
+      "passos": [
+        {
+          "titulo": "Ache o Projects",
+          "sub": "barra lateral",
+          "texto": [
+            "Procure Projects na barra lateral de claude.ai/code ou da aba Code do app. Não aparece? Entre na lista de espera.",
+            "Atenção: este não é o \"Projetos\" antigo do chat do claude.ai, que é uma pasta de conversas com arquivos. São coisas diferentes."
+          ]
+        },
+        {
+          "titulo": "Decida o que sobe",
+          "sub": "antes de tudo",
+          "texto": [
+            "As threads rodam na nuvem. Tudo o que você entrega ao projeto sai do seu computador.",
+            "Regra simples: pesquisa com informação pública pode subir. Planilha com nome e nota de aluno, contrato ou dado de cliente fica numa pasta local."
+          ],
+          "exemplo": {
+            "rot": "Carla",
+            "texto": "Sobe: a pesquisa sobre novidades de planilhas. Fica no computador: a lista de alunos com notas."
+          }
+        },
+        {
+          "titulo": "Peça e acompanhe",
+          "sub": "pelo Overview",
+          "texto": [
+            "Peça a tarefa em palavras. O Claude abre uma thread (uma frente de trabalho) para cada parte e mostra no Overview (visão geral), o painel ao lado. Um ponto aparece quando uma thread espera por você.",
+            "Coordenar muitas threads é assunto do curso <a href=\"https://inematds.github.io/claude-gestor-de-agentes-v72/\">Claude como gestor de agentes</a>."
+          ]
+        },
+        {
+          "titulo": "Pegue o arquivo",
+          "sub": "na Library",
+          "texto": [
+            "O resultado fica no projeto, na aba Library (biblioteca). Abra o arquivo, confira os links das fontes e só então use.",
+            "Pesquisa da nuvem também erra: link quebrado ou data errada acontecem. Conferir é com você."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Prompt da Carla: a pesquisa que roda na nuvem",
+      "sub": "Cole num projeto novo do Projects. Só informação pública.",
+      "blocos": [
+        {
+          "rot": "Pesquisa para o canal",
+          "icone": "nuvem",
+          "conteudo": "Pesquise o que mudou nas planilhas online (Excel e Google Planilhas) nos últimos 30 dias.\nListe 5 mudanças úteis para quem dá aula de planilhas, cada uma com o link da fonte oficial.\nPara cada mudança, escreva uma ideia de vídeo curto para o meu canal.\nProponha as threads e espere o meu OK antes de começar.\nSalve tudo em pesquisa.md e me avise quando terminar."
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Resposta do Claude",
+            "html": "<p>Proponho 3 threads:</p><ol><li><b>Excel:</b> mudanças dos últimos 30 dias, com o link oficial.</li><li><b>Google Planilhas:</b> o mesmo, com o link oficial.</li><li><b>Ideias de vídeo:</b> depois das duas primeiras, 5 ideias curtas e o arquivo pesquisa.md.</li></ol><p>Rodo as duas primeiras ao mesmo tempo. <b>Posso começar?</b></p>"
+          },
+          {
+            "rot": "pesquisa.md (trecho)",
+            "html": "<p><b>1. [nome da mudança]</b>: o que mudou, em uma frase. Fonte: [link oficial]. Ideia de vídeo: \"[título curto]\".</p><p>… mais 4 mudanças no mesmo formato.</p><p><i>Simulação: o conteúdo real depende do que saiu no mês.</i></p>"
+          },
+          {
+            "rot": "O que NÃO mandar",
+            "html": "<ul><li>Lista de alunos com nome, e-mail ou nota.</li><li>Contrato, nota fiscal ou dado de cliente.</li><li>Senhas e chaves de acesso, em nenhum lugar.</li></ul>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Prática: aprovar de longe",
+      "sub": "Faça o E1 ou o E2 (basta um dos dois, conforme o que você tem) e o E3, que todo mundo consegue fazer.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "E1 · Um plano aprovado pelo celular",
+          "min": "20 min",
+          "texto": "Abra uma sessão na pasta de um trabalho seu, peça uma tarefa com \"me mostre o plano e espere o meu OK\" e ligue o controle: digite /remote-control na caixa de mensagem da sessão (ou use o cartão Environment, ambiente, no app). Ligue também o \"Keep this computer awake\" em Settings → Code (Configurações → Code). Saia de perto do computador e responda pelo celular.",
+          "pronto": "no histórico da sessão aparece a sua aprovação (ou ajuste) enviada pelo celular, e o trabalho seguiu depois dela."
+        },
+        {
+          "id": "e2",
+          "titulo": "E2 · Uma pesquisa da nuvem",
+          "min": "15 min",
+          "texto": "Se o Projects já aparece para você, crie um projeto e mande uma pesquisa com informação pública, no modelo do prompt da Carla. Feche o notebook e volte depois.",
+          "pronto": "existe um pesquisa.md na Library (biblioteca) do projeto, e você abriu 2 links de fonte para conferir que funcionam."
+        },
+        {
+          "id": "e3",
+          "titulo": "E3 · A lista do que não sobe",
+          "min": "5 min",
+          "texto": "Escreva três tipos de arquivo do seu trabalho que nunca vão para a nuvem e onde eles ficam no seu computador.",
+          "pronto": "você tem uma lista com 3 tipos de arquivo e a pasta local de cada um."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Teste o que aprendeu",
+      "sub": "A explicação aparece depois da sua resposta.",
+      "perguntas": [
+        {
+          "p": "A Carla ligou o Remote Control e fechou a tampa do notebook. O que acontece?",
+          "opcoes": [
+            "O trabalho passa para a nuvem e continua sozinho.",
+            "O trabalho para, porque ele roda no computador dela.",
+            "O celular assume o trabalho até o notebook voltar.",
+            "Nada muda: o Remote Control guarda tudo em segundo plano."
+          ],
+          "certa": 1,
+          "explica": "No Remote Control o celular só acompanha e aprova; quem trabalha é o computador. Por isso existe o \"Keep this computer awake\". Quem quer o computador desligado precisa do Projects, na nuvem.",
+          "ref": "diagrama"
+        },
+        {
+          "p": "Qual comando liga o Remote Control dentro de uma sessão?",
+          "opcoes": [
+            "/btw",
+            "/recap",
+            "/cloud",
+            "/remote-control ou /rc"
+          ],
+          "certa": 3,
+          "explica": "/remote-control (ou /rc) liga o controle; no app, também pelo cartão Environment. /btw é a pergunta lateral e /recap é o resumo de uma linha.",
+          "ref": "passos"
+        },
+        {
+          "p": "O que a Carla deve deixar FORA de um projeto na nuvem?",
+          "opcoes": [
+            "A planilha com nomes e notas dos alunos.",
+            "Uma pesquisa sobre novidades do Excel.",
+            "Ideias de títulos para os próximos vídeos do canal.",
+            "Links de páginas oficiais de ajuda."
+          ],
+          "certa": 0,
+          "explica": "O que vai para o Projects sai do computador. Dado pessoal de aluno fica numa pasta local; informação pública pode subir.",
+          "ref": "passos"
+        },
+        {
+          "p": "O \"Projects\" desta aula é o mesmo \"Projetos\" do chat do claude.ai?",
+          "opcoes": [
+            "Sim, só mudou de nome.",
+            "Sim, mas agora roda no celular.",
+            "Não: é o do Claude Code, com threads que rodam na nuvem.",
+            "Não: é um aplicativo separado que precisa ser instalado no celular."
+          ],
+          "certa": 2,
+          "explica": "O Projetos do chat é uma pasta de conversas com arquivos. O Projects do Claude Code é uma conversa contínua que abre threads na nuvem. Fica em claude.ai/code ou na aba Code do app.",
+          "ref": "passos"
+        },
+        {
+          "p": "Por que pôr \"espere o meu OK\" no pedido antes de ligar o Remote Control?",
+          "opcoes": [
+            "Porque sem essa frase o Remote Control não consegue ligar na sessão.",
+            "Para o Claude parar no plano e você decidir pelo celular.",
+            "Para o trabalho ir para a nuvem.",
+            "Para gastar menos do limite do plano."
+          ],
+          "certa": 1,
+          "explica": "A frase cria o ponto de decisão. Sem ela, o Claude pode seguir direto, e você só vê o resultado pronto no celular.",
+          "ref": "codigo"
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "A aula em três frases",
+      "itens": [
+        {
+          "t": "Remote Control",
+          "texto": "O computador trabalha, você aprova pelo celular. Computador acordado, sempre."
+        },
+        {
+          "t": "Projects",
+          "texto": "A pesquisa roda na nuvem com o notebook fechado. Beta com lista de espera."
+        },
+        {
+          "t": "O que sobe",
+          "texto": "Informação pública pode subir; dado de aluno e de cliente fica no computador."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir além",
+      "links": [
+        {
+          "t": "Remote Control na documentação oficial (em inglês)",
+          "href": "https://code.claude.com/docs/en/remote-control",
+          "icone": "chat"
+        },
+        {
+          "t": "Projects do Claude Code na documentação oficial (em inglês)",
+          "href": "https://code.claude.com/docs/en/claude-projects",
+          "icone": "nuvem"
+        },
+        {
+          "t": "Curso: Claude como gestor de agentes",
+          "href": "https://inematds.github.io/claude-gestor-de-agentes-v72/",
+          "icone": "robo"
+        }
+      ]
+    }
+  ]
+}

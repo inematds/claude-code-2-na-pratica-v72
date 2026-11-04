@@ -1,0 +1,410 @@
+{
+  "slug": "mapa",
+  "num": 1,
+  "menu": "The map",
+  "titulo": "The updates map: what changed and what you already have",
+  "titulo_curto": "The map of the 13",
+  "minutos": 14,
+  "lead": "Many people talk about \"Claude Code 2.0,\" but no one explains what changed or what already works in Brazil. In this lesson, you’ll see the 13 updates in six groups, learn what each one requires (app, plan, version), and check in your own Claude what you already have, what you don’t, and what’s on the waitlist.",
+  "objetivo": "Understand what changed in Claude Code, what you can already use in Brazil, and get the app ready to try it.",
+  "competencias": [
+    "map-claude-code-updates",
+    "check-version-and-plan",
+    "separate-available-from-waitlist"
+  ],
+  "aprende": [
+    {
+      "icone": "camadas",
+      "t": "The 13 updates in six groups"
+    },
+    {
+      "icone": "lupa",
+      "t": "What \"Claude Code 2.0\" really is"
+    },
+    {
+      "icone": "check",
+      "t": "Check your version and plan"
+    },
+    {
+      "icone": "lista",
+      "t": "Make your list: have it, don’t have it, waitlist"
+    }
+  ],
+  "hero_alt": "A desk with an open laptop showing a map of six color-coded groups connected by lines, beside a notebook with a three-column list.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "The 13 updates in six groups",
+      "sub": "Tap or click each group. Each group is a lesson in the course.",
+      "nos": [
+        {
+          "icone": "pasta",
+          "titulo": "Organize",
+          "sub": "lesson 2",
+          "itens": [
+            {
+              "icone": "menu",
+              "t": "Sections by project"
+            },
+            {
+              "icone": "chat",
+              "t": "Side chat"
+            },
+            {
+              "icone": "camadas",
+              "t": "Split view"
+            }
+          ],
+          "detalhe": "Organize your work. Conversations appear in sections in the sidebar, one for each project. Side chat answers a quick question without adding it to the main conversation. Split view shows two conversations side by side in the same window."
+        },
+        {
+          "icone": "robo",
+          "titulo": "Delegate",
+          "sub": "lesson 3",
+          "itens": [
+            {
+              "icone": "robo",
+              "t": "Helpers (subagents)"
+            }
+          ],
+          "detalhe": "A conversation splits a big job among helpers, called subagents. Each one handles a part and returns the result, and the conversation reviews and combines everything. Many people call these “nested sessions,” but the official name is subagent."
+        },
+        {
+          "icone": "chip",
+          "titulo": "Apps",
+          "sub": "lesson 4",
+          "itens": [
+            {
+              "icone": "chip",
+              "t": "Computer use (preview)"
+            },
+            {
+              "icone": "lupa",
+              "t": "Built-in browser"
+            }
+          ],
+          "detalhe": "Claude uses computer programs for you (computer use) and websites (the app’s built-in browser). Computer use is in preview (a test version that may still change), on Mac and Windows, for Pro, Max, and Ultra plans, and is turned off by default. Lesson 4."
+        },
+        {
+          "icone": "nuvem",
+          "titulo": "Away",
+          "sub": "lesson 5",
+          "itens": [
+            {
+              "icone": "enviar",
+              "t": "Remote Control"
+            },
+            {
+              "icone": "nuvem",
+              "t": "Projects (beta, waitlist)"
+            },
+            {
+              "icone": "relogio",
+              "t": "Claude Duet (US only)"
+            }
+          ],
+          "detalhe": "Keep up with work from your phone (Remote Control, with your computer on) and send work to the cloud (Projects, which keeps going with your computer off). Projects is in beta (being tested and rolling out gradually) and requires joining a waitlist: you sign up and wait for access on your account. Claude Duet brings the next task to you, but it is currently available only in the US, with a waitlist. Lesson 5."
+        },
+        {
+          "icone": "compartilhar",
+          "titulo": "Deliver",
+          "sub": "lesson 6",
+          "itens": [
+            {
+              "icone": "grafico",
+              "t": "Slides, Design, Dashboards, Motion"
+            },
+            {
+              "icone": "arquivo",
+              "t": "Shared docs"
+            }
+          ],
+          "detalhe": "Turn your work into something someone else can open: slides, artwork, a data dashboard, an animated video (Motion), or a document shared by link. Slides and Design are available on all plans; Dashboards is in beta; Motion is in beta and available only on Team and Enterprise plans."
+        },
+        {
+          "icone": "caneta",
+          "titulo": "Customize",
+          "sub": "lesson 7",
+          "itens": [
+            {
+              "icone": "terminal",
+              "t": "Slash commands"
+            },
+            {
+              "icone": "marca",
+              "t": "Mods (version 2.1.287+)"
+            }
+          ],
+          "detalhe": "Make Claude work your way. Slash commands are shortcuts you type with /, like /rewind and /recap. Mods change how Claude Code looks and behaves (a bar, a notice, a new command) and require version 2.1.287 or later."
+        }
+      ],
+      "legenda": "Six groups, thirteen new features. You don’t need them all: the list at the end of the lesson shows which ones are already in your Claude.",
+      "rolagem": true,
+      "rolagem_fim": {
+        "titulo": "Your map",
+        "texto": "Organize, delegate, use apps and websites, work away from your computer, deliver, and customize. The next six lessons follow that order, using Carla’s work as an example throughout.",
+        "curto": "Six groups, one lesson for each."
+      }
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Before you try them: four things to check",
+      "sub": "What “Claude Code 2.0” means and what each new feature requires.",
+      "passos": [
+        {
+          "titulo": "The nickname",
+          "sub": "versions 2.1.x",
+          "texto": [
+            "Claude Code is Anthropic’s assistant that works with your files and computer, not just in chat. “Claude Code 2.0” is the nickname many people gave to the bundle of new features in its 2.1.x versions.",
+            "There’s no “2.0” button. And this isn’t Claude 2, an older Anthropic model: we’re talking about Claude Code versions 2.1.x."
+          ],
+          "exemplo": {
+            "rot": "Remember",
+            "texto": "When someone says “Claude Code 2.0,” think: new features in versions 2.1.x."
+          }
+        },
+        {
+          "titulo": "The app",
+          "sub": "Mac or Windows",
+          "texto": [
+            "Almost all the new features are in the Code tab of the Claude app for Mac and Windows. The Code tab is where Claude works in a folder on your computer.",
+            "The app doesn’t run on Linux. Use Claude Code in the terminal (the command window). There, slash commands, side chat with /btw, and Remote Control work."
+          ],
+          "exemplo": {
+            "rot": "Carla",
+            "texto": "She uses a Windows laptop. She’ll do almost everything in the app’s Code tab, without opening the terminal."
+          }
+        },
+        {
+          "titulo": "The plan",
+          "sub": "Pro, Max, Ultra",
+          "texto": [
+            "The new features require a paid plan (Pro, Max, Ultra, Team, or Enterprise). What you see depends on your plan.",
+            "Computer use isn’t available on Team or Enterprise. Motion, on the other hand, is only available on Team and Enterprise. Projects and Claude Duet require joining a waitlist, and Duet is currently available only in the U.S."
+          ],
+          "exemplo": {
+            "rot": "Carla",
+            "texto": "She has Pro. She already knows Motion won’t appear for her and Duet will have to wait."
+          }
+        },
+        {
+          "titulo": "Version",
+          "sub": "updated app",
+          "texto": [
+            "A lot depends on the version you have installed. Update the app before you try anything: a feature that “doesn’t show up” usually means the app is out of date.",
+            "If you only use the app, you don’t need to see a version number: just note the date you updated it. If you have the terminal (optional), you can run claude --version and check the number, which starts with 2.1. The mods require version 2.1.287 or newer."
+          ],
+          "exemplo": {
+            "rot": "A practical rule",
+            "texto": "Before you say “I don’t have it,” update and check again."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Check what you already have",
+      "sub": "If you have the terminal, check the version (optional). Then ask Claude to make your list based on what appears in your app.",
+      "blocos": [
+        {
+          "rot": "Terminal (optional) · check the version",
+          "icone": "terminal",
+          "conteudo": "claude --version"
+        },
+        {
+          "rot": "Prompt · make my list",
+          "icone": "chat",
+          "conteudo": "I want to know which new Claude Code features I can already use.\nMy system: <Mac or Windows>\nMy plan: <Pro, Max, Ultra, Team, or Enterprise>\nMy version: <the terminal number, or: I only use the app, updated on [date]>\n\nBased on this, sort these 13 features into three groups: HAVE, DON’T HAVE, and WAITLIST.\nProject sections, side chat, split view, subagents, computer use, Projects, Remote Control, built-in browser, Slides/Design/Dashboards/Motion, shared Docs, slash commands, mods, Claude Duet.\n\nUse one line for each, with the reason (plan, system, version, or country).\nAt the end, tell me which ones I should check on screen because you’re not sure."
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Version (terminal)",
+            "html": "<pre>2.1.312 (Claude Code)</pre>"
+          },
+          {
+            "rot": "Claude’s answer (Carla)",
+            "html": "<p><b>Windows · Pro · 2.1.312</b></p><ul><li><b>HAVE:</b> sections, side chat, split view, subagents, computer use (preview, off by default: turn it on in settings), Remote Control, built-in browser, Slides and Design, Dashboards (beta), shared Docs, slash commands, mods (your version is newer than 2.1.287).</li><li><b>DON’T HAVE:</b> Motion (only on Team and Enterprise).</li><li><b>WAITLIST:</b> Projects (beta, join the waitlist); Claude Duet (currently available only in the U.S.).</li></ul><p>Check on screen: whether Projects already appears in the Code tab’s sidebar and whether computer use appears in settings. Availability varies by account.</p>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "conferidor",
+      "titulo": "Check your list",
+      "sub": "Write your list using the five lines below (or paste the one Claude made, adjusted to match what you see on screen). The page checks that none are blank and that your plan is listed. For Version, enter the terminal number or “app updated on [date].” This is a formatting check: you’re responsible for making sure the list is accurate by checking your app.",
+      "arquivo": "minha-lista.txt",
+      "rot": "Paste your list here (one line per field):",
+      "modelo": "Version: ... (the terminal number starting with 2.1…, or: app updated on [date])\nPlan: ...\nHave: ...\nDon’t have: ...\nWaitlist: ...",
+      "regras": [
+        {
+          "tipo": "campos",
+          "campos": [
+            "Version",
+            "Plan",
+            "Have",
+            "Don’t have",
+            "Waitlist"
+          ],
+          "min": 3
+        },
+        {
+          "tipo": "termos",
+          "grupos": [
+            {
+              "rot": "the plan name in Plan (Pro, Max, Ultra, Team, Enterprise)",
+              "campo": "Plan",
+              "termos": [
+                "pro",
+                "max",
+                "ultra",
+                "team",
+                "enterprise",
+                "free / gratuito / gratis"
+              ]
+            }
+          ]
+        }
+      ],
+      "ok": "OK: all {n} fields are filled in",
+      "exemplo": "Version: app updated on 11/03/2026\nPlan: Pro\nHave: sections, side chat, split view, subagents, computer use, Remote Control, built-in browser, Slides, Design, Dashboards, Docs, commands, mods\nDon’t have: Motion (only on Team and Enterprise)\nWaitlist: Projects and Claude Duet",
+      "exemplo_errado": "Version: 2.1.312\nPlan: the cheapest one\nHave: almost everything\nDon’t have: Motion"
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice: your map",
+      "sub": "Fifteen minutes. Without this, the next lessons become guesswork.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "E1 · Update the app",
+          "min": "5 min",
+          "texto": "Update the Claude app and note today’s date. If you also use Claude Code in the terminal (optional), run claude --version and note the number.",
+          "pronto": "you wrote down “app updated on [date]” (or, in the terminal, a number starting with 2.1)."
+        },
+        {
+          "id": "e2",
+          "titulo": "E2 · Make the list with Claude",
+          "min": "5 min",
+          "texto": "Paste the “make my list” prompt into Claude (in the app, on the Code tab, or at claude.ai), with your system, plan, and version.",
+          "pronto": "Claude sorted the 13 features into HAVE, DON’T HAVE, and WAITLIST."
+        },
+        {
+          "id": "e3",
+          "titulo": "E3 · Check on screen",
+          "min": "5 min",
+          "texto": "Check in the app the items Claude marked “check on screen” (Projects in the sidebar, computer use in settings). Update the list in the checker above and save it with the “Download the file” button: it downloads the ready-to-use minha-lista.txt file.",
+          "pronto": "the checker above says “OK: all 5 fields are filled in” (for Version, enter the number or the date you updated the app) and each of the 13 features appears in one of the three lines."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Test what you learned",
+      "sub": "The explanation appears after your answer.",
+      "perguntas": [
+        {
+          "p": "What is “Claude Code 2.0”?",
+          "opcoes": [
+            "A new Anthropic model that completely replaces the old Claude 2 in chat.",
+            "The nickname for the bundle of new features in Claude Code versions 2.1.x.",
+            "A new paid plan above Max, with early access to new features.",
+            "A separate app that you download on its own."
+          ],
+          "certa": 1,
+          "explica": "There’s no “2.0” button: these are new features in Claude Code versions 2.1.x. A common mistake is confusing it with Claude 2, an older model.",
+          "ref": "passos"
+        },
+        {
+          "p": "Carla lives in Brazil and subscribes to Pro. What can she expect from Claude Duet today?",
+          "opcoes": [
+            "It’s already available in the Code tab for Pro subscribers in any country, with no waitlist.",
+            "It only works in the terminal, with the /duet command.",
+            "It’s available on Pro, but requires version 2.1.287.",
+            "Not yet: today it’s only in the US, as a preview, with a waitlist."
+          ],
+          "certa": 3,
+          "explica": "Duet is only available in the US, as a preview, with a waitlist. Having the right plan isn’t enough: your country matters too.",
+          "ref": "diagrama"
+        },
+        {
+          "p": "Carla uses Windows, has never opened a terminal, and wants to try the new features. Where should she start?",
+          "opcoes": [
+            "By installing the terminal first, because the new features only appear there.",
+            "In the updated Claude app, in the Code tab.",
+            "By switching to a Mac, because there’s no app for Windows.",
+            "By waiting for a “2.0” version with its own button."
+          ],
+          "certa": 1,
+          "explica": "The Claude app for Mac and Windows has a Code tab, where almost all the new features appear; the terminal is optional. A common mistake is thinking you need the terminal or a “2.0” button.",
+          "ref": "passos"
+        },
+        {
+          "p": "What’s true about Claude Motion (animated video)?",
+          "opcoes": [
+            "It’s available on all plans, from Pro to Enterprise, like Slides and Design.",
+            "It’s an unofficial name the internet came up with for Claude Design.",
+            "It’s official, in beta, and only available on Team and Enterprise plans.",
+            "It’s exclusive to the terminal and Linux."
+          ],
+          "certa": 2,
+          "explica": "Motion is official, in beta, and only available on Team and Enterprise. People often confuse it with “Motion Studio,” which isn’t an official name.",
+          "ref": "diagrama"
+        },
+        {
+          "p": "A new feature isn’t showing up in your app. What should you do first?",
+          "opcoes": [
+            "Assume your plan doesn’t include it and ask for a refund.",
+            "Reinstall your computer’s operating system.",
+            "Switch plans before doing anything else to make sure you get access.",
+            "Update the app and check again."
+          ],
+          "certa": 3,
+          "explica": "A lot depends on the version. An outdated app is the most common reason: update it and check again; only then consider your plan, system, and country.",
+          "ref": "codigo"
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "The lesson in three sentences",
+      "itens": [
+        {
+          "t": "Nickname",
+          "texto": "“Claude Code 2.0” means the new features in Claude Code versions 2.1.x."
+        },
+        {
+          "t": "Six groups",
+          "texto": "Organize, delegate, apps and sites, away from your computer, deliver, and customize."
+        },
+        {
+          "t": "Your list",
+          "texto": "Updated app, plan checked, and each feature marked as have it, don’t have it, or waitlist."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Go further",
+      "links": [
+        {
+          "t": "The Claude desktop app (documentation, in English)",
+          "href": "https://code.claude.com/docs/en/desktop",
+          "icone": "lista"
+        },
+        {
+          "t": "What changed in each version (changelog, in English)",
+          "href": "https://code.claude.com/docs/en/changelog",
+          "icone": "relogio"
+        },
+        {
+          "t": "Guide to the 13 new features with a ready-to-use prompt",
+          "href": "https://inematds.github.io/claude-code-2/guia/",
+          "icone": "seta"
+        }
+      ]
+    }
+  ]
+}

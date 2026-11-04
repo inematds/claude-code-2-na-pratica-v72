@@ -1,0 +1,362 @@
+{
+  "slug": "entregar",
+  "num": 6,
+  "menu": "Entregar",
+  "titulo": "Entregar: diapositivas, paneles y documentos compartidos",
+  "titulo_curto": "Entregar",
+  "minutos": 15,
+  "lead": "El trabajo terminado solo sirve cuando le llega a alguien. Ahora puedes pedirle a Claude una presentación, una imagen, un panel de datos o un documento, verlo listo en la conversación, ajustarlo con palabras y compartirlo mediante un enlace. En esta clase, Carla convierte la clase 1 en 7 diapositivas y crea un documento de invitados que el equipo edita en conjunto, revisándolo antes de enviarlo.",
+  "objetivo": "Convertir el trabajo en diapositivas, un panel o un documento compartido y revisarlo antes de enviarlo.",
+  "competencias": [
+    "generar-entregables",
+    "ajustar-con-palabras",
+    "revisar-antes-de-compartir"
+  ],
+  "aprende": [
+    {
+      "icone": "lista",
+      "t": "Los tipos de entregables y en qué plan aplica cada uno"
+    },
+    {
+      "icone": "caneta",
+      "t": "Ajustar el material con palabras, sin usar otro programa"
+    },
+    {
+      "icone": "check",
+      "t": "Verificar 3 números o fechas antes de enviar"
+    },
+    {
+      "icone": "compartilhar",
+      "t": "Compartir con permiso para ver, comentar o editar"
+    }
+  ],
+  "hero_alt": "Escritorio de una profesora: una laptop muestra una presentación negra y amarilla sobre hojas de cálculo, junto a una taza y un cuaderno con tres números marcados con un círculo.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Del resultado al enlace",
+      "sub": "Toca o haz clic en cada etapa. La verificación va antes del enlace, nunca después.",
+      "nos": [
+        {
+          "icone": "chat",
+          "titulo": "Pedir",
+          "sub": "con palabras",
+          "detalhe": "Di qué quieres, de dónde viene el contenido y cómo debe quedar: cuántas diapositivas, qué colores, quién lo va a leer. Cuanto más clara sea la solicitud, menos vueltas darás después."
+        },
+        {
+          "icone": "lupa",
+          "titulo": "Ver",
+          "sub": "en la conversación",
+          "detalhe": "El material aparece listo en la misma conversación, sin abrir otro programa. Míralo como lo verá tu alumno o tu cliente: ¿se entiende en pocos segundos?"
+        },
+        {
+          "icone": "caneta",
+          "titulo": "Ajustar",
+          "sub": "con palabras",
+          "detalhe": "Haz cambios con indicaciones como: \"letra más grande\", \"quita la diapositiva 4\", \"cambia el gráfico por una tabla\". Es más fácil revisar un ajuste a la vez."
+        },
+        {
+          "icone": "check",
+          "titulo": "Revisar",
+          "sub": "3 números",
+          "forte": true,
+          "detalhe": "Elige 3 números o fechas del material y compáralos con la fuente original: la hoja de cálculo, el calendario, el guion. Claude puede equivocarse con un número y estar completamente seguro. Si uno de los tres está mal, verifícalos todos."
+        },
+        {
+          "icone": "compartilhar",
+          "titulo": "Compartir",
+          "sub": "por enlace",
+          "itens": [
+            {
+              "icone": "usuario",
+              "t": "ver · comentar · editar"
+            },
+            {
+              "icone": "chat",
+              "t": "@Claude en el comentario"
+            }
+          ],
+          "detalhe": "El material es privado al principio: solo tú lo ves. En el botón Share (compartir), eliges quién puede acceder. En un documento, cada persona puede ver, comentar o editar, y tú, como dueño del documento, mencionas a @Claude en un comentario para que lo revise ahí mismo."
+        }
+      ],
+      "legenda": "Pedir, ver y ajustar pueden llevar varias vueltas. Verificar y compartir se hacen una vez, en ese orden.",
+      "rolagem": true,
+      "rolagem_fim": {
+        "titulo": "Entrega verificada",
+        "texto": "Pide el material con palabras, ajústalo con palabras, verifica 3 números con la fuente y solo entonces envía el enlace."
+      }
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Qué puedes pedir",
+      "sub": "Los nombres oficiales y el plan en el que está disponible cada opción. No existe \"Motion Studio\": el nombre correcto es Claude Motion.",
+      "passos": [
+        {
+          "titulo": "Slides y Design",
+          "sub": "todos los planes",
+          "texto": [
+            "Claude Slides crea presentaciones; Claude Design crea piezas gráficas, como la portada de una publicación o un cartel.",
+            "Ambos están disponibles en todos los planes. Es el mejor lugar para empezar."
+          ],
+          "exemplo": {
+            "rot": "Carla",
+            "texto": "7 diapositivas de la clase 1 y una pieza gráfica para promocionar la clase en el canal."
+          }
+        },
+        {
+          "titulo": "Dashboards",
+          "sub": "beta",
+          "texto": [
+            "Un Dashboard es un panel de números: gráficos y totales en una sola pantalla, creados a partir de una hoja de cálculo o de los datos que proporcionas.",
+            "Está en beta (en prueba). Antes de mostrárselo a alguien, verifica 3 números con la fuente."
+          ],
+          "exemplo": {
+            "rot": "Carla",
+            "texto": "Panel con inscritos por mes en el curso, a partir de su hoja de cálculo."
+          }
+        },
+        {
+          "titulo": "Claude Motion",
+          "sub": "Team y Enterprise",
+          "texto": [
+            "Claude Motion crea videos animados con código y los exporta en MP4.",
+            "Está en beta y solo está disponible en los planes Team y Enterprise. No aparece en Pro, Max ni Ultra: quédate con Slides y Design."
+          ]
+        },
+        {
+          "titulo": "Claude Docs",
+          "sub": "documento vivo",
+          "texto": [
+            "Claude crea un documento que compartes por enlace. Todos trabajan en la misma copia, sin versiones perdidas en el correo.",
+            "Quien lo abra necesita iniciar sesión con una cuenta de Claude. Tú eliges quién puede ver, comentar o editar."
+          ],
+          "exemplo": {
+            "rot": "Carla",
+            "texto": "Control de invitados de las transmisiones en vivo del mes, que la monitora actualiza."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Prompts de Carla: diapositivas, panel y diseño",
+      "sub": "Funciona en claude.ai y en la app. Envía el guion junto o menciona el archivo si estás en la pestaña Code; cambia la ruta curso-planilhas/… por la de tu archivo (.md, Word o PDF; consulta la lección 2).",
+      "blocos": [
+        {
+          "rot": "1 · Pedido de diapositivas",
+          "icone": "chat",
+          "conteudo": "Crea una presentación de 7 diapositivas a partir del guion de la lección 1 (curso-planilhas/aula-1/roteiro.md).\nPúblico: adultos que nunca han usado fórmulas.\nUna idea por diapositiva, máximo 20 palabras por diapositiva, letras grandes.\nColores: negro y amarillo.\nDiapositiva 7: un ejercicio para que el alumno lo haga solo."
+        },
+        {
+          "rot": "2 · Ajustes de texto",
+          "icone": "caneta",
+          "conteudo": "Diapositiva 3: cambia el texto por un ejemplo de hoja de cálculo con 4 filas.\nDiapositiva 5: letra más grande y menos texto.\nNo cambies las demás diapositivas."
+        },
+        {
+          "rot": "3 · Pedido de revisión",
+          "icone": "check",
+          "conteudo": "Enumera todos los números, fechas y fórmulas que aparecen en las 7 diapositivas.\nPara cada uno, indica en qué línea del guion aparece.\nMarca con ATENCIÓN lo que no esté en el guion."
+        },
+        {
+          "rot": "4 · Panel de números (Dashboards, beta)",
+          "icone": "grafico",
+          "conteudo": "Crea un panel (dashboard) a partir de esta hoja de cálculo: <adjunta la hoja de cálculo o di el nombre del archivo>.\nMuestra los inscritos por mes en un gráfico y destaca el total del período.\nUsa solo los números de la hoja de cálculo, sin inventar ninguno."
+        },
+        {
+          "rot": "5 · Un diseño (Claude Design)",
+          "icone": "caneta",
+          "conteudo": "Crea un diseño cuadrado para promocionar <lo que quieres promocionar> en mi canal.\nTítulo corto, letras grandes, colores negro y amarillo.\nMáximo 12 palabras en el diseño."
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Las 7 diapositivas",
+            "html": "<ol><li>Una hoja de cálculo no es ningún monstruo.</li><li>Celda, fila y columna: la dirección de todo.</li><li>Una lista de compras con 4 artículos.</li><li>La primera fórmula: =SOMA(B2:B5).</li><li>Cuando la suma sale mal: una celda con texto.</li><li>Copiar la fórmula hacia abajo.</li><li>Ejercicio: suma los gastos de la semana.</li></ol>"
+          },
+          {
+            "rot": "Respuesta a la revisión",
+            "html": "<ul><li><b>=SOMA(B2:B5)</b> (diapositiva 4): guion, línea 18.</li><li><b>4 artículos</b> (diapositiva 3): guion, línea 12.</li><li><b>ATENCIÓN: \"7 días\"</b> (diapositiva 7): no aparece en el guion; lo añadí. ¿Quieres mantenerlo?</li></ul>"
+          },
+          {
+            "rot": "Errores comunes",
+            "html": "<ul><li><b>Volver a pedir todo</b> por una diapositiva: pide que ajusten solo esa.</li><li><b>Enviar sin revisar los números</b>: una diapositiva bonita con una fórmula incorrecta se convierte en una clase equivocada.</li></ul>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Prompt de Carla: el documento de invitados",
+      "sub": "Un Claude Docs que el equipo edita en conjunto.",
+      "blocos": [
+        {
+          "rot": "Documento compartido",
+          "icone": "arquivo",
+          "conteudo": "Crea un documento para llevar el control de los invitados de las transmisiones en vivo de mi comunidad en diciembre.\nUna tabla con: nombre, tema de la transmisión, fecha, horario y estado (invitado, confirmado, grabado).\nEmpieza con 3 filas de ejemplo marcadas como EJEMPLO.\nDebajo, una lista breve de lo que hay que hacer durante la semana de la transmisión.\nDéjalo listo para compartirlo con mi monitora."
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Cómo compartir",
+            "html": "<ol><li>Haz clic en <b>Share</b> (compartir) en el documento.</li><li>Elige el acceso; por ejemplo, <b>Only you</b> (solo tú) o <b>Anyone with the link</b> (cualquiera que tenga el enlace), además de la invitación por correo electrónico. Las opciones cambian según el plan.</li><li>Para la monitora: envíale una invitación por correo electrónico con permiso para <b>editar</b>.</li><li>Haz una prueba: envíale el enlace a una persona del equipo y pídele que lo abra. Tendrá que iniciar sesión con su cuenta de Claude.</li></ol>"
+          },
+          {
+            "rot": "@Claude en el comentario",
+            "html": "<p>Carla, dueña del documento, comenta en la fila de una transmisión:</p><p><i>\"@Claude revisa si alguna fecha cae en un feriado de diciembre y avísame aquí.\"</i></p><p>Claude responde en el mismo comentario, sin que Carla tenga que abrir otra conversación.</p>"
+          },
+          {
+            "rot": "Límites",
+            "html": "<ul><li>El documento se crea como privado; tú decides si lo compartes.</li><li>Quien lo abre necesita una cuenta de Claude.</li><li>\"Anyone with the link\" quiere decir que cualquiera que tenga el enlace puede abrirlo. Los documentos que usan Claude internamente o están conectados a tus apps no pueden usar esta opción.</li></ul>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica: entregas revisadas",
+      "sub": "Todo en claude.ai o en la app. No necesitas una terminal.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "E1 · Las diapositivas",
+          "min": "20 min",
+          "texto": "Pide 7 diapositivas a partir de un guion, una clase o un texto tuyo, con el modelo de Carla. Haz al menos un ajuste de texto. Después, envía el pedido de revisión.",
+          "pronto": "la presentación tiene 7 diapositivas, hiciste 1 ajuste de texto y anotaste 3 números, fechas o fórmulas que revisaste con el texto original."
+        },
+        {
+          "id": "e2",
+          "titulo": "E2 · El documento compartido",
+          "min": "15 min",
+          "texto": "Crea un documento de control (invitados, entregas o tareas de la semana) con el prompt de Carla adaptado y compártelo con una persona del equipo desde el botón Share (compartir). Elige si podrá ver, comentar o editar. Para abrirlo, tendrá que iniciar sesión con una cuenta de Claude.",
+          "pronto": "cambiaste las 3 filas de EJEMPLO por 3 transmisiones (o tareas) reales, revisaste las fechas en tu calendario, enviaste el enlace a una persona del equipo y esa persona lo abrió."
+        },
+        {
+          "id": "e3",
+          "titulo": "E3 · Un pedido a @Claude",
+          "min": "5 min",
+          "texto": "En tu documento, deja un comentario que mencione a @Claude y pídele que revise una fila de la tabla. Solo tú, como dueño del documento, puedes llamar a @Claude; quien recibe el enlace puede ver, comentar o editar.",
+          "pronto": "la respuesta de Claude aparece en el mismo comentario."
+        },
+        {
+          "id": "e4",
+          "titulo": "E4 · Un panel (Dashboards, beta)",
+          "min": "10 min",
+          "texto": "Dashboards está en beta (a prueba): si no te aparece, omite este ejercicio. Toma una hoja de cálculo sencilla con unos 10 números (inscritos, ventas o gastos por mes) y pega el pedido \"Panel de números\" adaptado.",
+          "pronto": "el panel aparece en la conversación y revisaste 2 de sus números con la hoja de cálculo."
+        },
+        {
+          "id": "e5",
+          "titulo": "E5 · Un diseño (Design)",
+          "min": "10 min",
+          "texto": "Pega el pedido \"Un diseño\" con lo que quieres promocionar. Haz un ajuste de texto (color, tamaño de letra o texto).",
+          "pronto": "el diseño aparece en la conversación, hiciste 1 ajuste de texto y leíste el texto del diseño sin encontrar errores."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Pon a prueba lo que aprendiste",
+      "sub": "La explicación aparece después de tu respuesta.",
+      "perguntas": [
+        {
+          "p": "Carla tiene un plan Pro y quiere un video animado de la clase. ¿Qué encuentra?",
+          "opcoes": [
+            "Motion Studio, disponible en todos los planes.",
+            "Claude Motion, que exporta MP4 en cualquier plan de pago.",
+            "Claude Motion está en beta solo para Team y Enterprise; en Pro se usan Slides y Design.",
+            "Claude Design, que transforma cualquier diseño en un video animado."
+          ],
+          "certa": 2,
+          "explica": "El nombre oficial es Claude Motion (\"Motion Studio\" no existe), está en beta y solo está disponible en los planes Team y Enterprise. Slides y Design están disponibles en todos los planes.",
+          "ref": "passos"
+        },
+        {
+          "p": "Antes de compartir el enlace de un panel con cifras, ¿qué debes hacer?",
+          "opcoes": [
+            "Verificar 3 cifras con la fuente original.",
+            "Pedirle a Claude que vuelva a crear el panel desde cero y compararlo.",
+            "Cambiar los colores para que se vea más profesional.",
+            "Compartirlo y pedirle a quien lo reciba que te avise si encuentra un error."
+          ],
+          "certa": 0,
+          "explica": "Claude puede equivocarse con una cifra y estar completamente seguro. Verificar tres cifras con la hoja de cálculo original detecta la mayoría de los errores; si una falla, revisa todas.",
+          "ref": "diagrama"
+        },
+        {
+          "p": "¿Quién puede etiquetar a @Claude en un comentario del documento para que lo revise?",
+          "opcoes": [
+            "Cualquier persona que tenga el enlace.",
+            "Solo quien tiene un plan Team.",
+            "Nadie: Claude solo lee el documento cuando se crea.",
+            "Tú, quien es dueño del documento."
+          ],
+          "certa": 3,
+          "explica": "Quien lo recibe puede verlo, comentarlo o editarlo, según los permisos. Quien llama a @Claude en los comentarios eres tú, quien es dueño del documento.",
+          "ref": "codigo"
+        },
+        {
+          "p": "Una diapositiva salió con la letra pequeña. ¿Cuál es la mejor solicitud?",
+          "opcoes": [
+            "\"Vuelve a hacer toda la presentación, está mal.\"",
+            "\"Diapositiva 5: letra más grande y menos texto. No cambies las demás.\"",
+            "Descargar la presentación y corregirla en otro programa.",
+            "\"Haz que todas las diapositivas se vean más bonitas y profesionales, por favor.\""
+          ],
+          "certa": 1,
+          "explica": "Pide ajustes concretos, de a uno, e indica dónde. Pedir que vuelva a hacer todo o que lo deje \"más bonito\" puede arruinar lo que estaba bien.",
+          "ref": "codigo"
+        },
+        {
+          "p": "Carla le envió a la monitora el enlace del documento de invitados. ¿Qué necesita la monitora para abrirlo?",
+          "opcoes": [
+            "Nada: el enlace se abre para cualquier persona, sin cuenta.",
+            "Un plan Team, igual al de Carla.",
+            "Iniciar sesión con una cuenta de Claude.",
+            "Instalar la app de Claude en su computadora."
+          ],
+          "certa": 2,
+          "explica": "Para abrir un Claude Docs, hay que iniciar sesión con una cuenta de Claude; Carla elige si la monitora puede verlo, comentarlo o editarlo. El error común es pensar que el enlace se abre sin una cuenta.",
+          "ref": "passos"
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "La clase en tres frases",
+      "itens": [
+        {
+          "t": "Pide ajustes concretos",
+          "texto": "Slides y Design están disponibles en todos los planes; Dashboards está en beta; Motion solo está disponible para Team y Enterprise."
+        },
+        {
+          "t": "Verifica antes de compartir",
+          "texto": "Compara 3 cifras o fechas con la fuente original antes de compartir el enlace."
+        },
+        {
+          "t": "Comparte con permisos",
+          "texto": "Ver, comentar o editar; @Claude en los comentarios de tu documento."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para profundizar",
+      "links": [
+        {
+          "t": "Compartir artifacts en Claude (ayuda oficial, en inglés)",
+          "href": "https://support.claude.com/en/articles/9547008-share-artifacts",
+          "icone": "compartilhar"
+        },
+        {
+          "t": "Artifacts en la documentación oficial (en inglés)",
+          "href": "https://code.claude.com/docs/en/artifacts",
+          "icone": "arquivo"
+        }
+      ]
+    }
+  ]
+}

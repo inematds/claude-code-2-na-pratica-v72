@@ -1,0 +1,387 @@
+{
+  "slug": "organizar",
+  "num": 2,
+  "menu": "Organize",
+  "titulo": "Organize: one place per project and questions on the side",
+  "titulo_curto": "Sections, side chat, and split view",
+  "minutos": 15,
+  "lead": "A conversation full of unrelated questions gets slow and confusing, and a huge list of conversations hides the work. Three new features fix that: project sections in the sidebar, side chat for quick questions, and split view to see two conversations side by side. In this lesson, Carla organizes her spreadsheet course using all three.",
+  "objetivo": "Organize your work by project and ask side questions without cluttering the main conversation.",
+  "competencias": [
+    "organize-conversations-by-project",
+    "ask-in-side-chat",
+    "use-split-view"
+  ],
+  "aprende": [
+    {
+      "icone": "menu",
+      "t": "One section per project in the sidebar"
+    },
+    {
+      "icone": "chat",
+      "t": "Ask on the side with side chat (or /btw)"
+    },
+    {
+      "icone": "camadas",
+      "t": "Two conversations side by side in split view"
+    },
+    {
+      "icone": "check",
+      "t": "Keep the main conversation focused on the work"
+    }
+  ],
+  "hero_alt": "A laptop screen split into two side-by-side conversations, with a small question window open in one corner and the sidebar organized into groups.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Four parts of an organized screen",
+      "sub": "Tap or click each part.",
+      "nos": [
+        {
+          "icone": "menu",
+          "titulo": "Sections",
+          "sub": "sidebar",
+          "itens": [
+            {
+              "icone": "pasta",
+              "t": "spreadsheet-course"
+            },
+            {
+              "icone": "pasta",
+              "t": "channel"
+            },
+            {
+              "icone": "pasta",
+              "t": "community"
+            }
+          ],
+          "detalhe": "In the Code tab, conversations are grouped into sections in the sidebar. One section per project helps you find what you need without scrolling through a huge list. Session = one Claude conversation with its own history."
+        },
+        {
+          "icone": "chat",
+          "titulo": "Main",
+          "sub": "the work",
+          "forte": true,
+          "itens": [
+            {
+              "icone": "arquivo",
+              "t": "outline → exercises"
+            }
+          ],
+          "detalhe": "The main conversation is where the work happens: read the outline, write the exercises, save the file. It keeps everything that was said, and every unrelated question you add here stays in the history and weighs on future responses."
+        },
+        {
+          "icone": "chat",
+          "titulo": "Side chat",
+          "sub": "quick question",
+          "itens": [
+            {
+              "icone": "lupa",
+              "t": "Cmd + ; or Ctrl + ;"
+            },
+            {
+              "icone": "terminal",
+              "t": "/btw in the terminal"
+            }
+          ],
+          "detalhe": "A small window on the side for a quick question. It answers using what the session already knows, without using tools (it won’t open a new file or search), and this exchange stays out of the main history."
+        },
+        {
+          "icone": "camadas",
+          "titulo": "Split view",
+          "sub": "second session",
+          "itens": [
+            {
+              "icone": "arquivo",
+              "t": "community announcement"
+            }
+          ],
+          "detalhe": "A second conversation open beside the first in the same window. Each does different work at its own pace, and you can see both. Golden rule: never have both working on the same file."
+        }
+      ],
+      "legenda": "Sections keep things organized, the main conversation handles the work, side chat answers questions, and split view shows a second task alongside it.",
+      "rolagem": true,
+      "rolagem_fim": {
+        "titulo": "Organized screen",
+        "texto": "Each project in its own section, the main conversation focused on the work, questions in side chat, and a second task in split view.",
+        "curto": "Everything in its place."
+      }
+    },
+    {
+      "tipo": "passos",
+      "titulo": "How to use each one",
+      "sub": "Everything is in the Code tab of the Claude app (Mac and Windows). On Linux, see the last tab.",
+      "passos": [
+        {
+          "titulo": "Sections",
+          "sub": "one project, one place",
+          "texto": [
+            "Update the app and open the Code tab. Conversations appear in the sidebar on the left; the idea is to keep conversations for each project together in a section named after it.",
+            "The exact place to create a section varies between app versions. If you can’t find it, ask Claude in the Code tab: \"how do I create a section in the sidebar in this app?\". One section per project is enough: more than that becomes another huge list."
+          ],
+          "exemplo": {
+            "rot": "Carla",
+            "texto": "Three sections: spreadsheet course, channel, and community. The lesson 1 conversation goes in the course section."
+          }
+        },
+        {
+          "titulo": "Side chat",
+          "sub": "ask on the side",
+          "texto": [
+            "In the middle of your work, press Cmd + ; on Mac (Ctrl + ; on Windows). Side chat opens: ask your question, read the answer, and close it.",
+            "It answers only with what the session already knows and doesn’t use tools. Use it for \"what is this?\", a synonym, or a calculation. For real work, go back to the main conversation."
+          ],
+          "exemplo": {
+            "rot": "When to use it",
+            "texto": "If the answer doesn’t need to be saved with your work, ask it in side chat."
+          }
+        },
+        {
+          "titulo": "Split view",
+          "sub": "two side by side",
+          "texto": [
+            "In the sidebar, hold Option and click a session on Mac (Alt + click on Windows). Or right-click the session and choose Open in → Split view (open in → split screen).",
+            "To remove a session from split view, use Cmd + Ctrl + W on Mac (Ctrl + Alt + W on Windows). Start a new session with Cmd + N on Mac (Ctrl + N on Windows)."
+          ],
+          "exemplo": {
+            "rot": "What to put side by side",
+            "texto": "Two different tasks, in different files. To coordinate many sessions, see the course Claude as an agent manager."
+          }
+        },
+        {
+          "titulo": "In the terminal",
+          "sub": "Linux too",
+          "texto": [
+            "Sections and split view are part of the app. In the terminal (including on Linux), ask a question on the side with the /btw command followed by your question.",
+            "/btw works the same way: it doesn't interrupt the work or appear in the main history."
+          ],
+          "exemplo": {
+            "rot": "Example",
+            "texto": "/btw what is VLOOKUP, in one sentence?"
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Before the prompts: file, folder, and path",
+      "sub": "Three things that apply throughout the course. Read once.",
+      "passos": [
+        {
+          "titulo": ".md file",
+          "sub": "plain text",
+          "texto": [
+            "The course prompts refer to files like roteiro.md. An .md file is just plain text, like a notepad, that Claude can read and write without a special program. You can open it with Notepad on Windows or TextEdit on Mac.",
+            "Claude can also read other common formats, like Word, PDF, or spreadsheets, if you ask. Just say the name of the file you have."
+          ],
+          "exemplo": {
+            "rot": "Carla",
+            "texto": "Her script is in Word. She writes \"read roteiro-aula-1.docx\" instead of roteiro.md."
+          }
+        },
+        {
+          "titulo": "The folder",
+          "sub": "where the session works",
+          "texto": [
+            "In the Code tab, each session works in a folder on your computer. You choose that folder when you start a new session. Choose the project folder, where its files are.",
+            "How you choose it varies between app versions. If you can't find it, ask Claude in the Code tab: \"how do I choose this session's folder in this app?\". To check, ask: \"what folder are you working in?\"."
+          ],
+          "exemplo": {
+            "rot": "Done when",
+            "texto": "Claude replies with the name of your project folder."
+          }
+        },
+        {
+          "titulo": "The path",
+          "sub": "replace it with yours",
+          "texto": [
+            "curso-planilhas/aula-1/roteiro.md means: inside the curso-planilhas folder, in the aula-1 folder, the roteiro.md file. This is Carla's file path.",
+            "In your prompt, replace this path with the path to your file. If you don't know how to write the path, just say the file name and ask: \"find this file in the project folder\"."
+          ],
+          "exemplo": {
+            "rot": "Example",
+            "texto": "Instead of curso-planilhas/aula-1/roteiro.md, you can write only the name of your file, like ata-reuniao.docx."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Carla's prompts",
+      "sub": "One for the main conversation, two questions for side chat (paste one at a time), and one for the second split view session. Replace the example paths (curso-planilhas/…) with your own files, as explained above.",
+      "blocos": [
+        {
+          "rot": "Main conversation · the task",
+          "icone": "chat",
+          "conteudo": "Read curso-planilhas/aula-1/roteiro.md.\nCreate 5 exercises for students to practice what the lesson teaches, from easiest to hardest.\nEach exercise should include: what to do, sample data, and the correct answer.\nSave to curso-planilhas/aula-1/exercicios.md.\nAsk before changing or deleting any file that already exists."
+        },
+        {
+          "rot": "Side chat · 2 questions (one at a time)",
+          "icone": "lupa",
+          "conteudo": "Explain VLOOKUP in one sentence a beginner student can understand.\n\nWhich of the 5 exercises do you think is hardest for someone who has never used a spreadsheet?"
+        },
+        {
+          "rot": "Terminal · the same questions with /btw (one line at a time)",
+          "icone": "terminal",
+          "conteudo": "/btw Explain VLOOKUP in one sentence a beginner student can understand.\n/btw Which of the 5 exercises do you think is hardest for someone who has never used a spreadsheet?"
+        },
+        {
+          "rot": "Second session (split view) · another task",
+          "icone": "camadas",
+          "conteudo": "Read curso-planilhas/aula-1/roteiro.md.\nWrite the community announcement about lesson 1: up to 100 words, simple language, and a question at the end for people to answer.\nSave to comunidade/aviso-aula-1.md.\nDon't change anything inside curso-planilhas/. Don't publish anything."
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Side chat (stays separate)",
+            "html": "<p><b>You:</b> Explain VLOOKUP in one sentence a beginner student can understand.</p><p><b>Claude:</b> VLOOKUP looks for a value in the first column of a table and returns the value in another column on the same row, like finding a name on a list and reading the phone number next to it.</p><p><b>You:</b> Which of the 5 exercises do you think is hardest for someone who has never used a spreadsheet?</p><p><b>Claude:</b> Number 5, because it combines VLOOKUP with IF. A worked example before it would help.</p>"
+          },
+          {
+            "rot": "Main conversation (clean)",
+            "html": "<p><b>Carla:</b> Read curso-planilhas/aula-1/roteiro.md. Create 5 exercises…</p><p><b>Claude:</b> I read the script (sum, average, VLOOKUP, and IF). I created curso-planilhas/aula-1/exercicios.md with 5 exercises, from 1 (add a column) to 5 (VLOOKUP with IF), each with sample data and an answer. I didn't change any other files.</p><p><i>Neither of the side chat questions appears here.</i></p>"
+          },
+          {
+            "rot": "Second session (split view)",
+            "html": "<p><b>Claude:</b> I saved comunidade/aviso-aula-1.md (86 words). It ends with the question: \"Which calculation do you do by hand most often today?\". I didn't publish anything or change anything in curso-planilhas/.</p>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice: organize your project",
+      "sub": "Use one of your own projects instead of Carla’s course.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "E1 · The project section",
+          "min": "5 min",
+          "texto": "In the Code tab, open a session in one of your project folders and group its conversations into a section in the sidebar. If you can’t find where to create a section, ask Claude in the Code tab: \"how do I create a section in the sidebar in this app?\".",
+          "pronto": "You can find your project conversations together in the sidebar within a few seconds, in a section with its name (if your app doesn’t show sections yet, the question above tells you what to do)."
+        },
+        {
+          "id": "e2",
+          "titulo": "E2 · One task and two side questions",
+          "min": "15 min",
+          "texto": "Run a task in the main conversation (Carla’s prompt, adapted). While it works or afterward, ask two questions in the side chat: Cmd + ; on Mac (Ctrl + ; on Windows) or /btw in the terminal.",
+          "pronto": "You scrolled through the main conversation from beginning to end, and neither side question appears in it."
+        },
+        {
+          "id": "e3",
+          "titulo": "E3 · Two sessions side by side",
+          "min": "10 min",
+          "texto": "Open a second session for another task in a different file, and put both in split view (the screen divided in two) (Option + click on Mac, Alt + click on Windows). Then take one out of split view.",
+          "pronto": "You saw both sessions in the same window, each saved its own file, and neither changed the other’s file."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Test what you learned",
+      "sub": "The explanation appears after your answer.",
+      "perguntas": [
+        {
+          "p": "In the middle of the work, Carla wants a synonym for \"spreadsheet.\" Where should she ask?",
+          "opcoes": [
+            "In the side chat (Cmd + ; on Mac, Ctrl + ; on Windows).",
+            "In the main conversation, so it stays in the history.",
+            "In a new session in split view, just for that.",
+            "In a new sidebar section created for questions."
+          ],
+          "certa": 0,
+          "explica": "Quick questions that don’t need to be part of the work go in the side chat, which stays out of the history. A common mistake is putting everything in the main conversation and making it cluttered.",
+          "ref": "passos"
+        },
+        {
+          "p": "What does the side chat NOT do?",
+          "opcoes": [
+            "Answer using what the session already knows about the work.",
+            "Stay out of the main conversation’s history.",
+            "Open a new file or search with tools.",
+            "Work in the terminal with the /btw command."
+          ],
+          "certa": 2,
+          "explica": "The side chat answers using only the current context, without tools. If the answer requires reading a new file, ask in the main conversation.",
+          "ref": "diagrama"
+        },
+        {
+          "p": "What’s the golden rule for split view?",
+          "opcoes": [
+            "Open at most one session per sidebar section.",
+            "Use it only in the terminal, because the app can’t show two sessions.",
+            "Close the first session before opening the second beside it.",
+            "Never let both sessions work on the same file."
+          ],
+          "certa": 3,
+          "explica": "Two different tasks in different files. Two sessions working on the same file can undo each other’s work.",
+          "ref": "diagrama"
+        },
+        {
+          "p": "How do you take a session out of split view on Windows?",
+          "opcoes": [
+            "Ctrl + ;",
+            "Ctrl + Alt + W",
+            "Ctrl + Shift + B",
+            "Ctrl + N"
+          ],
+          "certa": 1,
+          "explica": "Ctrl + Alt + W on Windows (Cmd + Ctrl + W on Mac). Ctrl + ; opens the side chat, and Ctrl + N creates a new session.",
+          "ref": "passos"
+        },
+        {
+          "p": "Carla now uses a Mac. How does she put a session side by side with the one that’s open?",
+          "opcoes": [
+            "Cmd + ; in the session she wants to open.",
+            "Option + click the session in the sidebar.",
+            "Cmd + Shift + B in the sidebar.",
+            "Drag the entire section to the middle of the screen with the mouse."
+          ],
+          "certa": 1,
+          "explica": "On Mac, use Option + click (Alt + click on Windows), or right-click → Open in → Split view. Cmd + ; opens the side chat, not a second session.",
+          "ref": "passos"
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "The lesson in three sentences",
+      "itens": [
+        {
+          "t": "Sections",
+          "texto": "One project, one place in the sidebar."
+        },
+        {
+          "t": "Side chat",
+          "texto": "Quick question on the side (Cmd/Ctrl + ; or /btw); keep the main conversation focused on the work."
+        },
+        {
+          "t": "Split view",
+          "texto": "Two tasks side by side, never in the same file."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Go further",
+      "links": [
+        {
+          "t": "The Claude desktop app: sessions and split view (in English)",
+          "href": "https://code.claude.com/docs/en/desktop",
+          "icone": "lista"
+        },
+        {
+          "t": "Interactive mode and /btw (in English)",
+          "href": "https://code.claude.com/docs/en/interactive-mode",
+          "icone": "terminal"
+        },
+        {
+          "t": "Course: Claude as an agent manager (multiple sessions at the same time)",
+          "href": "https://inematds.github.io/claude-gestor-de-agentes-v72/en/",
+          "icone": "seta"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,393 @@
+{
+  "slug": "longe",
+  "num": 5,
+  "menu": "A distancia",
+  "titulo": "Lejos de la computadora: aprobar desde el celular y enviar a la nube",
+  "titulo_curto": "Lejos de la computadora",
+  "minutos": 15,
+  "lead": "Un trabajo grande no tiene por qué dejarte pegado a la silla. Con Remote Control, puedes seguir desde el celular una sesión que se ejecuta en tu computadora. Con Projects, la investigación se ejecuta en la nube, incluso con la laptop cerrada. En esta clase, Carla aprueba un plan desde el sofá y envía una investigación a la nube, sabiendo qué sale de su computadora.",
+  "objetivo": "Seguir y aprobar trabajo desde el celular y enviar una investigación a la nube, sabiendo qué sale de tu computadora.",
+  "competencias": [
+    "seguir-desde-el-celular",
+    "delegar-a-la-nube",
+    "decidir-que-se-sube"
+  ],
+  "aprende": [
+    {
+      "icone": "usuario",
+      "t": "Los tres lugares donde puede ejecutarse el trabajo"
+    },
+    {
+      "icone": "check",
+      "t": "Activar Remote Control y aprobar desde el celular"
+    },
+    {
+      "icone": "nuvem",
+      "t": "Enviar una investigación a Projects en la nube"
+    },
+    {
+      "icone": "cadeado",
+      "t": "Decidir qué puede salir de tu computadora"
+    }
+  ],
+  "hero_alt": "Sala de estar de noche: una mujer sostiene el celular con un plan para aprobar; al fondo, una laptop abierta sigue trabajando sobre la mesa.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Tres lugares donde puede ejecutarse el trabajo",
+      "sub": "Toca o haz clic en cada lugar. Cuanto más lejos, menos necesitas tener la computadora encendida.",
+      "nos": [
+        {
+          "icone": "usuario",
+          "titulo": "En la computadora",
+          "sub": "tú mirando",
+          "itens": [
+            {
+              "icone": "terminal",
+              "t": "terminal o app"
+            }
+          ],
+          "detalhe": "Es la forma que ya conoces: la sesión se ejecuta en tu computadora y la sigues en la pantalla. Sesión = una conversación de Claude con su propio historial. Si te levantas de la silla, el trabajo continúa, pero no ves cuándo se detiene y te pide aprobación."
+        },
+        {
+          "icone": "chat",
+          "titulo": "Remote Control",
+          "sub": "desde el celular",
+          "itens": [
+            {
+              "icone": "relogio",
+              "t": "computadora encendida"
+            }
+          ],
+          "detalhe": "La sesión continúa en tu computadora, pero puedes seguirla y aprobar desde la app de Claude en el celular. No necesitas una terminal en el celular. La regla que no cambia: si la computadora entra en suspensión o se apaga, el trabajo se detiene."
+        },
+        {
+          "icone": "nuvem",
+          "titulo": "Projects",
+          "sub": "en la nube",
+          "forte": true,
+          "itens": [
+            {
+              "icone": "lua",
+              "t": "computadora apagada"
+            }
+          ],
+          "detalhe": "El nuevo Projects de Claude Code es una conversación continua en la que Claude abre un thread (un frente de trabajo) para cada tarea. Los threads se ejecutan en la nube: puedes cerrar la laptop. El costo es que los archivos que entregas salen de tu computadora. Está en beta, con lista de espera, en los planes Pro, Max y Ultra."
+        },
+        {
+          "icone": "portao",
+          "titulo": "Claude Duet",
+          "sub": "en el radar",
+          "itens": [
+            {
+              "icone": "x",
+              "t": "solo en EE. UU."
+            }
+          ],
+          "detalhe": "Duet es un ayudante que te acerca el trabajo pendiente de tus proyectos, prepara un borrador y pregunta antes de actuar. Por ahora solo está en EE. UU., en vista previa y con lista de espera (Pro, Max y Ultra). Todavía no llegó a Brasil: solo necesitas saber que existe."
+        }
+      ],
+      "legenda": "De la computadora al celular, del celular a la nube: cada paso te libera de la silla y te plantea una nueva decisión sobre tus archivos.",
+      "rolagem": true,
+      "rolagem_fim": {
+        "titulo": "Tú eliges dónde se ejecuta",
+        "texto": "Tarea con un archivo confidencial: en la computadora, con Remote Control para aprobar a distancia. Investigación con datos públicos: en la nube, con la computadora apagada."
+      }
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Activar Remote Control",
+      "sub": "Funciona en la app de la computadora (pestaña Code) y en la terminal. En el celular solo necesitas la app de Claude.",
+      "passos": [
+        {
+          "titulo": "Pide un plan",
+          "sub": "antes de irte",
+          "texto": [
+            "Abre una sesión en la carpeta del trabajo (eliges la carpeta al abrir la sesión, como en la lección 2) y pide la tarea con una pausa: \"muéstrame el plan y espera mi OK\".",
+            "Así Claude trabaja hasta llegar al punto de decisión y te espera, en lugar de seguir por su cuenta."
+          ],
+          "exemplo": {
+            "rot": "Carla",
+            "texto": "Pide el guion de la lección 2 del curso de hojas de cálculo, con un plan antes."
+          }
+        },
+        {
+          "titulo": "Activa el control",
+          "sub": "un comando",
+          "texto": [
+            "En el cuadro de mensaje de la sesión (donde escribes tus pedidos), escribe <code>/remote-control</code> (o el atajo <code>/rc</code>) y envíalo. En la app de la computadora, también puedes activarlo desde la tarjeta Environment (entorno) de la sesión.",
+            "Listo: la sesión aparece en la app de Claude de tu celular."
+          ],
+          "exemplo": {
+            "rot": "Sin terminal",
+            "texto": "En la app, pestaña Code: escribe /remote-control en el cuadro de mensaje o usa la tarjeta Environment (entorno) de la sesión."
+          }
+        },
+        {
+          "titulo": "Mantén la computadora",
+          "sub": "despierta",
+          "texto": [
+            "El trabajo se ejecuta en tu computadora. Si entra en suspensión, todo se detiene.",
+            "En la app, ve a Settings → Code (Configuración → Code) y activa \"Keep this computer awake\" (mantener esta computadora despierta). Deja la laptop conectada a la corriente."
+          ],
+          "exemplo": {
+            "rot": "Error común",
+            "texto": "Cerrar la tapa de la laptop pensando que el celular mantiene el trabajo en marcha."
+          }
+        },
+        {
+          "titulo": "Aprueba desde el celular",
+          "sub": "y sigue con lo tuyo",
+          "texto": [
+            "Abre la sesión en la app de Claude del celular, lee el plan y responde: aprueba, pide un ajuste o indica que se detenga.",
+            "Después, deja que trabaje. Revisar el celular cada cinco minutos no acelera el trabajo."
+          ],
+          "exemplo": {
+            "rot": "Para recordar",
+            "texto": "Tú decides a distancia; la computadora hace el trabajo."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Prompt de Carla: el plan que aprueba desde el sofá",
+      "sub": "Pégalo en la sesión abierta en la carpeta del curso y luego activa el control escribiendo /remote-control en el mismo cuadro de mensaje. Cambia la ruta curso-planilhas/… por la de tu archivo (consulta la lección 2).",
+      "blocos": [
+        {
+          "rot": "1 · Pedido con pausa para aprobar",
+          "icone": "chat",
+          "conteudo": "Escribe el guion de la lección 2 de mi curso de hojas de cálculo en curso-planilhas/aula-2/roteiro.md.\nUsa el mismo formato que curso-planilhas/aula-1/roteiro.md.\nTema: PROCV explicado con una lista de estudiantes y calificaciones.\nAntes de escribir, muéstrame el plan en hasta 6 puntos y espera mi OK.\nNo borres ni cambies nada en la carpeta aula-1."
+        },
+        {
+          "rot": "2 · Activar el control (en el cuadro de mensaje de la sesión)",
+          "icone": "terminal",
+          "conteudo": "/remote-control"
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Lo que aparece en el celular",
+            "html": "<p><b>Plan para curso-planilhas/aula-2/roteiro.md</b></p><ol><li>Inicio: el problema de encontrar la nota de un alumno en una lista grande.</li><li>Qué hace BUSCARV, en una frase.</li><li>Cómo armar la lista de alumnos y notas.</li><li>La fórmula paso a paso, con un alumno de ejemplo.</li><li>Los dos errores más comunes (#N/D y columna incorrecta).</li><li>Ejercicio final e invitación a la comunidad.</li></ol><p>Sigo el formato de la clase 1 y no toco la carpeta aula-1. <b>¿Puedo empezar?</b></p>"
+          },
+          {
+            "rot": "Respuestas de Carla",
+            "html": "<ul><li><b>Aprobar:</b> \"Puedes seguir.\"</li><li><b>Ajustar:</b> \"Cambia el tema 5: muestra solo el error #N/D, con la corrección.\"</li><li><b>Parar:</b> \"Detente aquí. Termino mañana en la computadora.\"</li></ul>"
+          },
+          {
+            "rot": "Cuando no funciona",
+            "html": "<ul><li><b>La sesión desapareció del celular:</b> la computadora se suspendió o se quedó sin internet. Revisa \"Keep this computer awake\".</li><li><b>Claude no esperó:</b> faltó la frase \"espera mi OK\" en el pedido.</li></ul>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Projects: el trabajo que sigue con la laptop cerrada",
+      "sub": "Beta con lista de espera en los planes Pro, Max y Ultra. Si no aparece para ti, lee y guarda el prompt.",
+      "passos": [
+        {
+          "titulo": "Encuentra Projects",
+          "sub": "barra lateral",
+          "texto": [
+            "Busca Projects en la barra lateral de claude.ai/code o en la pestaña Code de la app. ¿No aparece? Únete a la lista de espera.",
+            "Atención: esto no es el antiguo \"Proyectos\" del chat de claude.ai, que es una carpeta de conversaciones con archivos. Son cosas diferentes."
+          ]
+        },
+        {
+          "titulo": "Decide qué subir",
+          "sub": "antes que nada",
+          "texto": [
+            "Los hilos se ejecutan en la nube. Todo lo que entregas al proyecto sale de tu computadora.",
+            "Regla simple: puedes subir investigaciones con información pública. Las hojas de cálculo con nombres y notas de alumnos, los contratos o los datos de clientes se quedan en una carpeta local."
+          ],
+          "exemplo": {
+            "rot": "Carla",
+            "texto": "Se sube: la investigación sobre novedades de hojas de cálculo. Se queda en la computadora: la lista de alumnos con sus notas."
+          }
+        },
+        {
+          "titulo": "Pide y sigue el trabajo",
+          "sub": "desde Overview",
+          "texto": [
+            "Pide la tarea con palabras. Claude abre un hilo (un frente de trabajo) para cada parte y lo muestra en Overview (vista general), el panel de al lado. Aparece un punto cuando un hilo espera por ti.",
+            "Coordinar muchos hilos es tema del curso <a href=\"https://inematds.github.io/claude-gestor-de-agentes-v72/es/\">Claude como gestor de agentes</a>."
+          ]
+        },
+        {
+          "titulo": "Busca el archivo",
+          "sub": "en Library",
+          "texto": [
+            "El resultado queda en el proyecto, en la pestaña Library (biblioteca). Abre el archivo, revisa los enlaces de las fuentes y úsalo solo después.",
+            "La investigación en la nube también puede fallar: puede haber enlaces rotos o fechas incorrectas. Revisarlo depende de ti."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Prompt de Carla: la investigación que se ejecuta en la nube",
+      "sub": "Pégalo en un proyecto nuevo de Projects. Solo información pública.",
+      "blocos": [
+        {
+          "rot": "Investigación para el canal",
+          "icone": "nuvem",
+          "conteudo": "Investiga qué cambió en las hojas de cálculo en línea (Excel y Google Sheets) en los últimos 30 días.\nEnumera 5 cambios útiles para quienes enseñan hojas de cálculo, cada uno con el enlace a la fuente oficial.\nPara cada cambio, escribe una idea para un video corto para mi canal.\nPropón los hilos y espera mi OK antes de empezar.\nGuarda todo en pesquisa.md y avísame cuando termines."
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Respuesta de Claude",
+            "html": "<p>Propongo 3 hilos:</p><ol><li><b>Excel:</b> cambios de los últimos 30 días, con el enlace oficial.</li><li><b>Google Sheets:</b> lo mismo, con el enlace oficial.</li><li><b>Ideas de video:</b> después de los dos primeros, 5 ideas cortas y el archivo pesquisa.md.</li></ol><p>Ejecuto los dos primeros al mismo tiempo. <b>¿Puedo empezar?</b></p>"
+          },
+          {
+            "rot": "pesquisa.md (fragmento)",
+            "html": "<p><b>1. [nombre del cambio]</b>: qué cambió, en una frase. Fuente: [enlace oficial]. Idea para video: \"[título corto]\".</p><p>… 4 cambios más en el mismo formato.</p><p><i>Simulación: el contenido real depende de lo que se haya publicado durante el mes.</i></p>"
+          },
+          {
+            "rot": "Qué NO enviar",
+            "html": "<ul><li>Lista de alumnos con nombre, correo electrónico o nota.</li><li>Contrato, factura o datos de clientes.</li><li>Contraseñas y claves de acceso, en ningún lugar.</li></ul>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica: aprobar a distancia",
+      "sub": "Haz E1 o E2 (basta con uno, según lo que tengas) y E3, que todos pueden hacer.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "E1 · Un plan aprobado desde el celular",
+          "min": "20 min",
+          "texto": "Abre una sesión en la carpeta de un trabajo tuyo, pide una tarea con \"muéstrame el plan y espera mi OK\" y activa el control: escribe /remote-control en el cuadro de mensaje de la sesión (o usa la tarjeta Environment, entorno, en la app). Activa también \"Keep this computer awake\" en Settings → Code (Configuración → Code). Aléjate de la computadora y responde desde el celular.",
+          "pronto": "En el historial de la sesión aparece tu aprobación (o ajuste) enviada desde el celular, y el trabajo continuó después."
+        },
+        {
+          "id": "e2",
+          "titulo": "E2 · Una investigación en la nube",
+          "min": "15 min",
+          "texto": "Si Projects ya aparece para ti, crea un proyecto y pide una investigación con información pública, siguiendo el modelo del prompt de Carla. Cierra la laptop y vuelve después.",
+          "pronto": "hay un archivo pesquisa.md en Library (biblioteca) del proyecto, y abriste 2 enlaces de fuentes para comprobar que funcionan."
+        },
+        {
+          "id": "e3",
+          "titulo": "E3 · La lista de lo que no se sube",
+          "min": "5 min",
+          "texto": "Escribe tres tipos de archivos de tu trabajo que nunca subirás a la nube y dónde los guardas en tu computadora.",
+          "pronto": "tienes una lista con 3 tipos de archivo y la carpeta local de cada uno."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Pon a prueba lo que aprendiste",
+      "sub": "La explicación aparece después de tu respuesta.",
+      "perguntas": [
+        {
+          "p": "Carla activó Remote Control y cerró la tapa de la laptop. ¿Qué pasa?",
+          "opcoes": [
+            "El trabajo pasa a la nube y continúa por su cuenta.",
+            "El trabajo se detiene, porque se ejecuta en su computadora.",
+            "El celular se hace cargo del trabajo hasta que la laptop vuelva.",
+            "Nada cambia: Remote Control guarda todo en segundo plano."
+          ],
+          "certa": 1,
+          "explica": "En Remote Control, el celular solo acompaña y aprueba; quien trabaja es la computadora. Por eso existe \"Keep this computer awake\". Si quieres que la computadora esté apagada, necesitas Projects, en la nube.",
+          "ref": "diagrama"
+        },
+        {
+          "p": "¿Qué comando activa Remote Control dentro de una sesión?",
+          "opcoes": [
+            "/btw",
+            "/recap",
+            "/cloud",
+            "/remote-control o /rc"
+          ],
+          "certa": 3,
+          "explica": "/remote-control (o /rc) activa el control; en la app, también puedes hacerlo desde la tarjeta Environment. /btw es la pregunta aparte y /recap es el resumen de una línea.",
+          "ref": "passos"
+        },
+        {
+          "p": "¿Qué debe dejar Carla FUERA de un proyecto en la nube?",
+          "opcoes": [
+            "La hoja de cálculo con los nombres y las calificaciones de los alumnos.",
+            "Una investigación sobre las novedades de Excel.",
+            "Ideas de títulos para los próximos videos del canal.",
+            "Enlaces a páginas oficiales de ayuda."
+          ],
+          "certa": 0,
+          "explica": "Lo que va a Projects sale de la computadora. Los datos personales de los alumnos se quedan en una carpeta local; la información pública puede subirse.",
+          "ref": "passos"
+        },
+        {
+          "p": "¿El \"Projects\" de esta clase es el mismo \"Proyectos\" del chat de claude.ai?",
+          "opcoes": [
+            "Sí, solo le cambiaron el nombre.",
+            "Sí, pero ahora funciona en el celular.",
+            "No: es el de Claude Code, con threads que funcionan en la nube.",
+            "No: es una aplicación independiente que hay que instalar en el celular."
+          ],
+          "certa": 2,
+          "explica": "Proyectos del chat es una carpeta de conversaciones con archivos. Projects de Claude Code es una conversación continua que abre threads en la nube. Está en claude.ai/code o en la pestaña Code de la app.",
+          "ref": "passos"
+        },
+        {
+          "p": "¿Por qué incluir \"espera mi OK\" en el pedido antes de activar Remote Control?",
+          "opcoes": [
+            "Porque sin esa frase Remote Control no puede activarse en la sesión.",
+            "Para que Claude se detenga en el plan y tú decidas desde el celular.",
+            "Para que el trabajo pase a la nube.",
+            "Para gastar menos del límite del plan."
+          ],
+          "certa": 1,
+          "explica": "La frase crea el punto de decisión. Sin ella, Claude puede seguir directamente, y tú solo ves el resultado terminado en el celular.",
+          "ref": "codigo"
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "La clase en tres frases",
+      "itens": [
+        {
+          "t": "Remote Control",
+          "texto": "La computadora trabaja; tú apruebas desde el celular. La computadora debe estar siempre encendida."
+        },
+        {
+          "t": "Projects",
+          "texto": "La investigación funciona en la nube con la laptop cerrada. Beta con lista de espera."
+        },
+        {
+          "t": "Lo que se sube",
+          "texto": "La información pública puede subirse; los datos de alumnos y clientes se quedan en la computadora."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para profundizar",
+      "links": [
+        {
+          "t": "Remote Control en la documentación oficial (en inglés)",
+          "href": "https://code.claude.com/docs/en/remote-control",
+          "icone": "chat"
+        },
+        {
+          "t": "Projects de Claude Code en la documentación oficial (en inglés)",
+          "href": "https://code.claude.com/docs/en/claude-projects",
+          "icone": "nuvem"
+        },
+        {
+          "t": "Curso: Claude como gestor de agentes",
+          "href": "https://inematds.github.io/claude-gestor-de-agentes-v72/es/",
+          "icone": "robo"
+        }
+      ]
+    }
+  ]
+}

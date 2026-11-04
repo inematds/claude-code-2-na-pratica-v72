@@ -1,0 +1,447 @@
+{
+ "slug": "ajudantes",
+ "num": 3,
+ "menu": "Ayudantes",
+ "titulo": "Ayudantes: un trabajo grande dividido en partes",
+ "titulo_curto": "Ayudantes (subagentes)",
+ "minutos": 15,
+ "lead": "Un guion listo puede convertirse en resumen, clips y publicaciones. Pedir todo en una sola conversación la llena y mezcla las partes. Con ayudantes, la conversación divide el trabajo: cada ayudante hace una parte y devuelve solo el resultado. En esta clase, Carla lo hace con la clase 1 del curso de hojas de cálculo, y tú lo haces con un texto tuyo.",
+ "objetivo": "Dividir un trabajo grande entre ayudantes (subagentes) y revisar el resultado antes de usarlo.",
+ "competencias": [
+  "dividir-trabajo-en-partes",
+  "pedir-un-ayudante-por-parte",
+  "exigir-revision-al-final",
+  "seguir-el-consumo"
+ ],
+ "aprende": [
+  {
+   "icone": "camadas",
+   "t": "Qué es un ayudante (subagente) y cuándo conviene usarlo"
+  },
+  {
+   "icone": "lista",
+   "t": "Dividir un trabajo en partes que no dependen unas de otras"
+  },
+  {
+   "icone": "check",
+   "t": "Pedir una revisión al final, con la lista de lo que se corrigió"
+  },
+  {
+   "icone": "grafico",
+   "t": "Ver cuánto de tu límite consumieron los ayudantes"
+  }
+ ],
+ "hero_alt": "Escritorio de profesora por la noche: un guion impreso en el centro y tres hojas más pequeñas que salen de él, cada una con una tarea diferente.",
+ "secoes": [
+  {
+   "tipo": "diagrama",
+   "titulo": "Del pedido grande a la entrega revisada",
+   "sub": "Toca o haz clic en cada etapa.",
+   "nos": [
+    {
+     "icone": "usuario",
+     "titulo": "Pedido",
+     "sub": "trabajo completo",
+     "itens": [
+      {
+       "icone": "arquivo",
+       "t": "roteiro.md de la clase 1"
+      }
+     ],
+     "detalhe": "Entregas todo el trabajo de una vez, indicando las partes. Carla pide: a partir del guion de la clase 1, un resumen, 5 clips cortos y 3 publicaciones."
+    },
+    {
+     "icone": "chat",
+     "titulo": "Conversación",
+     "sub": "divide",
+     "detalhe": "Una sesión es una conversación de Claude con su propio historial. Es la que recibe el pedido, separa las partes y asigna cada una a un ayudante. No tienes que abrir nada más: los ayudantes trabajan dentro de esa misma sesión."
+    },
+    {
+     "icone": "robo",
+     "titulo": "Ayudantes",
+     "sub": "una parte cada uno",
+     "forte": true,
+     "itens": [
+      {
+       "icone": "arquivo",
+       "t": "resumo.md"
+      },
+      {
+       "icone": "video",
+       "t": "cortes.md"
+      },
+      {
+       "icone": "megafone",
+       "t": "posts.md"
+      }
+     ],
+     "detalhe": "Ayudante es el nombre que este curso le da al subagente, que es el nombre oficial. Cada uno hace solo su parte, en su propio contexto (la memoria de esa tarea), y le devuelve un resumen a la conversación. Así, la conversación principal no se llena con los borradores de todos. Mucha gente lo llama \"sesiones anidadas\", pero ese no es el nombre oficial."
+    },
+    {
+     "icone": "lupa",
+     "titulo": "Revisión",
+     "sub": "antes de usar",
+     "detalhe": "La conversación compara las tres partes con el guion: tiempos, nombres, números y tono. Corrige lo que no coincide y lo anota. Sin este paso, un error de un ayudante te llega directamente."
+    },
+    {
+     "icone": "check",
+     "titulo": "Entrega",
+     "sub": "archivos + lista",
+     "detalhe": "Recibes los tres archivos en la carpeta y una lista breve de lo que se corrigió. Ahora te toca revisar: abre un archivo y comprueba un dato con el guion."
+    }
+   ],
+   "volta": "¿Una parte no quedó bien? Pide que rehaga solo esa parte",
+   "legenda": "Ejemplo de Carla: guion de la clase 1 → resumen, clips y publicaciones. Los ayudantes están en la app (pestaña Code) y en la terminal.",
+   "rolagem": true,
+   "rolagem_fim": {
+    "titulo": "El proceso completo",
+    "texto": "Pides todo el trabajo ya dividido. La conversación asigna una parte a cada ayudante, reúne las respuestas, las compara con el original y te devuelve los archivos con la lista de lo que corrigió.",
+    "curto": "Pedido → partes → revisión → entrega."
+   }
+  },
+  {
+   "tipo": "passos",
+   "titulo": "Cómo pedirlo para que salga bien",
+   "sub": "Cuatro cuidados. Haz clic en cada uno.",
+   "passos": [
+    {
+     "titulo": "Partes independientes",
+     "sub": "una no tiene que esperar a la otra",
+     "texto": [
+      "El asistente funciona bien cuando cada parte avanza por su cuenta. El resumen, los cortes y las publicaciones salen del mismo guion, pero una no necesita esperar a la otra.",
+      "Si la parte B depende del resultado de la parte A, haz primero la A y después pide la B."
+     ],
+     "exemplo": {
+      "rot": "Ideal para asistentes",
+      "texto": "Resumen, cortes y publicaciones de la misma clase. O: revisar la ortografía de 3 clases diferentes."
+     }
+    },
+    {
+     "titulo": "Una entrega cada uno",
+     "sub": "archivo y extensión",
+     "texto": [
+      "Di qué entrega cada asistente, en qué archivo y de qué extensión. «Haz algunas publicaciones» no tiene fin; «3 publicaciones de hasta 280 caracteres en posts.md» sí.",
+      "Con la entrega clara, la revisión sabe qué buscar."
+     ],
+     "exemplo": {
+      "rot": "Entrega clara",
+      "texto": "Asistente 2: 5 cortes cortos, cada uno con inicio, fin y una frase gancho, en cortes.md."
+     }
+    },
+    {
+     "titulo": "Revisión al final",
+     "sub": "con la lista",
+     "texto": [
+      "Pide que la conversación compare las partes con el original y enumere lo que corrigió. Si no hay nada que corregir, debe decir cómo lo comprobó.",
+      "La lista es tu atajo: primero miras lo que se corrigió."
+     ],
+     "exemplo": {
+      "rot": "Frase lista",
+      "texto": "Al final, compara los tres archivos con el guion y dime en una lista qué corregiste."
+     }
+    },
+    {
+     "titulo": "Revisa el consumo",
+     "sub": "empieza con 2 o 3",
+     "texto": [
+      "Cada asistente tiene su propio contexto, y eso consume el límite de tu plan. Empieza con 2 o 3 asistentes, no con 20.",
+      "En la app, el anillo de uso es un círculo al lado de donde eliges el modelo y muestra cuánto del límite ya se usó. En la terminal (opcional), <code>/usage</code> muestra el uso del plan y <code>/context</code> muestra cuánto espacio de la conversación ya está ocupado."
+     ],
+     "exemplo": {
+      "rot": "Para ir más lejos",
+      "texto": "Coordinar varias sesiones al mismo tiempo es otro tema: mira el curso <a href=\"https://inematds.github.io/claude-gestor-de-agentes-v72/es/\">Claude como gestor de agentes</a>."
+     }
+    }
+   ]
+  },
+  {
+   "tipo": "codigo",
+   "titulo": "El pedido de Carla",
+   "sub": "El primero es el pedido de Carla, en una lista. El segundo es el modelo para ti: el mismo pedido, un campo por línea. Pasa la comprobación de abajo y funciona si lo pegas directamente en la conversación. Cambia lo que está entre < > por lo tuyo, y la ruta curso-planilhas/… por la de tu archivo (.md, Word o PDF; mira la clase 2).",
+   "blocos": [
+    {
+     "rot": "Pedido · clase 1 en tres partes",
+     "icone": "chat",
+     "conteudo": "Lee el guion de la clase 1 en curso-planilhas/aula-1/roteiro.md.\nUsa un subagente para cada elemento de abajo. Cada uno hace solo su parte y guarda el resultado:\n1. Un resumen de la clase, de hasta 150 palabras, en curso-planilhas/aula-1/resumo.md\n2. 5 cortes cortos para el canal, cada uno con inicio, fin y una frase gancho, en curso-planilhas/aula-1/cortes.md\n3. 3 publicaciones cortas para redes sociales, de hasta 280 caracteres cada una, en curso-planilhas/aula-1/posts.md\nAl final, compara los tres archivos con el guion (marcas de tiempo, nombres de funciones, números).\nCorrige lo que no coincida y dime en una lista qué corregiste.\nNo publiques nada ni modifiques el guion."
+    },
+    {
+     "rot": "Modelo · pedido-ayudantes.txt (el tuyo)",
+     "icone": "copiar",
+     "conteudo": "Trabajo: <qué hacer y dónde está el texto original, ej.: carpeta/texto.md>\nAsistente 1: un subagente hace <entrega 1, con extensión> y la guarda en <archivo1.md>\nAsistente 2: un subagente hace <entrega 2, con extensión> y la guarda en <archivo2.md>\nAsistente 3: un subagente hace <entrega 3, con extensión> y la guarda en <archivo3.md>\nRevisión: al final, compara los tres archivos con el texto original y dime en una lista qué corregiste.\nLímites: no publiques nada ni modifiques el texto original."
+    }
+   ],
+   "saida": {
+    "selo": "simulacao",
+    "abas": [
+     {
+      "rot": "Lo que devolvió Claude",
+      "html": "<p>Listo. Los tres subagentes terminaron y comparé todo con el guion.</p><p><b>Archivos</b></p><ul><li>resumo.md · 132 palabras</li><li>cortes.md · 5 cortes</li><li>posts.md · 3 publicaciones</li></ul><p><b>Lo que corregí</b></p><ol><li>El corte 4 terminaba en 12:40, pero el guion termina en 11:05. Lo cambié por el fragmento de PROCV, de 08:15 a 08:52.</li><li>La publicación 2 decía «Excel avanzado». La clase es para principiantes; lo cambié por «hojas de cálculo desde cero».</li><li>El resumen llamaba a la función «SOMA.SE» y el guion usa «SOMASE». Lo dejé igual que en el guion.</li></ol><p>No se publicó nada. El guion no se modificó.</p>"
+     },
+     {
+      "rot": "Cómo comprobarlo",
+      "html": "<ol><li>Abre la carpeta curso-planilhas/aula-1: ahí están los tres archivos nuevos.</li><li>Elige un elemento de la lista de correcciones y compruébalo en el guion (por ejemplo: ¿el guion realmente termina en 11:05?).</li><li>Abre cortes.md y compara un corte completo con el guion.</li><li>Mira el anillo de uso en la app (o <code>/usage</code> en la terminal) para saber cuánto consumió el trabajo.</li></ol>"
+     },
+     {
+      "rot": "Errores comunes",
+      "html": "<ul><li><b>Sin revisión</b>: cada asistente hace bien su parte, pero nadie la compara con el original. El error llega hasta ti.</li><li><b>Partes que dependen una de otra</b>: el asistente de las publicaciones necesitaba el resumen terminado e inventó el suyo.</li><li><b>Entrega sin extensión definida</b>: «haz algunas publicaciones» da como resultado 12 publicaciones largas y pierdes tiempo recortándolas.</li><li><b>Demasiados asistentes</b>: cada uno consume parte de tu límite. Empieza con 2 o 3.</li></ul>"
+     }
+    ]
+   }
+  },
+  {
+   "tipo": "conferidor",
+   "titulo": "Revisa tu pedido antes de enviarlo",
+   "sub": "Escribe tu pedido con este formato (un campo por línea) y pégalo aquí. La página comprueba si cada ayudante es un subagente con un archivo de entrega, si la Revisión compara con el original y pide la lista de lo que se corrigió, y si los Límites indican qué no hacer. Es una comprobación de formato: tú decides si las partes tienen sentido.",
+   "arquivo": "pedido-ajudantes.txt",
+   "rot": "Pega aquí tu pedido (un campo por línea):",
+   "modelo": "Trabajo: ...\nAyudante 1: ...\nAyudante 2: ...\nAyudante 3: ...\nRevisión: ...\nLímites: ...",
+   "regras": [
+    {
+     "tipo": "campos",
+     "campos": [
+      "Trabajo",
+      "Ayudante 1",
+      "Ayudante 2",
+      "Ayudante 3",
+      "Revisión",
+      "Límites"
+     ],
+     "min": 12
+    },
+    {
+     "tipo": "termos",
+     "grupos": [
+      {
+       "rot": "subagente en Ayudante 1",
+       "campo": "Ayudante 1",
+       "termos": [
+        "subagente / subagentes / subagent / subagents / ajudante / ajudantes / helper / helpers / ayudante / ayudantes / sub-agent / sub-agente"
+       ]
+      },
+      {
+       "rot": "archivo de entrega en Ayudante 1",
+       "campo": "Ayudante 1",
+       "termos": [
+        "md / txt / docx / csv / arquivo / file / archivo / documento / document"
+       ]
+      }
+     ]
+    },
+    {
+     "tipo": "termos",
+     "grupos": [
+      {
+       "rot": "subagente en el Ayudante 2",
+       "campo": "Ayudante 2",
+       "termos": [
+        "subagente / subagentes / subagent / subagents / ajudante / ajudantes / helper / helpers / ayudante / ayudantes / sub-agent / sub-agente"
+       ]
+      },
+      {
+       "rot": "archivo de entrega en el Ayudante 2",
+       "campo": "Ayudante 2",
+       "termos": [
+        "md / txt / docx / csv / arquivo / file / archivo / documento / document"
+       ]
+      }
+     ]
+    },
+    {
+     "tipo": "termos",
+     "grupos": [
+      {
+       "rot": "subagente en el Ayudante 3",
+       "campo": "Ayudante 3",
+       "termos": [
+        "subagente / subagentes / subagent / subagents / ajudante / ajudantes / helper / helpers / ayudante / ayudantes / sub-agent / sub-agente"
+       ]
+      },
+      {
+       "rot": "archivo de entrega en el Ayudante 3",
+       "campo": "Ayudante 3",
+       "termos": [
+        "md / txt / docx / csv / arquivo / file / archivo / documento / document"
+       ]
+      }
+     ]
+    },
+    {
+     "tipo": "termos",
+     "grupos": [
+      {
+       "rot": "en la Revisión, la comparación con el original",
+       "campo": "Revisión",
+       "termos": [
+        "confira / conferir / confere / compare / comparar / compara / check / verify / compare against / revise / revisar / revisa / verifique / verificar / verifica / comprueba / comprobar / coteje / cotejar / contra o / against / contra el"
+       ]
+      },
+      {
+       "rot": "en la Revisión, la lista de lo que se corrigió",
+       "campo": "Revisión",
+       "termos": [
+        "corrigiu / corrigido / corrigidos / corrigida / corrigidas / correções / correcoes / o que mudou / corrected / fixed / corrections / what changed / corrigió / corregido / corregidos / correcciones / lo que cambió / corregiste / corrijas / qué corregiste"
+       ]
+      },
+      {
+       "rot": "Revisión sin criterio",
+       "campo": "Revisión",
+       "proibe": true,
+       "termos": [
+        "se achar necessário / se achar necessario / se quiser / o que achar melhor / se der tempo / if needed / if you want / as you see fit / si quieres / si hace falta / lo que creas mejor"
+       ]
+      }
+     ]
+    },
+    {
+     "tipo": "termos",
+     "grupos": [
+      {
+       "rot": "en los Límites, qué no hacer",
+       "campo": "Límites",
+       "termos": [
+        "não publique / nao publique / não apague / nao apague / não altere / nao altere / não mexa / nao mexa / não envie / nao envie / don't publish / do not publish / don't delete / do not delete / don't change / do not change / don't touch / do not touch / no publiques / no publique / no borres / no borre / no cambies / no cambie / no toques / no toque / no envíes / no envíe"
+       ]
+      }
+     ]
+    }
+   ],
+   "ok": "OK: pedido con los {n} campos, un subagente por parte y revisión con lista",
+   "exemplo": "Trabajo: transformar el guion de la clase 1 (curso-planilhas/aula-1/roteiro.md) en material para el canal y las redes.\nAyudante 1: un subagente escribe un resumen de hasta 150 palabras y lo guarda en resumo.md.\nAyudante 2: un subagente elige 5 cortes cortos con inicio, fin y frase gancho y los guarda en cortes.md.\nAyudante 3: un subagente escribe 3 publicaciones de hasta 280 caracteres y las guarda en posts.md.\nRevisión: al final, compara los tres archivos con el guion (minutaje, nombres de funciones, números) y dime en una lista qué corregiste.\nLímites: no publiques nada ni modifiques el guion.",
+   "exemplo_errado": "Trabajo: aprovechar la clase 1 del curso de hojas de cálculo.\nAyudante 1: haz un buen resumen de la clase.\nAyudante 2: selecciona algunos cortes buenos para el canal.\nAyudante 3: escribe algunas publicaciones para las redes.\nRevisión: da una mirada general si lo consideras necesario.\nLímites: siéntete libre de hacer lo que te parezca mejor."
+  },
+  {
+   "tipo": "pratica",
+   "titulo": "Práctica: un texto tuyo en tres partes",
+   "sub": "Usa un texto que ya tengas: guion, clase, artículo o acta. En la app Desktop (pestaña Code) o en la terminal; en Linux, solo en la terminal.",
+   "exercicios": [
+    {
+     "id": "e1",
+     "titulo": "E1 · El pedido",
+     "min": "10 min",
+     "texto": "Elige el texto y las tres entregas (por ejemplo: resumen, cortes y publicaciones; o resumen, preguntas para el examen y correo a los alumnos). Completa la plantilla pedido-ajudantes.txt. Si tu texto no tiene minutaje, pide «el fragmento» en lugar del inicio y el fin.",
+     "pronto": "el verificador de arriba responde «OK: pedido con los 6 campos, un subagente por parte y revisión con lista»."
+    },
+    {
+     "id": "e2",
+     "titulo": "E2 · Trabajar con ayudantes",
+     "min": "15 min",
+     "texto": "Abre una sesión en la carpeta del texto (en la app: pestaña Code, elige la carpeta al abrir la sesión, como en la clase 2; en la terminal, opcionalmente: entra en la carpeta y escribe claude). Pega el pedido-ajudantes.txt que pasó el verificador, tal como está, y espera la respuesta final.",
+     "pronto": "los 3 archivos que pediste existen en la carpeta y la respuesta final incluye la lista de lo que se corrigió (o explica cómo se verificó, si no se corrigió nada)."
+    },
+    {
+     "id": "e3",
+     "titulo": "E3 · Tu revisión",
+     "min": "10 min",
+     "texto": "Toma un elemento de la lista de correcciones y verifícalo en el texto original. Después abre uno de los archivos y verifica toda la información de un elemento (un corte, una fecha, un nombre). Por último, mira el anillo de uso en la app (el círculo junto a donde eliges el modelo) o escribe /usage.",
+     "pronto": "verificaste 2 datos con el original y miraste el anillo de uso o /usage para ver cuánto del límite consumió el trabajo."
+    }
+   ]
+  },
+  {
+   "tipo": "quiz",
+   "titulo": "Pon a prueba lo que aprendiste",
+   "sub": "La explicación aparece después de tu respuesta.",
+   "perguntas": [
+    {
+     "p": "¿Qué es un ayudante (subagente) en Claude Code?",
+     "opcoes": [
+      "Una segunda cuenta de Claude que contratas y pagas por separado, cada mes.",
+      "Un asistente extra, en la misma sesión, que hace una parte y te devuelve el resultado.",
+      "Una segunda sesión que tú mismo abres junto a la primera usando la vista dividida.",
+      "Un modelo más potente que lee y revisa todas las respuestas al final de la conversación."
+     ],
+     "certa": 1,
+     "explica": "La conversación divide el trabajo y cada ayudante hace una parte dentro de la misma sesión. El error común es confundirlo con la vista dividida, donde tú abres dos sesiones una al lado de la otra (clase 2).",
+     "ref": "diagrama"
+    },
+    {
+     "p": "¿Cuál de estos trabajos se presta mejor para usar ayudantes?",
+     "opcoes": [
+      "Escribir una publicación y luego usarla para elegir la portada.",
+      "Responder una duda rápida sobre una fórmula.",
+      "Corregir una coma en el guion.",
+      "Revisar la ortografía de tres clases distintas."
+     ],
+     "certa": 3,
+     "explica": "Tres partes independientes, una por ayudante. La publicación seguida de la portada es el error común: la segunda parte depende de la primera, así que hazlas en orden.",
+     "ref": "passos"
+    },
+    {
+     "p": "¿Por qué pedir una revisión al final?",
+     "opcoes": [
+      "Porque cada ayudante solo ve su parte; alguien tiene que comparar todo con el original antes de que te llegue.",
+      "Porque sin ella los ayudantes no guardan los archivos.",
+      "Porque la revisión hace que el trabajo cueste menos.",
+      "Porque la revisión es la que recibe el pedido completo, decide cuántos ayudantes abrir y le asigna una parte a cada uno."
+     ],
+     "certa": 0,
+     "explica": "En el ejemplo de Carla, la revisión encontró un corte fuera del tiempo del guion y un nombre de función incorrecto. Sin ella, esos errores habrían llegado directamente al canal.",
+     "ref": "codigo"
+    },
+    {
+     "p": "En el pedido, ¿qué línea de Revisión acepta la página?",
+     "opcoes": [
+      "Revisión: da una mirada general a los archivos si lo consideras necesario.",
+      "Revisión: todo está bien, puedes confiar en los ayudantes.",
+      "Revisión: compara con el guion y enumera lo que corregiste.",
+      "Revisión: haz la revisión que prefieras al final."
+     ],
+     "certa": 2,
+     "explica": "Indica qué comparar y pide la lista de los cambios, así puedes revisar. «Si lo consideras necesario» deja la revisión como opcional, y el error pasa.",
+     "ref": "conferidor"
+    },
+    {
+     "p": "Carla quiere usar 20 ayudantes a la vez. ¿Cuál es el mejor consejo?",
+     "opcoes": [
+      "Puedes hacerlo: los ayudantes no consumen nada de tu plan.",
+      "Empieza con 2 o 3 y revisa el anillo de uso o /usage, porque cada ayudante consume parte de tu límite.",
+      "Usa 20, pero sin revisión, para ahorrar.",
+      "Abre 20 sesiones en vista dividida en lugar de usar ayudantes."
+     ],
+     "certa": 1,
+     "explica": "Cada ayudante tiene su propio contexto y consume parte de tu límite. El error común es pensar que son gratis. Para coordinar muchas sesiones de verdad, existe el curso Claude como gestor de agentes.",
+     "ref": "passos"
+    }
+   ]
+  },
+  {
+   "tipo": "resumo",
+   "titulo": "La clase en tres frases",
+   "itens": [
+    {
+     "t": "Partes independientes",
+     "texto": "Los ayudantes sirven para trabajos grandes divididos en partes que no dependen unas de otras."
+    },
+    {
+     "t": "Entrega clara",
+     "texto": "Asigna a cada ayudante un archivo y un tamaño; empieza con dos o tres."
+    },
+    {
+     "t": "Revisión siempre",
+     "texto": "La conversación compara con el original y enumera lo que corrigió; después revisas una información."
+    }
+   ]
+  },
+  {
+   "tipo": "links",
+   "titulo": "Para profundizar",
+   "links": [
+    {
+     "t": "Claude Code en la app de escritorio (documentación oficial, en inglés)",
+     "href": "https://code.claude.com/docs/en/desktop",
+     "icone": "lista"
+    },
+    {
+     "t": "Curso Claude como gestor de agentes (varias sesiones, equipos y costos)",
+     "href": "https://inematds.github.io/claude-gestor-de-agentes-v72/es/",
+     "icone": "robo"
+    },
+    {
+     "t": "Guía de las 13 novedades de Claude Code",
+     "href": "https://inematds.github.io/claude-code-2/guia/",
+     "icone": "arquivo"
+    }
+   ]
+  }
+ ]
+}

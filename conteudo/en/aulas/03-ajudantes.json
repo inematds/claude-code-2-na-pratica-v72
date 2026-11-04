@@ -1,0 +1,447 @@
+{
+ "slug": "ajudantes",
+ "num": 3,
+ "menu": "Helpers",
+ "titulo": "Helpers: one big job split into parts",
+ "titulo_curto": "Helpers (subagents)",
+ "minutos": 15,
+ "lead": "A finished script can become a summary, clips, and posts. Asking for everything in one conversation fills it up and mixes the parts together. With helpers, the conversation splits up the work: each helper handles one part and returns only the result. In this lesson, Carla does this with lesson 1 of the spreadsheet course, and you try it with a text of your own.",
+ "objetivo": "Split a big job among helpers (subagents) and check the result before using it.",
+ "competencias": [
+  "split-work-into-parts",
+  "ask-one-helper-for-each-part",
+  "require-a-final-check",
+  "track-usage"
+ ],
+ "aprende": [
+  {
+   "icone": "camadas",
+   "t": "What a helper (subagent) is and when it’s useful"
+  },
+  {
+   "icone": "lista",
+   "t": "Split a job into parts that don’t depend on each other"
+  },
+  {
+   "icone": "check",
+   "t": "Ask for a final check and a list of what was corrected"
+  },
+  {
+   "icone": "grafico",
+   "t": "Check how much of your limit the helpers used"
+  }
+ ],
+ "hero_alt": "A teacher’s desk at night: a printed script in the center, with three smaller sheets branching off, each with a different task.",
+ "secoes": [
+  {
+   "tipo": "diagrama",
+   "titulo": "From a big request to a checked deliverable",
+   "sub": "Tap or click each step.",
+   "nos": [
+    {
+     "icone": "usuario",
+     "titulo": "Request",
+     "sub": "the whole job",
+     "itens": [
+      {
+       "icone": "arquivo",
+       "t": "lesson 1 script.md"
+      }
+     ],
+     "detalhe": "You hand over the whole job at once, already saying what the parts are. Carla asks for a summary, 5 short clips, and 3 posts based on the lesson 1 script."
+    },
+    {
+     "icone": "chat",
+     "titulo": "Conversation",
+     "sub": "splits it up",
+     "detalhe": "A session is a Claude conversation with its own history. It receives the request, separates the parts, and assigns each one to a helper. You don’t open anything else: the helpers work inside that same session."
+    },
+    {
+     "icone": "robo",
+     "titulo": "Helpers",
+     "sub": "one part each",
+     "forte": true,
+     "itens": [
+      {
+       "icone": "arquivo",
+       "t": "summary.md"
+      },
+      {
+       "icone": "video",
+       "t": "clips.md"
+      },
+      {
+       "icone": "megafone",
+       "t": "posts.md"
+      }
+     ],
+     "detalhe": "Helper is the name this course uses for a subagent, its official name. Each one handles only its own part, in its own context (the memory for that task), and returns a summary to the conversation. That way, the main conversation doesn’t fill up with everyone’s drafts. Many people call this “nested sessions,” but that isn’t the official name."
+    },
+    {
+     "icone": "lupa",
+     "titulo": "Check",
+     "sub": "before using",
+     "detalhe": "The conversation compares the three parts with the script: timestamps, names, numbers, and tone. It corrects and notes anything that doesn’t match. Without this step, a helper’s mistake goes straight to you."
+    },
+    {
+     "icone": "check",
+     "titulo": "Delivery",
+     "sub": "files + list",
+     "detalhe": "You get the three files in the folder and a short list of what was corrected. Now it’s your turn to check: open a file and verify one detail against the script."
+    }
+   ],
+   "volta": "One part didn’t turn out well? Ask to redo just that part",
+   "legenda": "Carla’s example: lesson 1 script → summary, clips, and posts. Helpers are available in the app (Code tab) and in the terminal.",
+   "rolagem": true,
+   "rolagem_fim": {
+    "titulo": "The full process",
+    "texto": "You ask for the whole job, already split into parts. The conversation gives one part to each helper, combines the responses, checks them against the original, and returns the files with a list of what it corrected.",
+    "curto": "Request → parts → check → delivery."
+   }
+  },
+  {
+   "tipo": "passos",
+   "titulo": "How to make your request work",
+   "sub": "Four things to keep in mind. Click each one.",
+   "passos": [
+    {
+     "titulo": "Separate parts",
+     "sub": "one doesn’t have to wait for another",
+     "texto": [
+      "Helpers work well when each part can move forward on its own. The summary, clips, and posts all come from the same script, but none has to wait for the others.",
+      "If part B depends on the result of part A, do A first and ask for B afterward."
+     ],
+     "exemplo": {
+      "rot": "Good for helpers",
+      "texto": "A summary, clips, and posts from the same lesson. Or: proofread 3 different lessons."
+     }
+    },
+    {
+     "titulo": "One deliverable each",
+     "sub": "file and length",
+     "texto": [
+      "Say what each helper will deliver, in which file, and how long it should be. “Make some posts” has no endpoint; “3 posts of up to 280 characters in posts.md” does.",
+      "With a clear deliverable, the review knows what to look for."
+     ],
+     "exemplo": {
+      "rot": "Clear deliverable",
+      "texto": "Helper 2: 5 short clips, each with a start, end, and hook sentence, in cortes.md."
+     }
+    },
+    {
+     "titulo": "Review at the end",
+     "sub": "with the list",
+     "texto": [
+      "Ask the conversation to check the parts against the original and list what it corrected. If there’s nothing to correct, it has to say how it checked.",
+      "The list is your shortcut: look first at what was corrected."
+     ],
+     "exemplo": {
+      "rot": "Ready-to-use sentence",
+      "texto": "At the end, check the three files against the script and give me a list of what you corrected."
+     }
+    },
+    {
+     "titulo": "Watch your usage",
+     "sub": "start with 2 or 3",
+     "texto": [
+      "Each helper has its own context, which counts toward your plan limit. Start with 2 or 3 helpers, not 20.",
+      "In the app, the usage ring is a circle next to where you choose the model. It shows how much of your limit you’ve used. In the terminal (optional), <code>/usage</code> shows your plan usage and <code>/context</code> shows how much of the conversation is already in use."
+     ],
+     "exemplo": {
+      "rot": "Go further",
+      "texto": "Coordinating several sessions at the same time is another topic: see the course <a href=\"https://inematds.github.io/claude-gestor-de-agentes-v72/en/\">Claude as an agent manager</a>."
+     }
+    }
+   ]
+  },
+  {
+   "tipo": "codigo",
+   "titulo": "Carla’s request",
+   "sub": "The first is Carla’s request, as a list. The second is the template for you: the same request, with one field per line. It passes the checker below and works when pasted straight into the conversation. Replace what’s between < > with your own text, and replace the curso-planilhas/… path with the path to your file (.md, Word, or PDF; see lesson 2).",
+   "blocos": [
+    {
+     "rot": "Request · lesson 1 in three parts",
+     "icone": "chat",
+     "conteudo": "Read the script for lesson 1 in curso-planilhas/aula-1/roteiro.md.\nUse one subagent for each item below. Each one does only its part and saves the result:\n1. A summary of the lesson, up to 150 words, in curso-planilhas/aula-1/resumo.md\n2. 5 short clips for the channel, each with a start, end, and hook sentence, in curso-planilhas/aula-1/cortes.md\n3. 3 short social media posts, each up to 280 characters, in curso-planilhas/aula-1/posts.md\nAt the end, check the three files against the script (timestamps, function names, numbers).\nCorrect anything that doesn’t match and give me a list of what you corrected.\nDon’t publish anything or change the script."
+    },
+    {
+     "rot": "Template · pedido-ajudantes.txt (yours)",
+     "icone": "copiar",
+     "conteudo": "Task: <what to do and where the original text is, e.g., folder/text.md>\nHelper 1: one subagent does <deliverable 1, with length> and saves it in <file1.md>\nHelper 2: one subagent does <deliverable 2, with length> and saves it in <file2.md>\nHelper 3: one subagent does <deliverable 3, with length> and saves it in <file3.md>\nReview: at the end, check the three files against the original text and give me a list of what you corrected.\nLimits: don’t publish anything or change the original text."
+    }
+   ],
+   "saida": {
+    "selo": "simulacao",
+    "abas": [
+     {
+      "rot": "What Claude returned",
+      "html": "<p>Done. The three subagents finished, and I checked everything against the script.</p><p><b>Files</b></p><ul><li>resumo.md · 132 words</li><li>cortes.md · 5 clips</li><li>posts.md · 3 posts</li></ul><p><b>What I corrected</b></p><ol><li>Clip 4 ended at 12:40, but the script ends at 11:05. I replaced it with the VLOOKUP section, from 08:15 to 08:52.</li><li>Post 2 said “advanced Excel.” The lesson is for beginners; I changed it to “spreadsheets from scratch.”</li><li>The summary called the function “SOMA.SE,” but the script uses “SOMASE.” I matched the script.</li></ol><p>Nothing was published. The script wasn’t changed.</p>"
+     },
+     {
+      "rot": "How to check",
+      "html": "<ol><li>Open the curso-planilhas/aula-1 folder: the three new files are there.</li><li>Pick an item from the correction list and check it in the script (for example, does the script really end at 11:05?).</li><li>Open cortes.md and check one full clip against the script.</li><li>Check the usage ring in the app (or <code>/usage</code> in the terminal) to see how much the work used.</li></ol>"
+     },
+     {
+      "rot": "Common mistakes",
+      "html": "<ul><li><b>No review</b>: each helper gets its part right, but nobody compares it with the original. The mistake reaches you.</li><li><b>Parts that depend on each other</b>: the helper writing the posts needed the finished summary and made one up.</li><li><b>No length for the deliverable</b>: “make some posts” comes back as 12 long posts, and you waste time cutting them down.</li><li><b>Too many helpers</b>: each one uses part of your limit. Start with 2 or 3.</li></ul>"
+     }
+    ]
+   }
+  },
+  {
+   "tipo": "conferidor",
+   "titulo": "Check your request before sending it",
+   "sub": "Write your request in this format (one field per line) and paste it here. The page checks whether each helper is a subagent with a delivery file, whether the Review compares with the original and asks for a list of corrections, and whether the Limits say what not to do. This is a format check: you decide whether the parts make sense.",
+   "arquivo": "pedido-ajudantes.txt",
+   "rot": "Paste your request here (one field per line):",
+   "modelo": "Task: ...\nHelper 1: ...\nHelper 2: ...\nHelper 3: ...\nReview: ...\nLimits: ...",
+   "regras": [
+    {
+     "tipo": "campos",
+     "campos": [
+      "Task",
+      "Helper 1",
+      "Helper 2",
+      "Helper 3",
+      "Review",
+      "Limits"
+     ],
+     "min": 12
+    },
+    {
+     "tipo": "termos",
+     "grupos": [
+      {
+       "rot": "subagent in Helper 1",
+       "campo": "Helper 1",
+       "termos": [
+        "subagente / subagentes / subagent / subagents / ajudante / ajudantes / helper / helpers / ayudante / ayudantes / sub-agent / sub-agente"
+       ]
+      },
+      {
+       "rot": "delivery file in Helper 1",
+       "campo": "Helper 1",
+       "termos": [
+        "md / txt / docx / csv / arquivo / file / archivo / documento / document"
+       ]
+      }
+     ]
+    },
+    {
+     "tipo": "termos",
+     "grupos": [
+      {
+       "rot": "subagent in Helper 2",
+       "campo": "Helper 2",
+       "termos": [
+        "subagente / subagentes / subagent / subagents / ajudante / ajudantes / helper / helpers / ayudante / ayudantes / sub-agent / sub-agente"
+       ]
+      },
+      {
+       "rot": "delivery file in Helper 2",
+       "campo": "Helper 2",
+       "termos": [
+        "md / txt / docx / csv / arquivo / file / archivo / documento / document"
+       ]
+      }
+     ]
+    },
+    {
+     "tipo": "termos",
+     "grupos": [
+      {
+       "rot": "subagent in Helper 3",
+       "campo": "Helper 3",
+       "termos": [
+        "subagente / subagentes / subagent / subagents / ajudante / ajudantes / helper / helpers / ayudante / ayudantes / sub-agent / sub-agente"
+       ]
+      },
+      {
+       "rot": "delivery file in Helper 3",
+       "campo": "Helper 3",
+       "termos": [
+        "md / txt / docx / csv / arquivo / file / archivo / documento / document"
+       ]
+      }
+     ]
+    },
+    {
+     "tipo": "termos",
+     "grupos": [
+      {
+       "rot": "in Review, the comparison with the original",
+       "campo": "Review",
+       "termos": [
+        "confira / conferir / confere / compare / comparar / compara / check / verify / compare against / revise / revisar / revisa / verifique / verificar / verifica / comprueba / comprobar / coteje / cotejar / contra o / against / contra el"
+       ]
+      },
+      {
+       "rot": "in Review, the list of what was corrected",
+       "campo": "Review",
+       "termos": [
+        "corrigiu / corrigido / corrigidos / corrigida / corrigidas / correções / correcoes / o que mudou / corrected / fixed / corrections / what changed / corrigió / corregido / corregidos / correcciones / lo que cambió"
+       ]
+      },
+      {
+       "rot": "Review without criteria",
+       "campo": "Review",
+       "proibe": true,
+       "termos": [
+        "se achar necessário / se achar necessario / se quiser / o que achar melhor / se der tempo / if needed / if you want / as you see fit / si quieres / si hace falta / lo que creas mejor"
+       ]
+      }
+     ]
+    },
+    {
+     "tipo": "termos",
+     "grupos": [
+      {
+       "rot": "in Limits, what not to do",
+       "campo": "Limits",
+       "termos": [
+        "não publique / nao publique / não apague / nao apague / não altere / nao altere / não mexa / nao mexa / não envie / nao envie / don't publish / do not publish / don't delete / do not delete / don't change / do not change / don't touch / do not touch / no publiques / no publique / no borres / no borre / no cambies / no cambie / no toques / no toque / no envíes / no envíe"
+       ]
+      }
+     ]
+    }
+   ],
+   "ok": "OK: request has the {n} fields, one subagent per part, and review with a list",
+   "exemplo": "Task: turn the script for lesson 1 (curso-planilhas/aula-1/roteiro.md) into material for the channel and social media.\nHelper 1: one subagent writes a summary of up to 150 words and saves it in resumo.md.\nHelper 2: one subagent chooses 5 short clips with a start, end, and hook line and saves them in cortes.md.\nHelper 3: one subagent writes 3 posts of up to 280 characters and saves them in posts.md.\nReview: at the end, check the three files against the script (timestamps, function names, numbers) and give me a list of what you corrected.\nLimits: don't publish anything or edit the script.",
+   "exemplo_errado": "Task: make use of lesson 1 from the spreadsheet course.\nHelper 1: write a good summary of the lesson.\nHelper 2: pick some good clips for the channel.\nHelper 3: write some social media posts.\nReview: take a general look if you think it's necessary.\nLimits: feel free to do whatever seems best."
+  },
+  {
+   "tipo": "pratica",
+   "titulo": "Practice: one text, three parts",
+   "sub": "Use a text you already have: a script, lesson, article, or meeting notes. In the Desktop app (Code tab) or in the terminal; on Linux, terminal only.",
+   "exercicios": [
+    {
+     "id": "e1",
+     "titulo": "E1 · The request",
+     "min": "10 min",
+     "texto": "Choose the text and the three deliverables (e.g., summary, clips, and posts; or summary, quiz questions, and an email to students). Fill in the pedido-ajudantes.txt template. If your text has no timestamps, ask for “the excerpt” instead of a start and end time.",
+     "pronto": "the checker above responds, “OK: request has the 6 fields, one subagent per part, and review with a list.”"
+    },
+    {
+     "id": "e2",
+     "titulo": "E2 · Run with helpers",
+     "min": "15 min",
+     "texto": "Open a session in the text’s folder (in the app: Code tab, choose the folder when opening the session, as in lesson 2; in the terminal, optionally: go to the folder and type claude). Paste the pedido-ajudantes.txt request that passed the checker, exactly as it is, and wait for the final response.",
+     "pronto": "the 3 files you requested are in the folder, and the final response includes a list of what was corrected (or says how it checked if nothing needed correcting)."
+    },
+    {
+     "id": "e3",
+     "titulo": "E3 · Your review",
+     "min": "10 min",
+     "texto": "Pick one item from the corrections list and check it against the original text. Then open one of the files and verify one complete piece of information (a clip, a date, a name). Finally, look at the usage ring in the app (the circle next to the model selector) or type /usage.",
+     "pronto": "you checked 2 pieces of information against the original and looked at the usage ring or /usage to see how much of the limit the work used."
+    }
+   ]
+  },
+  {
+   "tipo": "quiz",
+   "titulo": "Test what you learned",
+   "sub": "The explanation appears after your answer.",
+   "perguntas": [
+    {
+     "p": "What is a helper (subagent) in Claude Code?",
+     "opcoes": [
+      "A second Claude account that you hire and pay for separately each month.",
+      "An extra assistant in the same session that handles one part and returns the result.",
+      "A second session that you open next to the first one using split view.",
+      "A stronger model that reads and reviews all the responses at the end of the conversation."
+     ],
+     "certa": 1,
+     "explica": "The conversation divides the work, and each helper handles one part within the same session. A common mistake is confusing this with split view, where you open two sessions side by side (lesson 2).",
+     "ref": "diagrama"
+    },
+    {
+     "p": "Which of these tasks is a better fit for helpers?",
+     "opcoes": [
+      "Write a post, then use it to choose the cover image.",
+      "Answer a quick question about a formula.",
+      "Fix a comma in the script.",
+      "Proofread three different lessons."
+     ],
+     "certa": 3,
+     "explica": "Three independent parts, one per helper. The post followed by the cover image is the common mistake: the second part depends on the first, so do them in order.",
+     "ref": "passos"
+    },
+    {
+     "p": "Why ask for a review at the end?",
+     "opcoes": [
+      "Because each helper sees only its own part; someone needs to compare everything with the original before it gets to you.",
+      "Because without it, the helpers don't save the files.",
+      "Because review makes the work cheaper.",
+      "Because the reviewer receives the whole request, decides how many helpers to start, and gives each one a part."
+     ],
+     "certa": 0,
+     "explica": "In Carla’s example, the reviewer found a clip outside the script’s time range and an incorrect function name. Without the review, those errors would have gone straight to the channel.",
+     "ref": "codigo"
+    },
+    {
+     "p": "In the request, which Review line does the page accept?",
+     "opcoes": [
+      "Review: take a general look at the files if you think it's necessary.",
+      "Review: everything looks good, you can trust the helpers.",
+      "Review: check against the script and list what you corrected.",
+      "Review: do whatever review you prefer at the end."
+     ],
+     "certa": 2,
+     "explica": "It says what to check against and asks for a list of what changed, so you can verify it. “If you think it’s necessary” makes the check optional, and the mistake slips through.",
+     "ref": "conferidor"
+    },
+    {
+     "p": "Carla wants to use 20 helpers at once. What’s the best advice?",
+     "opcoes": [
+      "Go ahead: helpers don’t use any of your plan.",
+      "Start with 2 or 3 and check the usage ring or /usage, because each helper uses part of your limit.",
+      "Use 20, but skip the check to save time.",
+      "Open 20 sessions in split view instead of using helpers."
+     ],
+     "certa": 1,
+     "explica": "Each helper has its own context and uses part of your limit. A common mistake is thinking they’re free. To coordinate many sessions for real, there’s the Claude as an agent manager course.",
+     "ref": "passos"
+    }
+   ]
+  },
+  {
+   "tipo": "resumo",
+   "titulo": "The lesson in three sentences",
+   "itens": [
+    {
+     "t": "Separate parts",
+     "texto": "Helpers are for large tasks split into parts that don’t need to wait for one another."
+    },
+    {
+     "t": "Clear deliverable",
+     "texto": "Give each helper one file and a size limit; start with two or three."
+    },
+    {
+     "t": "Always verify",
+     "texto": "The conversation compares against the original and lists what it fixed; then you check one piece of information."
+    }
+   ]
+  },
+  {
+   "tipo": "links",
+   "titulo": "Go further",
+   "links": [
+    {
+     "t": "Claude Code in the desktop app (official documentation, in English)",
+     "href": "https://code.claude.com/docs/en/desktop",
+     "icone": "lista"
+    },
+    {
+     "t": "Claude as an agent manager course (multiple sessions, teams, and cost)",
+     "href": "https://inematds.github.io/claude-gestor-de-agentes-v72/en/",
+     "icone": "robo"
+    },
+    {
+     "t": "Guide to Claude Code’s 13 new features",
+     "href": "https://inematds.github.io/claude-code-2/guia/",
+     "icone": "arquivo"
+    }
+   ]
+  }
+ ]
+}

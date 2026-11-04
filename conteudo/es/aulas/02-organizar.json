@@ -1,0 +1,387 @@
+{
+  "slug": "organizar",
+  "num": 2,
+  "menu": "Organizar",
+  "titulo": "Organizar: un espacio por proyecto y preguntas al lado",
+  "titulo_curto": "Secciones, chat lateral y vista dividida",
+  "minutos": 15,
+  "lead": "Una conversación llena de preguntas sueltas se vuelve lenta y confusa, y una lista enorme de conversaciones oculta el trabajo. Tres novedades lo resuelven: secciones por proyecto en la barra lateral, el side chat para una duda rápida y la vista dividida para ver dos conversaciones lado a lado. En esta clase, Carla organiza el curso de hojas de cálculo con las tres.",
+  "objetivo": "Organizar el trabajo por proyecto y hacer preguntas aparte sin desordenar la conversación principal.",
+  "competencias": [
+    "organizar-conversaciones-por-proyecto",
+    "preguntar-por-el-side-chat",
+    "usar-vista-dividida"
+  ],
+  "aprende": [
+    {
+      "icone": "menu",
+      "t": "Una sección por proyecto en la barra lateral"
+    },
+    {
+      "icone": "chat",
+      "t": "Preguntar aparte con el side chat (o /btw)"
+    },
+    {
+      "icone": "camadas",
+      "t": "Dos conversaciones lado a lado en la vista dividida"
+    },
+    {
+      "icone": "check",
+      "t": "Dejar la conversación principal solo para el trabajo"
+    }
+  ],
+  "hero_alt": "Pantalla de notebook dividida en dos conversaciones lado a lado, con una ventanita para hacer una pregunta abierta en una esquina y la barra lateral organizada en grupos.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Cuatro partes de una pantalla ordenada",
+      "sub": "Toca o haz clic en cada parte.",
+      "nos": [
+        {
+          "icone": "menu",
+          "titulo": "Secciones",
+          "sub": "barra lateral",
+          "itens": [
+            {
+              "icone": "pasta",
+              "t": "curso-planilhas"
+            },
+            {
+              "icone": "pasta",
+              "t": "canal"
+            },
+            {
+              "icone": "pasta",
+              "t": "comunidad"
+            }
+          ],
+          "detalhe": "En la pestaña Code, las conversaciones se organizan en secciones en la barra lateral. Una sección por proyecto: encuentras lo que buscas sin recorrer una lista enorme. Sesión = una conversación de Claude con su propio historial."
+        },
+        {
+          "icone": "chat",
+          "titulo": "Principal",
+          "sub": "el trabajo",
+          "forte": true,
+          "itens": [
+            {
+              "icone": "arquivo",
+              "t": "guion → ejercicios"
+            }
+          ],
+          "detalhe": "La conversación principal es donde se hace el trabajo: leer el guion, escribir los ejercicios, guardar el archivo. Guarda todo lo que se dijo, y cada pregunta suelta que entra aquí queda en el historial y afecta las próximas respuestas."
+        },
+        {
+          "icone": "chat",
+          "titulo": "Side chat",
+          "sub": "pregunta rápida",
+          "itens": [
+            {
+              "icone": "lupa",
+              "t": "Cmd + ; o Ctrl + ;"
+            },
+            {
+              "icone": "terminal",
+              "t": "/btw en la terminal"
+            }
+          ],
+          "detalhe": "Una ventanita al lado para una duda rápida. Responde con lo que la sesión ya sabe, sin usar herramientas (no abre archivos nuevos ni busca información), y este intercambio queda fuera del historial principal."
+        },
+        {
+          "icone": "camadas",
+          "titulo": "Split view",
+          "sub": "segunda sesión",
+          "itens": [
+            {
+              "icone": "arquivo",
+              "t": "aviso de la comunidad"
+            }
+          ],
+          "detalhe": "Una segunda conversación abierta al lado de la primera, en la misma ventana. Cada una hace un trabajo distinto, a su propio ritmo, y puedes ver ambas. Regla de oro: nunca trabajes en el mismo archivo desde las dos."
+        }
+      ],
+      "legenda": "Las secciones guardan, la conversación principal trabaja, el side chat resuelve dudas y la vista dividida muestra otro trabajo al lado.",
+      "rolagem": true,
+      "rolagem_fim": {
+        "titulo": "Pantalla ordenada",
+        "texto": "Cada proyecto en su sección, la conversación principal dedicada al trabajo, las dudas en el side chat y otro trabajo en la vista dividida.",
+        "curto": "Cada cosa en su lugar."
+      }
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Cómo usar cada una",
+      "sub": "Todo en la pestaña Code de la app de Claude (Mac y Windows). En Linux, mira la última pestaña.",
+      "passos": [
+        {
+          "titulo": "Secciones",
+          "sub": "un proyecto, un lugar",
+          "texto": [
+            "Actualiza la app y abre la pestaña Code. Las conversaciones aparecen en la barra lateral, a la izquierda; la idea es mantener juntas las de cada proyecto, en una sección con su nombre.",
+            "El lugar exacto para crear una sección cambia según la versión de la app. Si no lo encuentras, pregúntale al propio Claude en la pestaña Code: \"¿cómo creo una sección en la barra lateral de esta app?\". Una sección por trabajo es suficiente: más secciones se convierten en otra lista enorme."
+          ],
+          "exemplo": {
+            "rot": "Carla",
+            "texto": "Tres secciones: curso de hojas de cálculo, canal y comunidad. La conversación de la clase 1 queda en la sección del curso."
+          }
+        },
+        {
+          "titulo": "Side chat",
+          "sub": "pregunta aparte",
+          "texto": [
+            "En medio del trabajo, presiona Cmd + ; en Mac (Ctrl + ; en Windows). Se abre el side chat: pregunta, lee la respuesta y ciérralo.",
+            "Responde solo con lo que la sesión ya sabe y no usa herramientas. Sirve para preguntar «¿qué es esto?», pedir un sinónimo o hacer un cálculo. Para el trabajo de verdad, vuelve a la conversación principal."
+          ],
+          "exemplo": {
+            "rot": "Cuándo usarlo",
+            "texto": "Si la respuesta no necesita quedar guardada en el trabajo, haz la pregunta en el side chat."
+          }
+        },
+        {
+          "titulo": "Split view",
+          "sub": "dos lado a lado",
+          "texto": [
+            "En la barra lateral, mantén presionada la tecla Option y haz clic en una sesión en Mac (Alt + clic en Windows). O haz clic derecho en la sesión y elige Open in → Split view (abrir en → pantalla dividida).",
+            "Para sacar una sesión del split, usa Cmd + Ctrl + W en Mac (Ctrl + Alt + W en Windows). Para abrir una sesión nueva, usa Cmd + N en Mac (Ctrl + N en Windows)."
+          ],
+          "exemplo": {
+            "rot": "Qué poner lado a lado",
+            "texto": "Dos trabajos distintos, en archivos diferentes. Para coordinar muchas sesiones, consulta el curso Claude como gestor de agentes."
+          }
+        },
+        {
+          "titulo": "En la terminal",
+          "sub": "También en Linux",
+          "texto": [
+            "Las secciones y Split view son funciones de la app. En la terminal (también en Linux), la pregunta aparte es el comando /btw seguido de la pregunta.",
+            "/btw funciona igual: no interrumpe el trabajo ni aparece en el historial principal."
+          ],
+          "exemplo": {
+            "rot": "Ejemplo",
+            "texto": "/btw ¿qué es BUSCARV, en una frase?"
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Antes de los prompts: archivo, carpeta y ruta",
+      "sub": "Tres cosas que aplican a todo el curso. Léelas una vez.",
+      "passos": [
+        {
+          "titulo": "Archivo .md",
+          "sub": "texto simple",
+          "texto": [
+            "Los prompts del curso mencionan archivos como roteiro.md. Un archivo .md es solo texto simple, como un bloc de notas, que Claude lee y escribe sin un programa especial. Lo abres con el Bloc de notas en Windows o TextEdit en Mac.",
+            "Claude también lee otros formatos comunes, como Word, PDF o una hoja de cálculo, si se lo pides. Solo tienes que decirle el nombre del archivo que tienes."
+          ],
+          "exemplo": {
+            "rot": "Carla",
+            "texto": "Su guion está en Word. Ella escribe \"lee roteiro-aula-1.docx\" en lugar de roteiro.md."
+          }
+        },
+        {
+          "titulo": "La carpeta",
+          "sub": "donde trabaja la sesión",
+          "texto": [
+            "En la pestaña Code, cada sesión trabaja en una carpeta de tu computadora. Eliges esa carpeta al abrir una sesión nueva. Elige la carpeta del proyecto, donde están sus archivos.",
+            "La forma de elegirla cambia según la versión de la app. Si no la encuentras, pregúntale a Claude en la pestaña Code: \"¿cómo elijo la carpeta de esta sesión en esta app?\". Para comprobarlo, pregúntale: \"¿en qué carpeta estás trabajando?\"."
+          ],
+          "exemplo": {
+            "rot": "Listo cuando",
+            "texto": "Claude responde con el nombre de la carpeta de tu proyecto."
+          }
+        },
+        {
+          "titulo": "La ruta",
+          "sub": "cámbiala por la tuya",
+          "texto": [
+            "curso-planilhas/aula-1/roteiro.md quiere decir: dentro de la carpeta curso-planilhas, en la carpeta aula-1, está el archivo roteiro.md. Es la ruta del archivo de Carla.",
+            "En tu prompt, cambia esta ruta por la de tu archivo. Si no sabes escribir la ruta, di solo el nombre del archivo y pide: \"busca este archivo en la carpeta del proyecto\"."
+          ],
+          "exemplo": {
+            "rot": "Ejemplo",
+            "texto": "En lugar de curso-planilhas/aula-1/roteiro.md, puedes escribir solo el nombre de tu archivo, como ata-reuniao.docx."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Los prompts de Carla",
+      "sub": "Uno para la conversación principal, dos preguntas para el chat lateral (pégalas una a la vez) y uno para la segunda sesión en Split view. Cambia las rutas de ejemplo (curso-planilhas/…) por las de tus archivos, como se explicó arriba.",
+      "blocos": [
+        {
+          "rot": "Conversación principal · el trabajo",
+          "icone": "chat",
+          "conteudo": "Lee curso-planilhas/aula-1/roteiro.md.\nCrea 5 ejercicios para que los alumnos practiquen lo que enseña la clase, de menor a mayor dificultad.\nCada ejercicio debe incluir: qué hacer, un ejemplo de datos y la respuesta correcta.\nGuarda el archivo en curso-planilhas/aula-1/exercicios.md.\nPregunta antes de cambiar o borrar cualquier archivo que ya exista."
+        },
+        {
+          "rot": "Chat lateral · 2 preguntas (una a la vez)",
+          "icone": "lupa",
+          "conteudo": "Explica BUSCARV en una frase que entienda un alumno principiante.\n\n¿Cuál de los 5 ejercicios crees que será más difícil para alguien que nunca usó una hoja de cálculo?"
+        },
+        {
+          "rot": "Terminal · las mismas preguntas con /btw (una línea a la vez)",
+          "icone": "terminal",
+          "conteudo": "/btw Explica BUSCARV en una frase que entienda un alumno principiante.\n/btw ¿Cuál de los 5 ejercicios crees que será más difícil para alguien que nunca usó una hoja de cálculo?"
+        },
+        {
+          "rot": "Segunda sesión (Split view) · otro trabajo",
+          "icone": "camadas",
+          "conteudo": "Lee curso-planilhas/aula-1/roteiro.md.\nEscribe el aviso para la comunidad sobre la clase 1: hasta 100 palabras, palabras sencillas y una pregunta al final para que la gente responda.\nGuarda el archivo en comunidade/aviso-aula-1.md.\nNo cambies nada dentro de curso-planilhas/. No publiques nada."
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Chat lateral (queda aparte)",
+            "html": "<p><b>Tú:</b> Explica BUSCARV en una frase que entienda un alumno principiante.</p><p><b>Claude:</b> BUSCARV busca un valor en la primera columna de una tabla y trae el dato que está en otra columna de la misma fila, como buscar un nombre en una lista y leer el teléfono que aparece al lado.</p><p><b>Tú:</b> ¿Cuál de los 5 ejercicios crees que será más difícil para alguien que nunca usó una hoja de cálculo?</p><p><b>Claude:</b> El 5, porque combina BUSCARV con SI. Conviene resolver un ejemplo antes de ese.</p>"
+          },
+          {
+            "rot": "Conversación principal (limpia)",
+            "html": "<p><b>Carla:</b> Lee curso-planilhas/aula-1/roteiro.md. Crea 5 ejercicios…</p><p><b>Claude:</b> Leí el guion (suma, promedio, BUSCARV y SI). Creé curso-planilhas/aula-1/exercicios.md con 5 ejercicios, del 1 (sumar una columna) al 5 (BUSCARV con SI), cada uno con datos de ejemplo y una respuesta. No cambié ningún otro archivo.</p><p><i>Ninguna de las dos preguntas del chat lateral aparece aquí.</i></p>"
+          },
+          {
+            "rot": "Segunda sesión (Split view)",
+            "html": "<p><b>Claude:</b> Guardé comunidade/aviso-aula-1.md (86 palabras). Termina con la pregunta: \"¿Qué cálculo haces más a mano hoy?\". No publiqué nada ni cambié nada dentro de curso-planilhas/.</p>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica: organiza tu proyecto",
+      "sub": "Usa un trabajo tuyo en lugar del curso de Carla.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "E1 · La sección del proyecto",
+          "min": "5 min",
+          "texto": "En la pestaña Code, abre una sesión en la carpeta de un proyecto tuyo y agrupa sus conversaciones en una sección de la barra lateral. Si no encuentras dónde crear la sección, pregúntale a Claude en la pestaña Code: \"¿cómo creo una sección en la barra lateral de esta app?\".",
+          "pronto": "encontrarás las conversaciones de tu proyecto juntas en la barra lateral en pocos segundos, en una sección con su nombre (si tu app todavía no muestra secciones, la pregunta anterior te dirá qué hacer)."
+        },
+        {
+          "id": "e2",
+          "titulo": "E2 · Una tarea y dos preguntas aparte",
+          "min": "15 min",
+          "texto": "Haz una tarea en la conversación principal (el prompt de Carla, adaptado). Mientras trabaja o después, haz dos preguntas en el side chat: Cmd + ; en Mac (Ctrl + ; en Windows) o /btw en la terminal.",
+          "pronto": "recorriste la conversación principal de principio a fin y ninguna de las dos preguntas laterales aparece en ella."
+        },
+        {
+          "id": "e3",
+          "titulo": "E3 · Dos sesiones lado a lado",
+          "min": "10 min",
+          "texto": "Abre una segunda sesión con otro trabajo, en un archivo diferente, y pon las dos en split view, la pantalla dividida (tecla Option + clic en Mac, Alt + clic en Windows). Después saca una del split.",
+          "pronto": "viste las dos sesiones en la misma ventana, cada una guardó su archivo y ninguna modificó el archivo de la otra."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Pon a prueba lo que aprendiste",
+      "sub": "La explicación aparece después de tu respuesta.",
+      "perguntas": [
+        {
+          "p": "En medio del trabajo, Carla quiere saber un sinónimo de \"planilha\". ¿Dónde preguntar?",
+          "opcoes": [
+            "En el side chat (Cmd + ; en Mac, Ctrl + ; en Windows).",
+            "En la conversación principal, para que quede guardado en el historial.",
+            "En una sesión nueva en split view, solo para eso.",
+            "En una sección nueva de la barra lateral creada para preguntas."
+          ],
+          "certa": 0,
+          "explica": "Las preguntas rápidas que no necesitan quedar en el trabajo van al side chat, que queda fuera del historial. El error común es poner todo en la conversación principal y recargarla.",
+          "ref": "passos"
+        },
+        {
+          "p": "¿Qué NO hace el side chat?",
+          "opcoes": [
+            "Responder con lo que la sesión ya sabe del trabajo.",
+            "Quedar fuera del historial de la conversación principal.",
+            "Abrir un archivo nuevo o buscar con herramientas.",
+            "Funcionar en la terminal con el comando /btw."
+          ],
+          "certa": 2,
+          "explica": "El side chat responde solo con el contexto actual, sin usar herramientas. Si la respuesta necesita leer un archivo nuevo, pídelo en la conversación principal.",
+          "ref": "diagrama"
+        },
+        {
+          "p": "¿Cuál es la regla de oro del split view?",
+          "opcoes": [
+            "Abrir como máximo una sesión por sección de la barra lateral.",
+            "Usarlo solo en la terminal, porque la app no muestra dos sesiones.",
+            "Cerrar la primera sesión antes de abrir la segunda al lado.",
+            "Nunca dejar que las dos sesiones modifiquen el mismo archivo."
+          ],
+          "certa": 3,
+          "explica": "Dos trabajos diferentes, en archivos diferentes. Dos sesiones en el mismo archivo hacen que una deshaga lo que hizo la otra.",
+          "ref": "diagrama"
+        },
+        {
+          "p": "¿Cómo sacar una sesión del split view en Windows?",
+          "opcoes": [
+            "Ctrl + ;",
+            "Ctrl + Alt + W",
+            "Ctrl + Shift + B",
+            "Ctrl + N"
+          ],
+          "certa": 1,
+          "explica": "Ctrl + Alt + W en Windows (Cmd + Ctrl + W en Mac). Ctrl + ; abre el side chat y Ctrl + N crea una sesión nueva.",
+          "ref": "passos"
+        },
+        {
+          "p": "Carla ahora usa una Mac. ¿Cómo pone una sesión al lado de la que está abierta?",
+          "opcoes": [
+            "Cmd + ; en la sesión que quiere abrir.",
+            "Option + clic en la sesión, en la barra lateral.",
+            "Cmd + Shift + B en la barra lateral.",
+            "Arrastrando toda la sección hasta el centro de la pantalla con el mouse."
+          ],
+          "certa": 1,
+          "explica": "En Mac, usa Option + clic (Alt + clic en Windows) o haz clic con el botón derecho → Open in → Split view. Cmd + ; abre el side chat, no una segunda sesión.",
+          "ref": "passos"
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "La clase en tres frases",
+      "itens": [
+        {
+          "t": "Secciones",
+          "texto": "Un proyecto, un lugar en la barra lateral."
+        },
+        {
+          "t": "Side chat",
+          "texto": "Pregunta rápida aparte (Cmd/Ctrl + ; o /btw); la conversación principal queda solo para el trabajo."
+        },
+        {
+          "t": "Split view",
+          "texto": "Dos trabajos lado a lado, nunca en el mismo archivo."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para profundizar",
+      "links": [
+        {
+          "t": "La app de Claude para computadora: sesiones y vista dividida (en inglés)",
+          "href": "https://code.claude.com/docs/en/desktop",
+          "icone": "lista"
+        },
+        {
+          "t": "Modo interactivo y el /btw (en inglés)",
+          "href": "https://code.claude.com/docs/en/interactive-mode",
+          "icone": "terminal"
+        },
+        {
+          "t": "Curso Claude como gestor de agentes (varias sesiones al mismo tiempo)",
+          "href": "https://inematds.github.io/claude-gestor-de-agentes-v72/es/",
+          "icone": "seta"
+        }
+      ]
+    }
+  ]
+}

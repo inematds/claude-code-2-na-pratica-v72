@@ -1,0 +1,447 @@
+{
+  "slug": "ajudantes",
+  "num": 3,
+  "menu": "Ajudantes",
+  "titulo": "Ajudantes: um trabalho grande dividido em partes",
+  "titulo_curto": "Ajudantes (subagentes)",
+  "minutos": 15,
+  "lead": "Um roteiro pronto pode virar resumo, cortes e posts. Pedir tudo numa conversa só enche essa conversa e mistura as partes. Com ajudantes, a conversa divide o trabalho: cada ajudante faz uma parte e devolve só o resultado. No fim, a conversa confere tudo antes de entregar. Nesta aula a Carla faz isso com a aula 1 do curso de planilhas, e você faz com um texto seu.",
+  "objetivo": "Dividir um trabalho grande entre ajudantes (subagentes) e conferir o resultado antes de usar.",
+  "competencias": [
+    "dividir-trabalho-em-partes",
+    "pedir-um-ajudante-por-parte",
+    "exigir-conferencia-no-fim",
+    "acompanhar-consumo"
+  ],
+  "aprende": [
+    {
+      "icone": "camadas",
+      "t": "O que é um ajudante (subagente) e quando vale usar"
+    },
+    {
+      "icone": "lista",
+      "t": "Dividir um trabalho em partes que não dependem uma da outra"
+    },
+    {
+      "icone": "check",
+      "t": "Pedir a conferência no fim, com a lista do que foi corrigido"
+    },
+    {
+      "icone": "grafico",
+      "t": "Olhar quanto do seu limite os ajudantes gastaram"
+    }
+  ],
+  "hero_alt": "Mesa de professora à noite: um roteiro impresso no centro e três folhas menores saindo dele, cada uma com uma tarefa diferente.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Do pedido grande à entrega conferida",
+      "sub": "Toque ou clique em cada etapa.",
+      "nos": [
+        {
+          "icone": "usuario",
+          "titulo": "Pedido",
+          "sub": "trabalho inteiro",
+          "itens": [
+            {
+              "icone": "arquivo",
+              "t": "roteiro.md da aula 1"
+            }
+          ],
+          "detalhe": "Você entrega o trabalho inteiro de uma vez, já dizendo as partes. A Carla pede: a partir do roteiro da aula 1, um resumo, 5 cortes curtos e 3 posts."
+        },
+        {
+          "icone": "chat",
+          "titulo": "Conversa",
+          "sub": "divide",
+          "detalhe": "Sessão é uma conversa do Claude com o seu próprio histórico. É ela que recebe o pedido, separa as partes e entrega cada parte a um ajudante. Você não abre nada a mais: os ajudantes trabalham dentro dessa mesma sessão."
+        },
+        {
+          "icone": "robo",
+          "titulo": "Ajudantes",
+          "sub": "uma parte cada",
+          "forte": true,
+          "itens": [
+            {
+              "icone": "arquivo",
+              "t": "resumo.md"
+            },
+            {
+              "icone": "video",
+              "t": "cortes.md"
+            },
+            {
+              "icone": "megafone",
+              "t": "posts.md"
+            }
+          ],
+          "detalhe": "Ajudante é o nome que este curso dá ao subagente, o nome oficial. Cada um faz só a sua parte, no próprio contexto (a memória daquela tarefa), e devolve um resumo à conversa. Por isso a conversa principal não fica cheia com o rascunho de todo mundo. Muita gente chama isso de \"sessões aninhadas\", mas esse não é o nome oficial."
+        },
+        {
+          "icone": "lupa",
+          "titulo": "Conferência",
+          "sub": "antes de usar",
+          "detalhe": "A conversa compara as três partes com o roteiro: minutagem, nomes, números, tom. O que não bate, ela corrige e anota. Sem esse passo, um erro de um ajudante chega direto a você."
+        },
+        {
+          "icone": "check",
+          "titulo": "Entrega",
+          "sub": "arquivos + lista",
+          "detalhe": "Você recebe os três arquivos na pasta e uma lista curta do que foi corrigido. Agora quem confere é você: abra um arquivo e confira uma informação com o roteiro."
+        }
+      ],
+      "volta": "Uma parte não ficou boa? Peça para refazer só ela",
+      "legenda": "Exemplo da Carla: roteiro da aula 1 → resumo, cortes e posts. Os ajudantes existem no app (aba Code) e no terminal.",
+      "rolagem": true,
+      "rolagem_fim": {
+        "titulo": "O caminho completo",
+        "texto": "Você pede o trabalho inteiro já dividido. A conversa entrega uma parte a cada ajudante, junta as respostas, confere com o original e devolve os arquivos com a lista do que corrigiu.",
+        "curto": "Pedido → partes → conferência → entrega."
+      }
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Como pedir para dar certo",
+      "sub": "Quatro cuidados. Clique em cada um.",
+      "passos": [
+        {
+          "titulo": "Partes soltas",
+          "sub": "uma não espera a outra",
+          "texto": [
+            "Ajudante funciona bem quando cada parte anda sozinha. O resumo, os cortes e os posts saem do mesmo roteiro, mas um não precisa esperar o outro.",
+            "Se a parte B depende do resultado da parte A, faça A primeiro e só depois peça B."
+          ],
+          "exemplo": {
+            "rot": "Bom para ajudantes",
+            "texto": "Resumo, cortes e posts da mesma aula. Ou: revisar a ortografia de 3 aulas diferentes."
+          }
+        },
+        {
+          "titulo": "Uma entrega cada",
+          "sub": "arquivo e tamanho",
+          "texto": [
+            "Diga o que cada ajudante entrega, em que arquivo e de que tamanho. \"Faça uns posts\" não tem fim; \"3 posts de até 280 caracteres em posts.md\" tem.",
+            "Com a entrega clara, a conferência sabe o que procurar."
+          ],
+          "exemplo": {
+            "rot": "Entrega clara",
+            "texto": "Ajudante 2: 5 cortes curtos, cada um com início, fim e uma frase de gancho, em cortes.md."
+          }
+        },
+        {
+          "titulo": "Conferência no fim",
+          "sub": "com a lista",
+          "texto": [
+            "Peça que a conversa confira as partes contra o original e liste o que corrigiu. Se não houver nada a corrigir, ela tem que dizer como conferiu.",
+            "A lista é o seu atalho: você olha primeiro o que foi corrigido."
+          ],
+          "exemplo": {
+            "rot": "Frase pronta",
+            "texto": "No fim, confira os três arquivos contra o roteiro e me diga numa lista o que corrigiu."
+          }
+        },
+        {
+          "titulo": "Olhe o consumo",
+          "sub": "comece com 2 ou 3",
+          "texto": [
+            "Cada ajudante tem o próprio contexto, e isso consome do limite do seu plano. Comece com 2 ou 3 ajudantes, não com 20.",
+            "No app, o anel de uso é um círculo ao lado de onde você escolhe o modelo e mostra quanto do limite já foi usado. No terminal (opcional), <code>/usage</code> mostra o uso do plano e <code>/context</code> mostra quanto da conversa já está ocupado."
+          ],
+          "exemplo": {
+            "rot": "Mais longe",
+            "texto": "Coordenar várias sessões ao mesmo tempo é outro assunto: veja o curso <a href=\"https://inematds.github.io/claude-gestor-de-agentes-v72/\">Claude como gestor de agentes</a>."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "O pedido da Carla",
+      "sub": "O primeiro é o pedido da Carla, em lista. O segundo é o modelo para você: o mesmo pedido, um campo por linha. Ele passa no conferidor abaixo e funciona colado direto na conversa. Troque o que está entre < > pelo seu, e o caminho curso-planilhas/… pelo do seu arquivo (.md, Word ou PDF; veja a aula 2).",
+      "blocos": [
+        {
+          "rot": "Pedido · aula 1 em três partes",
+          "icone": "chat",
+          "conteudo": "Leia o roteiro da aula 1 em curso-planilhas/aula-1/roteiro.md.\nUse um subagente para cada item abaixo. Cada um faz só a sua parte e salva o resultado:\n1. Um resumo da aula, com até 150 palavras, em curso-planilhas/aula-1/resumo.md\n2. 5 cortes curtos para o canal, cada um com início, fim e uma frase de gancho, em curso-planilhas/aula-1/cortes.md\n3. 3 posts curtos para redes sociais, com até 280 caracteres cada, em curso-planilhas/aula-1/posts.md\nNo fim, confira os três arquivos contra o roteiro (minutagem, nomes de funções, números).\nCorrija o que não bater e me diga numa lista o que corrigiu.\nNão publique nada e não mexa no roteiro."
+        },
+        {
+          "rot": "Modelo · pedido-ajudantes.txt (o seu)",
+          "icone": "copiar",
+          "conteudo": "Trabalho: <o que fazer e onde está o texto original, ex.: pasta/texto.md>\nAjudante 1: um subagente faz <entrega 1, com tamanho> e salva em <arquivo1.md>\nAjudante 2: um subagente faz <entrega 2, com tamanho> e salva em <arquivo2.md>\nAjudante 3: um subagente faz <entrega 3, com tamanho> e salva em <arquivo3.md>\nConferência: no fim, confira os três arquivos contra o texto original e me diga numa lista o que corrigiu.\nLimites: não publique nada e não mexa no texto original."
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "O que o Claude devolveu",
+            "html": "<p>Pronto. Os três subagentes terminaram e eu conferi tudo contra o roteiro.</p><p><b>Arquivos</b></p><ul><li>resumo.md · 132 palavras</li><li>cortes.md · 5 cortes</li><li>posts.md · 3 posts</li></ul><p><b>O que corrigi</b></p><ol><li>Corte 4 terminava em 12:40, mas o roteiro acaba em 11:05. Troquei pelo trecho do PROCV, de 08:15 a 08:52.</li><li>O post 2 dizia \"Excel avançado\". A aula é para iniciantes; troquei por \"planilhas do zero\".</li><li>O resumo chamava a função de \"SOMA.SE\" e o roteiro usa \"SOMASE\". Deixei igual ao roteiro.</li></ol><p>Nada publicado. O roteiro não foi alterado.</p>"
+          },
+          {
+            "rot": "Como você confere",
+            "html": "<ol><li>Abra a pasta curso-planilhas/aula-1: os três arquivos novos estão lá.</li><li>Pegue um item da lista de correções e confira no roteiro (ex.: o roteiro acaba mesmo em 11:05?).</li><li>Abra cortes.md e confira um corte inteiro com o roteiro.</li><li>Olhe o anel de uso no app (ou <code>/usage</code> no terminal) para saber quanto o trabalho gastou.</li></ol>"
+          },
+          {
+            "rot": "Erros comuns",
+            "html": "<ul><li><b>Sem conferência</b>: cada ajudante acerta a sua parte, mas ninguém compara com o original. O erro chega a você.</li><li><b>Partes que dependem uma da outra</b>: o ajudante dos posts precisava do resumo pronto e inventou o próprio.</li><li><b>Entrega sem tamanho</b>: \"faça uns posts\" volta com 12 posts longos e você perde tempo cortando.</li><li><b>Ajudantes demais</b>: cada um consome do seu limite. Comece com 2 ou 3.</li></ul>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "conferidor",
+      "titulo": "Confira o seu pedido antes de mandar",
+      "sub": "Escreva o seu pedido neste formato (um campo por linha) e cole aqui. A página confere se cada ajudante é um subagente com um arquivo de entrega, se a Conferência compara com o original e pede a lista do que foi corrigido, e se os Limites dizem o que não fazer. É uma checagem de forma: se as partes fazem sentido, quem julga é você.",
+      "arquivo": "pedido-ajudantes.txt",
+      "rot": "Cole aqui o seu pedido (um campo por linha):",
+      "modelo": "Trabalho: ...\nAjudante 1: ...\nAjudante 2: ...\nAjudante 3: ...\nConferência: ...\nLimites: ...",
+      "regras": [
+        {
+          "tipo": "campos",
+          "campos": [
+            "Trabalho",
+            "Ajudante 1",
+            "Ajudante 2",
+            "Ajudante 3",
+            "Conferência",
+            "Limites"
+          ],
+          "min": 12
+        },
+        {
+          "tipo": "termos",
+          "grupos": [
+            {
+              "rot": "subagente no Ajudante 1",
+              "campo": "Ajudante 1",
+              "termos": [
+                "subagente / subagentes / subagent / subagents / ajudante / ajudantes / helper / helpers / ayudante / ayudantes / sub-agent / sub-agente"
+              ]
+            },
+            {
+              "rot": "arquivo de entrega no Ajudante 1",
+              "campo": "Ajudante 1",
+              "termos": [
+                "md / txt / docx / csv / arquivo / file / archivo / documento / document"
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "termos",
+          "grupos": [
+            {
+              "rot": "subagente no Ajudante 2",
+              "campo": "Ajudante 2",
+              "termos": [
+                "subagente / subagentes / subagent / subagents / ajudante / ajudantes / helper / helpers / ayudante / ayudantes / sub-agent / sub-agente"
+              ]
+            },
+            {
+              "rot": "arquivo de entrega no Ajudante 2",
+              "campo": "Ajudante 2",
+              "termos": [
+                "md / txt / docx / csv / arquivo / file / archivo / documento / document"
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "termos",
+          "grupos": [
+            {
+              "rot": "subagente no Ajudante 3",
+              "campo": "Ajudante 3",
+              "termos": [
+                "subagente / subagentes / subagent / subagents / ajudante / ajudantes / helper / helpers / ayudante / ayudantes / sub-agent / sub-agente"
+              ]
+            },
+            {
+              "rot": "arquivo de entrega no Ajudante 3",
+              "campo": "Ajudante 3",
+              "termos": [
+                "md / txt / docx / csv / arquivo / file / archivo / documento / document"
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "termos",
+          "grupos": [
+            {
+              "rot": "na Conferência a comparação com o original",
+              "campo": "Conferência",
+              "termos": [
+                "confira / conferir / confere / compare / comparar / compara / check / verify / compare against / revise / revisar / revisa / verifique / verificar / verifica / comprueba / comprobar / coteje / cotejar / contra o / against / contra el"
+              ]
+            },
+            {
+              "rot": "na Conferência a lista do que foi corrigido",
+              "campo": "Conferência",
+              "termos": [
+                "corrigiu / corrigido / corrigidos / corrigida / corrigidas / correções / correcoes / o que mudou / corrected / fixed / corrections / what changed / corrigió / corregido / corregidos / correcciones / lo que cambió"
+              ]
+            },
+            {
+              "rot": "Conferência sem critério",
+              "campo": "Conferência",
+              "proibe": true,
+              "termos": [
+                "se achar necessário / se achar necessario / se quiser / o que achar melhor / se der tempo / if needed / if you want / as you see fit / si quieres / si hace falta / lo que creas mejor"
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "termos",
+          "grupos": [
+            {
+              "rot": "nos Limites o que não fazer",
+              "campo": "Limites",
+              "termos": [
+                "não publique / nao publique / não apague / nao apague / não altere / nao altere / não mexa / nao mexa / não envie / nao envie / don't publish / do not publish / don't delete / do not delete / don't change / do not change / don't touch / do not touch / no publiques / no publique / no borres / no borre / no cambies / no cambie / no toques / no toque / no envíes / no envíe"
+              ]
+            }
+          ]
+        }
+      ],
+      "ok": "OK: pedido com os {n} campos, um subagente por parte e conferência com lista",
+      "exemplo": "Trabalho: transformar o roteiro da aula 1 (curso-planilhas/aula-1/roteiro.md) em material para o canal e as redes.\nAjudante 1: um subagente escreve um resumo de até 150 palavras e salva em resumo.md.\nAjudante 2: um subagente escolhe 5 cortes curtos com início, fim e frase de gancho e salva em cortes.md.\nAjudante 3: um subagente escreve 3 posts de até 280 caracteres e salva em posts.md.\nConferência: no fim, confira os três arquivos contra o roteiro (minutagem, nomes de funções, números) e me diga numa lista o que corrigiu.\nLimites: não publique nada e não mexa no roteiro.",
+      "exemplo_errado": "Trabalho: aproveitar a aula 1 do curso de planilhas.\nAjudante 1: faça um resumo bom da aula.\nAjudante 2: separe uns cortes legais para o canal.\nAjudante 3: escreva alguns posts para as redes.\nConferência: dê uma olhada geral se achar necessário.\nLimites: fique à vontade para fazer o que for melhor."
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Prática: um texto seu em três partes",
+      "sub": "Use um texto que você já tem: roteiro, aula, artigo ou ata. No app Desktop (aba Code) ou no terminal; no Linux, só o terminal.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "E1 · O pedido",
+          "min": "10 min",
+          "texto": "Escolha o texto e as três entregas (ex.: resumo, cortes e posts; ou resumo, perguntas de prova e e-mail aos alunos). Preencha o modelo pedido-ajudantes.txt. Se o seu texto não tem minutagem, peça \"o trecho\" no lugar de início e fim.",
+          "pronto": "o conferidor acima responde \"OK: pedido com os 6 campos, um subagente por parte e conferência com lista\"."
+        },
+        {
+          "id": "e2",
+          "titulo": "E2 · Rodar com ajudantes",
+          "min": "15 min",
+          "texto": "Abra uma sessão na pasta do texto (no app: aba Code, escolha a pasta ao abrir a sessão, como na aula 2; no terminal, opcional: entre na pasta e digite claude). Cole o pedido-ajudantes.txt que passou no conferidor, do jeito que está, e espere a resposta final.",
+          "pronto": "os 3 arquivos que você pediu existem na pasta e a resposta final tem a lista do que foi corrigido (ou diz como conferiu, se não corrigiu nada)."
+        },
+        {
+          "id": "e3",
+          "titulo": "E3 · A sua conferência",
+          "min": "10 min",
+          "texto": "Pegue um item da lista de correções e confira no texto original. Depois abra um dos arquivos e confira uma informação inteira (um corte, uma data, um nome). Por fim, olhe o anel de uso no app (o círculo ao lado de onde se escolhe o modelo) ou digite /usage.",
+          "pronto": "você conferiu 2 informações com o original e olhou o anel de uso ou o /usage para ver quanto do limite o trabalho gastou."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Teste o que aprendeu",
+      "sub": "A explicação aparece depois da sua resposta.",
+      "perguntas": [
+        {
+          "p": "O que é um ajudante (subagente) no Claude Code?",
+          "opcoes": [
+            "Uma segunda conta do Claude que você contrata e paga à parte, todo mês.",
+            "Um assistente extra, na mesma sessão, que faz uma parte e devolve o resultado.",
+            "Uma segunda sessão que você mesmo abre ao lado da primeira, usando o split view.",
+            "Um modelo mais forte que lê e revisa todas as respostas no fim da conversa."
+          ],
+          "certa": 1,
+          "explica": "A conversa divide o trabalho e cada ajudante faz uma parte dentro da mesma sessão. O erro comum é confundir com split view, que é você abrindo duas sessões lado a lado (aula 2).",
+          "ref": "diagrama"
+        },
+        {
+          "p": "Qual destes trabalhos combina melhor com ajudantes?",
+          "opcoes": [
+            "Escrever um post e, depois, usar o post para escolher a capa.",
+            "Responder uma dúvida rápida sobre uma fórmula.",
+            "Corrigir uma vírgula no roteiro.",
+            "Revisar a ortografia de três aulas diferentes."
+          ],
+          "certa": 3,
+          "explica": "Três partes que andam sozinhas, uma por ajudante. O post seguido da capa é o erro comum: a segunda parte depende da primeira, então faça em ordem.",
+          "ref": "passos"
+        },
+        {
+          "p": "Por que pedir a conferência no fim?",
+          "opcoes": [
+            "Porque cada ajudante só vê a sua parte; alguém precisa comparar tudo com o original antes de chegar a você.",
+            "Porque sem ela os ajudantes não salvam os arquivos.",
+            "Porque a conferência deixa o trabalho mais barato.",
+            "Porque é a conferência que recebe o pedido inteiro, decide quantos ajudantes abrir e entrega uma parte a cada um deles."
+          ],
+          "certa": 0,
+          "explica": "No exemplo da Carla, a conferência achou um corte fora do tempo do roteiro e um nome de função errado. Sem ela, esses erros iriam direto para o canal.",
+          "ref": "codigo"
+        },
+        {
+          "p": "No pedido, qual linha de Conferência a página aceita?",
+          "opcoes": [
+            "Conferência: dê uma olhada geral nos arquivos se achar necessário.",
+            "Conferência: tudo certo, pode confiar nos ajudantes.",
+            "Conferência: confira contra o roteiro e liste o que corrigiu.",
+            "Conferência: faça a conferência que preferir no final."
+          ],
+          "certa": 2,
+          "explica": "Ela diz contra o que conferir e pede a lista do que mudou, então dá para checar. \"Se achar necessário\" deixa a conferência opcional, e o erro passa.",
+          "ref": "conferidor"
+        },
+        {
+          "p": "A Carla quer usar 20 ajudantes de uma vez. Qual o melhor conselho?",
+          "opcoes": [
+            "Pode: ajudantes não gastam nada do plano.",
+            "Comece com 2 ou 3 e olhe o anel de uso ou o /usage, porque cada ajudante consome do limite.",
+            "Use 20, mas sem conferência, para economizar.",
+            "Abra 20 sessões em split view no lugar dos ajudantes."
+          ],
+          "certa": 1,
+          "explica": "Cada ajudante tem o próprio contexto e consome do seu limite. O erro comum é achar que eles são de graça. Para coordenar muitas sessões de verdade, existe o curso Claude como gestor de agentes.",
+          "ref": "passos"
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "A aula em três frases",
+      "itens": [
+        {
+          "t": "Partes soltas",
+          "texto": "Ajudantes servem para trabalho grande dividido em partes que não esperam uma pela outra."
+        },
+        {
+          "t": "Entrega clara",
+          "texto": "Cada ajudante com um arquivo e um tamanho; dois ou três para começar."
+        },
+        {
+          "t": "Conferência sempre",
+          "texto": "A conversa compara com o original e lista o que corrigiu; depois você confere uma informação."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir além",
+      "links": [
+        {
+          "t": "Claude Code no app de computador (documentação oficial, em inglês)",
+          "href": "https://code.claude.com/docs/en/desktop",
+          "icone": "lista"
+        },
+        {
+          "t": "Curso Claude como gestor de agentes (várias sessões, times e custo)",
+          "href": "https://inematds.github.io/claude-gestor-de-agentes-v72/",
+          "icone": "robo"
+        },
+        {
+          "t": "Guia das 13 novidades do Claude Code",
+          "href": "https://inematds.github.io/claude-code-2/guia/",
+          "icone": "arquivo"
+        }
+      ]
+    }
+  ]
+}

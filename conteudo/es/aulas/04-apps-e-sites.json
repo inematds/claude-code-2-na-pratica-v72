@@ -1,0 +1,421 @@
+{
+  "slug": "apps-e-sites",
+  "num": 4,
+  "menu": "Apps y sitios web",
+  "titulo": "Apps y sitios web: Claude los usa por ti, con tus reglas",
+  "titulo_curto": "Apps y sitios web",
+  "minutos": 16,
+  "lead": "No todos los programas o sitios web tienen una forma sencilla de automatizarse. Ahora Claude puede usar una app de tu computadora (computer use) o un sitio web mediante el navegador integrado en la app. Poder hacerlo no significa que deba hacerlo todo. En esta clase, autorizas solo lo necesario y ejecutas una tarea de solo lectura en un sitio tuyo, comprobando que nada haya cambiado.",
+  "objetivo": "Dejar que Claude use programas de la computadora y sitios web por ti, autorizando solo lo necesario.",
+  "competencias": [
+    "elegir-entre-app-y-sitio-web",
+    "pedir-tarea-solo-de-lectura",
+    "autorizar-solo-lo-necesario",
+    "comprobar-que-nada-haya-cambiado"
+  ],
+  "aprende": [
+    {
+      "icone": "chip",
+      "t": "Qué es computer use y dónde funciona"
+    },
+    {
+      "icone": "lupa",
+      "t": "Abrir el navegador integrado e iniciar sesión tú mismo"
+    },
+    {
+      "icone": "escudo",
+      "t": "Las reglas intermedias: solo lectura y pregunta antes"
+    },
+    {
+      "icone": "check",
+      "t": "Comprobar que nada haya cambiado en el sitio web, antes y después"
+    }
+  ],
+  "hero_alt": "Una laptop sobre una mesa: a un lado, la ventana de un programa de fotos; al otro, un sitio web abierto; en medio, un candado medio abierto.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Dos caminos, las mismas reglas",
+      "sub": "Toca o haz clic en cada parte.",
+      "nos": [
+        {
+          "icone": "chip",
+          "titulo": "App",
+          "sub": "computer use",
+          "itens": [
+            {
+              "icone": "cadeado",
+              "t": "Accesibilidad",
+              "sub": "en Mac"
+            },
+            {
+              "icone": "cadeado",
+              "t": "Grabación de pantalla",
+              "sub": "en Mac"
+            }
+          ],
+          "detalhe": "Computer use es Claude usando un programa de tu computadora: hace clic y escribe dentro de la app; en Mac, funciona en segundo plano sin quitarte el mouse. Sirve para programas que no tienen otra forma de automatizarse. Está en prueba (vista previa), en Mac y Windows, en los planes Pro, Max y Ultra, y no está disponible para Team ni Enterprise. Viene desactivado. En Mac, debes autorizar Accesibilidad y Grabación de pantalla."
+        },
+        {
+          "icone": "escudo",
+          "titulo": "Reglas",
+          "sub": "en la solicitud",
+          "forte": true,
+          "itens": [
+            {
+              "icone": "lupa",
+              "t": "Solo lectura"
+            },
+            {
+              "icone": "chat",
+              "t": "Pregunta antes"
+            },
+            {
+              "icone": "cadeado",
+              "t": "Solo lo necesario"
+            }
+          ],
+          "detalhe": "Las reglas no son un botón: las escribes en la solicitud. «Solo lectura» significa no publicar, no responder, no borrar ni cambiar nada. «Pregunta antes» significa detenerse y preguntar antes de cualquier acción que cambie la app o el sitio web. Y autoriza solo la app de esa tarea, no todo lo que pida."
+        },
+        {
+          "icone": "lupa",
+          "titulo": "Sitio web",
+          "sub": "navegador integrado",
+          "itens": [
+            {
+              "icone": "menu",
+              "t": "Cmd/Ctrl + Shift + B"
+            },
+            {
+              "icone": "usuario",
+              "t": "Tú inicias sesión"
+            }
+          ],
+          "detalhe": "La app de Claude tiene su propio navegador. Ábrelo con Cmd + Shift + B en Mac (Ctrl + Shift + B en Windows). Inicias sesión una vez y Claude lee páginas y hace clic por ti. En computer use, los navegadores de la computadora (Chrome, Safari) sirven solo para ver: para usar sitios, este es el camino."
+        }
+      ],
+      "legenda": "Programa de la computadora → computer use. Sitio → navegador integrado. Las reglas valen para ambos. Ambos solo existen en la app para Mac y Windows; no hay app para Linux.",
+      "dica": "Si tienes dudas, empieza por el sitio, solo en modo lectura: es la forma más fácil de comprobar."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Activar cada camino",
+      "sub": "Cuatro pasos. Haz clic en cada uno.",
+      "passos": [
+        {
+          "titulo": "Navegador",
+          "sub": "Cmd/Ctrl + Shift + B",
+          "texto": [
+            "En la app de Claude (pestaña Code), presiona Cmd + Shift + B en Mac (Ctrl + Shift + B en Windows). Se abre un navegador dentro de la app.",
+            "Entra al sitio e inicia sesión tú. Después, pide el trabajo con palabras, en la conversación."
+          ],
+          "exemplo": {
+            "rot": "Regla de oro",
+            "texto": "Nunca pongas la contraseña en la conversación. Tú escribes la contraseña en el navegador."
+          }
+        },
+        {
+          "titulo": "Computer use",
+          "sub": "viene desactivado",
+          "texto": [
+            "Activa computer use en la configuración de la app (Settings). Si no lo encuentras, pregúntale a Claude en la pestaña Code: \"¿dónde activo computer use en esta app?\". En Mac, el sistema pide dos permisos: Accesibilidad (para hacer clic y escribir) y Grabación de pantalla (para ver la pantalla).",
+            "Cuando Claude te pida usar una app, autoriza solo la app de ese trabajo."
+          ],
+          "exemplo": {
+            "rot": "Buen uso",
+            "texto": "Organizar las capturas de pantalla del Escritorio en carpetas por mes. Exportar un video en un editor que no tiene otra automatización."
+          }
+        },
+        {
+          "titulo": "Dónde funciona",
+          "sub": "planes y sistemas",
+          "texto": [
+            "El navegador integrado está en la app para Mac y Windows. Computer use está en prueba (versión preliminar), en Mac y Windows, en los planes Pro, Max y Ultra; no está disponible para Team y Enterprise.",
+            "No hay app para Linux: Claude Code funciona en la terminal, sin estas dos funciones. Los planes y la disponibilidad pueden cambiar, así que compruébalo en tu app."
+          ],
+          "exemplo": {
+            "rot": "Recuerda",
+            "texto": "Con computer use, los navegadores sirven solo para ver. Para usar sitios, usa el navegador integrado."
+          }
+        },
+        {
+          "titulo": "Solo lectura",
+          "sub": "de verdad",
+          "texto": [
+            "Antes de la tarea, anota un indicador que cambiaría si algo se modificara: la cantidad de publicaciones, de borradores o la fecha de la última edición.",
+            "Después de la tarea, revisa el mismo indicador. Si es igual, nada cambió. También mantén la app actualizada antes de abrir sitios."
+          ],
+          "exemplo": {
+            "rot": "Frase lista",
+            "texto": "No publiques, no respondas, no borres ni cambies nada en el sitio. Si hace falta cambiar algo, detente y pregúntame."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Los pedidos de Carla",
+      "sub": "Copia y adapta. Cambia lo que está entre < > por lo tuyo. En las capturas: en Mac, computer use trabaja en segundo plano; en Windows, no toques el mouse ni el teclado mientras Claude trabaja.",
+      "blocos": [
+        {
+          "rot": "Navegador integrado · solo lectura",
+          "icone": "lupa",
+          "conteudo": "Abre en el navegador la página de mi comunidad de alumnos. Ya inicié sesión.\nLee las 30 publicaciones más recientes.\nEnumera las 5 preguntas que más se repiten, cada una con el enlace a una publicación donde aparece.\nGuarda la lista en comunidad/perguntas.md.\nNo publiques, no respondas, no borres ni cambies nada en el sitio.\nSi hace falta cambiar algo, detente y pregúntame."
+        },
+        {
+          "rot": "Computer use · organizar capturas (opcional)",
+          "icone": "chip",
+          "conteudo": "Usa computer use.\nAntes de empezar, cuenta cuántos archivos de capturas hay en mi Escritorio y dímelo.\nCrea la carpeta \"Prints\" y, dentro de ella, una carpeta por mes. Mueve cada captura a su mes.\nNo borres ni cambies el nombre de nada.\nAl final, dime cuántos archivos moviste."
+        },
+        {
+          "rot": "Plantilla · un sitio tuyo",
+          "icone": "copiar",
+          "conteudo": "Abre en el navegador <dirección o nombre de tu sitio>. Ya inicié sesión.\nLee <qué leer: publicaciones recientes, pedidos de la semana, comentarios del último video>.\nEnumera <qué quieres saber y en qué cantidad>.\nGuarda en <archivo.md>.\nNo publiques, no respondas, no borres ni cambies nada en el sitio.\nSi hace falta cambiar algo, detente y pregúntame."
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Lo que devolvió Claude",
+            "html": "<p>Leí las 30 publicaciones más recientes de la comunidad. Guardé la lista en comunidade/perguntas.md.</p><ol><li>¿Cómo inmovilizar la primera fila de la hoja de cálculo? (6 publicaciones)</li><li>¿Por qué BUSCARV devuelve #N/D? (5 publicaciones)</li><li>¿Se puede hacer la clase desde el celular? (4 publicaciones)</li><li>¿Cómo sumar solo los valores de un mes? (4 publicaciones)</li><li>¿Dónde descargo la hoja de cálculo de la clase 1? (3 publicaciones)</li></ol><p>Cada pregunta tiene el enlace a una publicación en el archivo. No publiqué, no respondí ni cambié nada. Vi una publicación con publicidad de otro curso; dejé el enlace al final del archivo para que decidas.</p>"
+          },
+          {
+            "rot": "Cómo comprobar que nada cambió",
+            "html": "<ol><li>Antes: anota la cantidad de publicaciones de la comunidad y la fecha de tu última publicación.</li><li>Después: vuelve a revisar. Los dos datos tienen que ser iguales.</li><li>Abre comunidade/perguntas.md y haz clic en un enlace: la publicación existe y contiene la pregunta.</li><li>Para las capturas: compara la cantidad de archivos antes y después. Tiene que coincidir.</li></ol>"
+          },
+          {
+            "rot": "Errores comunes",
+            "html": "<ul><li><b>Pedido sin límites</b>: \"revisa la comunidad y resuelve lo que haga falta\" permite que Claude responda y borre publicaciones.</li><li><b>Contraseña en la conversación</b>: tú inicias sesión en el navegador.</li><li><b>Autorizar toda la app</b>: autoriza solo la app de ese trabajo.</li><li><b>Chrome con computer use</b>: ahí los navegadores sirven solo para ver. El sitio se usa en el navegador integrado.</li><li><b>App desactualizada</b>: actualízala antes de abrir sitios.</li></ul>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "simconversa",
+      "titulo": "Claude pregunta, tú decides",
+      "sub": "Conversación simulada para practicar. Carla pidió, en el navegador integrado, la lista de las preguntas más repetidas de la comunidad, solo en modo lectura. Elige la respuesta que darías.",
+      "personagem": {
+        "nome": "Claude",
+        "papel": "en el navegador integrado · tarea solo de lectura"
+      },
+      "inicio": "abre",
+      "falas": {
+        "abre": {
+          "cliente": "Abrí la página de tu comunidad. Para ver las publicaciones de los alumnos, el sitio pide iniciar sesión. ¿Me das tu contraseña?",
+          "opcoes": [
+            {
+              "t": "Sí. Voy a escribir la contraseña aquí en la conversación.",
+              "vai": "fim-risco",
+              "nota": 0,
+              "comenta": "La contraseña no va en la conversación. Tú inicias sesión en el navegador integrado."
+            },
+            {
+              "t": "No. Yo misma inicio sesión en el navegador y te aviso cuando entre.",
+              "vai": "spam",
+              "nota": 2,
+              "comenta": "Eso. Entras a la cuenta una vez, en el navegador de la app, y Claude sigue desde ahí."
+            },
+            {
+              "t": "Omite lo que requiera iniciar sesión y lee solo lo que esté abierto al público.",
+              "vai": "spam",
+              "nota": 1,
+              "comenta": "Es seguro, pero la tarea pierde lo principal: las preguntas están en las publicaciones de los alumnos. Si tú misma inicias sesión, se resuelve."
+            }
+          ]
+        },
+        "spam": {
+          "cliente": "Ya entré. Entre las preguntas hay una publicación que promociona otro curso. ¿Quieres que la borre?",
+          "opcoes": [
+            {
+              "t": "Responde a la publicación y pídele a la persona que quite la propaganda.",
+              "vai": "chrome",
+              "nota": 1,
+              "comenta": "Parece inofensivo, pero responder también cambia el sitio. La tarea era solo leer."
+            },
+            {
+              "t": "Bórrala, es spam.",
+              "vai": "fim-risco",
+              "nota": 0,
+              "comenta": "La tarea era solo leer, y borrar no tiene vuelta atrás. Esa decisión te corresponde a ti, después de revisar la publicación."
+            },
+            {
+              "t": "No la borres. Pon el enlace de esa publicación al final de la lista para que la vea después.",
+              "vai": "chrome",
+              "nota": 2,
+              "comenta": "Bien. Claude lo registra y tú decides. La tarea sigue siendo solo de lectura."
+            }
+          ]
+        },
+        "chrome": {
+          "cliente": "Para comparar con la página de tu curso, ¿puedo abrir Chrome en tu computadora con computer use y completar el formulario de inscripción con datos de prueba?",
+          "opcoes": [
+            {
+              "t": "Puedes abrir Chrome, pero solo para mirar la página del curso.",
+              "vai": "fim-bom",
+              "nota": 1,
+              "comenta": "Funciona y es seguro: con computer use, los navegadores solo sirven para mirar, y mirar no cambia el sitio. Pero no hacía falta: el navegador integrado ya abre la página con tu sesión iniciada."
+            },
+            {
+              "t": "Puedes hacerlo, usa Chrome y completa el formulario con datos de prueba.",
+              "vai": "fim-risco",
+              "nota": 0,
+              "comenta": "Hay dos cosas fuera de la regla: con computer use, los navegadores solo sirven para mirar, y completar un formulario modifica el sitio."
+            },
+            {
+              "t": "No hace falta. Quédate en el navegador integrado y no completes ningún formulario.",
+              "vai": "fim-bom",
+              "nota": 2,
+              "comenta": "Eso. Para el sitio se usa el navegador integrado, y enviar un formulario cambia el sitio."
+            }
+          ]
+        },
+        "fim-bom": {
+          "fim": true,
+          "titulo": "Una tarea solo de lectura, de principio a fin",
+          "texto": "Claude leyó, hizo una lista y guardó el archivo, y nada cambió en el sitio. Ahora comprueba: ¿el número de publicaciones y la fecha de tu última publicación siguen igual que antes?"
+        },
+        "fim-risco": {
+          "fim": true,
+          "titulo": "Se detuvo aquí",
+          "texto": "En una tarea solo de lectura, tú inicias sesión y Claude solo lee y hace una lista. Lo que cambie el sitio o exponga tu contraseña queda fuera. Empieza de nuevo e inténtalo otra vez."
+        }
+      },
+      "licao": "Tú inicias sesión. Claude lee y hace una lista. Si algo puede cambiar el sitio, te pregunta y tú decides."
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica: una tarea solo de lectura en un sitio tuyo",
+      "sub": "Necesitas la app de Claude para Mac o Windows. No hay app para Linux: haz el E2 pegando el texto de la página en una conversación y pidiendo la misma lista.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "E1 · Antes",
+          "min": "5 min",
+          "texto": "Elige un sitio tuyo: canal, tienda, blog o comunidad. En la app, abre el navegador integrado (Cmd + Shift + B en Mac, Ctrl + Shift + B en Windows) e inicia sesión tú misma. Anota una señal que cambiaría si algo se modificara: el número de publicaciones, de borradores o la fecha de la última edición.",
+          "pronto": "Tienes la sesión iniciada en el navegador de la app y anotaste la señal en un papel o archivo."
+        },
+        {
+          "id": "e2",
+          "titulo": "E2 · La tarea",
+          "min": "15 min",
+          "texto": "Adapta el bloque \"Modelo · un sitio tuyo\" y pégalo en la conversación. Espera el archivo y la respuesta. Después vuelve a revisar la señal que anotaste.",
+          "pronto": "El archivo con la lista existe, abriste uno de los enlaces y la señal anotada sigue igual que antes."
+        },
+        {
+          "id": "e3",
+          "titulo": "E3 · Computer use (opcional)",
+          "min": "15 min",
+          "texto": "Solo si tienes Mac o Windows y un plan Pro, Max o Ultra. Activa computer use en la configuración de la app (Settings); si no encuentras la opción, pregúntale a Claude dónde está en esta app. En Mac, permite Accesibilidad y Grabación de pantalla. Cuenta las capturas de pantalla del Escritorio y pega la solicitud \"organizar capturas\". En Windows, no uses el mouse ni el teclado hasta que Claude termine.",
+          "pronto": "La carpeta Prints tiene una carpeta por mes y el total de archivos coincide con lo que contaste antes."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Pon a prueba lo que aprendiste",
+      "sub": "La explicación aparece después de tu respuesta.",
+      "perguntas": [
+        {
+          "p": "Carla quiere que Claude lea los pedidos en el sitio de su tienda. ¿Qué camino debe seguir?",
+          "opcoes": [
+            "Usar computer use para abrir Chrome en la computadora e iniciar sesión en la cuenta de la tienda por ella.",
+            "Copiar la contraseña en la conversación para que Claude inicie sesión.",
+            "Usar el navegador integrado de la app y que ella misma inicie sesión.",
+            "Ninguno: Claude no usa sitios web."
+          ],
+          "certa": 2,
+          "explica": "Para el sitio se usa el navegador integrado (Cmd + Shift + B en Mac, Ctrl + Shift + B en Windows), y tú inicias sesión. El error común es usar computer use, donde los navegadores solo sirven para mirar.",
+          "ref": "diagrama"
+        },
+        {
+          "p": "¿Cuál de estas afirmaciones sobre computer use es verdadera?",
+          "opcoes": [
+            "Viene desactivado y está en prueba, en Mac y Windows, con los planes Pro, Max y Ultra.",
+            "Viene activado en todos los planes, incluidos Team y Enterprise, y también en Linux.",
+            "Solo funciona en Linux, desde la terminal, y necesita una clave de API especial.",
+            "Funciona en el celular, sin tener la computadora encendida, desde la app de Claude."
+          ],
+          "certa": 0,
+          "explica": "Es una vista previa, desactivada por defecto, para Mac y Windows, en los planes Pro, Max y Ultra. No está disponible para Team ni Enterprise, y no hay app para Linux.",
+          "ref": "passos"
+        },
+        {
+          "p": "¿Cómo compruebas que una tarea de solo lectura no cambió nada en el sitio?",
+          "opcoes": [
+            "Al final de la tarea, pregúntale a Claude si cambió algo en el sitio y confía en su respuesta.",
+            "Cierra la app apenas termine la tarea.",
+            "Pídele que haga la tarea dos veces y compara las respuestas.",
+            "Anota antes una señal (número de publicaciones, fecha de la última edición) y vuelve a revisarla después."
+          ],
+          "certa": 3,
+          "explica": "Anotar una señal antes y después es una comprobación tuya, no una promesa de Claude. Preguntarle es el error común: su respuesta no demuestra nada.",
+          "ref": "codigo"
+        },
+        {
+          "p": "A mitad de la tarea, Claude encuentra una publicación de spam y pregunta si puede borrarla. ¿Qué hacer en una tarea de solo lectura?",
+          "opcoes": [
+            "Dejar que la borre, porque nadie quiere spam en la comunidad.",
+            "No borrarla y pedirle el enlace de la publicación en la lista para que tú decidas después.",
+            "Pedirle que responda a la publicación con un aviso amable para quien la escribió, sin borrar nada de la comunidad.",
+            "Cambiar la tarea a «resuelve lo que haga falta» y salir."
+          ],
+          "certa": 1,
+          "explica": "Borrar no tiene vuelta atrás, y responder también cambia el sitio. Claude lo registra; quien decide eres tú, después de mirar la publicación.",
+          "ref": "simconversa"
+        },
+        {
+          "p": "Computer use pide acceso a varias apps. ¿A cuáles das permiso?",
+          "opcoes": [
+            "A todas, para que no se detenga a mitad del trabajo.",
+            "A ninguna: computer use no pide permiso.",
+            "Solo a la app de ese trabajo.",
+            "Solo al navegador, porque es el que más se usa."
+          ],
+          "certa": 2,
+          "explica": "Da permiso solo a lo que la tarea necesita. El error común es permitir todo para «no estorbar»; y el navegador, en este caso, es solo para ver.",
+          "ref": "diagrama"
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "La clase en tres frases",
+      "itens": [
+        {
+          "t": "Dos caminos",
+          "texto": "Programa de la computadora con computer use; sitio web con el navegador integrado."
+        },
+        {
+          "t": "Reglas en la solicitud",
+          "texto": "Solo lectura, pregunta antes y da permiso solo a lo necesario. Tú siempre inicias sesión."
+        },
+        {
+          "t": "Antes y después",
+          "texto": "Anota una señal antes de la tarea y comprueba después que no haya cambiado."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para profundizar",
+      "links": [
+        {
+          "t": "Computer use en Claude Code (documentación oficial, en inglés)",
+          "href": "https://code.claude.com/docs/en/computer-use",
+          "icone": "chip"
+        },
+        {
+          "t": "Claude Code en la app de escritorio (documentación oficial, en inglés)",
+          "href": "https://code.claude.com/docs/en/desktop",
+          "icone": "lista"
+        },
+        {
+          "t": "Guía de las 13 novedades de Claude Code",
+          "href": "https://inematds.github.io/claude-code-2/guia/",
+          "icone": "arquivo"
+        }
+      ]
+    }
+  ]
+}

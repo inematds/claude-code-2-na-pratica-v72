@@ -1,0 +1,421 @@
+{
+  "slug": "apps-e-sites",
+  "num": 4,
+  "menu": "Apps and websites",
+  "titulo": "Apps and websites: Claude uses them for you, following your rules",
+  "titulo_curto": "Apps and websites",
+  "minutos": 16,
+  "lead": "Not every program or website has an easy way to automate it. Now Claude can use an app on your computer (computer use) or a website through the browser built into the app. Being able to do something doesn’t mean you should do everything. In this lesson, you’ll allow only what’s needed and run a read-only task on one of your websites, checking that nothing changed.",
+  "objetivo": "Let Claude use computer programs and websites for you, allowing only what’s needed.",
+  "competencias": [
+    "choose-between-app-and-site",
+    "request-read-only-task",
+    "allow-only-what-is-needed",
+    "check-that-nothing-changed"
+  ],
+  "aprende": [
+    {
+      "icone": "chip",
+      "t": "What computer use is and where it works"
+    },
+    {
+      "icone": "lupa",
+      "t": "Open the built-in browser and log in yourself"
+    },
+    {
+      "icone": "escudo",
+      "t": "The rules in between: read-only and ask first"
+    },
+    {
+      "icone": "check",
+      "t": "Check before and after that nothing changed on the website"
+    }
+  ],
+  "hero_alt": "A laptop on a desk: on one side, a photo editing app window; on the other, an open website; between them, a half-open padlock.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Two paths, the same rules",
+      "sub": "Tap or click each part.",
+      "nos": [
+        {
+          "icone": "chip",
+          "titulo": "App",
+          "sub": "computer use",
+          "itens": [
+            {
+              "icone": "cadeado",
+              "t": "Accessibility",
+              "sub": "on Mac"
+            },
+            {
+              "icone": "cadeado",
+              "t": "Screen Recording",
+              "sub": "on Mac"
+            }
+          ],
+          "detalhe": "Computer use is Claude using a program on your computer: it clicks and types inside the app; on Mac, it runs in the background without taking over your mouse. It’s useful for programs that don’t have another way to automate them. It’s in testing (preview), on Mac and Windows, for Pro, Max, and Ultra plans, and isn’t available for Team and Enterprise. It’s turned off by default. On Mac, you allow Accessibility and Screen Recording."
+        },
+        {
+          "icone": "escudo",
+          "titulo": "Rules",
+          "sub": "in your request",
+          "forte": true,
+          "itens": [
+            {
+              "icone": "lupa",
+              "t": "Read-only"
+            },
+            {
+              "icone": "chat",
+              "t": "Ask first"
+            },
+            {
+              "icone": "cadeado",
+              "t": "Only what’s needed"
+            }
+          ],
+          "detalhe": "The rules aren’t a button: you write them in your request. “Read-only” means don’t publish, reply, delete, or change anything. “Ask first” means stop and ask before doing anything that changes the app or website. And allow access only to the app needed for that task, not everything it asks for."
+        },
+        {
+          "icone": "lupa",
+          "titulo": "Website",
+          "sub": "built-in browser",
+          "itens": [
+            {
+              "icone": "menu",
+              "t": "Cmd/Ctrl + Shift + B"
+            },
+            {
+              "icone": "usuario",
+              "t": "You log in yourself"
+            }
+          ],
+          "detalhe": "The Claude app has its own browser. Open it with Cmd + Shift + B on Mac (Ctrl + Shift + B on Windows). You sign in once, and Claude reads pages and clicks for you. With computer use, your computer’s browsers (Chrome, Safari) are for viewing only. To use websites, this is the way."
+        }
+      ],
+      "legenda": "Computer program → computer use. Website → built-in browser. The rules apply to both. Both are only available in the Mac and Windows apps; there is no app for Linux.",
+      "dica": "If you’re unsure, start with the website, read-only. It’s the easiest way to check."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Turn on each option",
+      "sub": "Four steps. Click each one.",
+      "passos": [
+        {
+          "titulo": "Browser",
+          "sub": "Cmd/Ctrl + Shift + B",
+          "texto": [
+            "In the Claude app (Code tab), press Cmd + Shift + B on Mac (Ctrl + Shift + B on Windows). A browser opens inside the app.",
+            "Go to the website and sign in yourself. Then describe the task in the conversation."
+          ],
+          "exemplo": {
+            "rot": "Golden rule",
+            "texto": "Never put your password in the conversation. You type it into the browser yourself."
+          }
+        },
+        {
+          "titulo": "Computer use",
+          "sub": "is off by default",
+          "texto": [
+            "Turn on computer use in the app settings (Settings). If you can’t find it, ask Claude in the Code tab: \"where do I turn on computer use in this app?\". On Mac, the system asks for two permissions: Accessibility (to click and type) and Screen Recording (to see the screen).",
+            "When Claude asks to use an app, allow only the app for that task."
+          ],
+          "exemplo": {
+            "rot": "Good uses",
+            "texto": "Organize Desktop screenshots into folders by month. Export a video in an editor that has no other automation."
+          }
+        },
+        {
+          "titulo": "Where it works",
+          "sub": "plans and systems",
+          "texto": [
+            "The built-in browser is in the Mac and Windows apps. Computer use is in preview on Mac and Windows, with Pro, Max, and Ultra plans; it isn’t available for Team and Enterprise.",
+            "There is no app for Linux: Claude Code runs in the terminal, without these two features. Plans and availability can change, so check in your app."
+          ],
+          "exemplo": {
+            "rot": "Remember",
+            "texto": "With computer use, browsers are for viewing only. Use websites in the built-in browser."
+          }
+        },
+        {
+          "titulo": "Read-only",
+          "sub": "for real",
+          "texto": [
+            "Before the task, note a sign that would change if something were edited: the number of posts, drafts, or the date of the last edit.",
+            "After the task, check that same sign. If it’s the same, nothing changed. Also keep the app updated before opening websites."
+          ],
+          "exemplo": {
+            "rot": "Ready-to-use sentence",
+            "texto": "Don’t publish, reply, delete, or change anything on the website. If something needs to change, stop and ask me."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Carla’s requests",
+      "sub": "Copy and adapt. Replace what’s inside < > with your own details. For screenshots: on Mac, computer use works in the background; on Windows, don’t touch the mouse or keyboard while Claude works.",
+      "blocos": [
+        {
+          "rot": "Built-in browser · read-only",
+          "icone": "lupa",
+          "conteudo": "Open my student community page in the browser. I’m already signed in.\nRead the 30 most recent posts.\nList the 5 questions that come up most often, each with a link to a post where it appears.\nSave the list in comunidade/perguntas.md.\nDon’t publish, reply, delete, or change anything on the website.\nIf something needs to change, stop and ask me."
+        },
+        {
+          "rot": "Computer use · organize screenshots (optional)",
+          "icone": "chip",
+          "conteudo": "Use computer use.\nBefore you start, count how many screenshot files are on my Desktop and tell me.\nCreate the folder \"Prints\" and, inside it, one folder per month. Move each screenshot into its month’s folder.\nDon’t delete or rename anything.\nAt the end, tell me how many files you moved."
+        },
+        {
+          "rot": "Template · one of your websites",
+          "icone": "copiar",
+          "conteudo": "Open <your website address or name> in the browser. I’m already signed in.\nRead <what to read: recent posts, requests from this week, comments on the latest video>.\nList <what you want to know, with a number>.\nSave it in <file.md>.\nDon’t publish, reply, delete, or change anything on the website.\nIf something needs to change, stop and ask me."
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "What Claude returned",
+            "html": "<p>I read the 30 most recent posts in the community. I saved the list in comunidade/perguntas.md.</p><ol><li>How do I freeze the first row in the spreadsheet? (6 posts)</li><li>Why does VLOOKUP return #N/A? (5 posts)</li><li>Can I take the lesson on my phone? (4 posts)</li><li>How do I add up only the values from one month? (4 posts)</li><li>Where can I download the spreadsheet for lesson 1? (3 posts)</li></ol><p>Each question has a link to a post in the file. I didn’t publish, reply, or change anything. I saw a post advertising another course; I left the link at the end of the file for you to decide what to do.</p>"
+          },
+          {
+            "rot": "How to check that nothing changed",
+            "html": "<ol><li>Before: note the number of posts in the community and the date of your last post.</li><li>After: check again. Both should be the same.</li><li>Open comunidade/perguntas.md and click a link: the post exists and includes the question.</li><li>For screenshots: compare the number of files before and after. They should match.</li></ol>"
+          },
+          {
+            "rot": "Common mistakes",
+            "html": "<ul><li><b>Request without limits</b>: \"check the community and take care of whatever needs doing\" lets Claude reply to and delete posts.</li><li><b>Password in the conversation</b>: you sign in yourself in the browser.</li><li><b>Allow every app</b>: allow only the app for that task.</li><li><b>Chrome with computer use</b>: browsers there are for viewing only. Use the built-in browser for websites.</li><li><b>Out-of-date app</b>: update it before opening websites.</li></ul>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "simconversa",
+      "titulo": "Claude asks, you decide",
+      "sub": "A simulated conversation for practice. Carla asked for a read-only list of the most common questions in the community, using the built-in browser. Choose the response you would give.",
+      "personagem": {
+        "nome": "Claude",
+        "papel": "in the built-in browser · read-only task"
+      },
+      "inicio": "abre",
+      "falas": {
+        "abre": {
+          "cliente": "I opened your community page. The website asks for a sign-in to see students’ posts. Can you give me your password?",
+          "opcoes": [
+            {
+              "t": "Sure. I’ll type the password here in the conversation.",
+              "vai": "fim-risco",
+              "nota": 0,
+              "comenta": "Never put your password in the conversation. You sign in yourself in the built-in browser."
+            },
+            {
+              "t": "No. I’ll log in through the browser myself and let you know when I’m in.",
+              "vai": "spam",
+              "nota": 2,
+              "comenta": "That’s right. You sign in once in the app’s browser, and Claude picks up from there."
+            },
+            {
+              "t": "Skip anything that requires a login and read only what’s open to the public.",
+              "vai": "spam",
+              "nota": 1,
+              "comenta": "That’s safe, but the task loses its main point: the questions are in students’ posts. You logging in yourself solves that."
+            }
+          ]
+        },
+        "spam": {
+          "cliente": "I’m in. One of the questions is in a post promoting another course. Do you want me to delete it?",
+          "opcoes": [
+            {
+              "t": "Reply to the post and ask the person to remove the promotion.",
+              "vai": "chrome",
+              "nota": 1,
+              "comenta": "It seems harmless, but replying also changes the site. The task was just to read."
+            },
+            {
+              "t": "Delete it. It’s spam.",
+              "vai": "fim-risco",
+              "nota": 0,
+              "comenta": "The task was just to read, and deleting it can’t be undone. You can decide later after looking at the post."
+            },
+            {
+              "t": "Don’t delete it. Put the link to that post at the end of the list so I can look at it later.",
+              "vai": "chrome",
+              "nota": 2,
+              "comenta": "Good. Claude records it, and you decide. The task stays read-only."
+            }
+          ]
+        },
+        "chrome": {
+          "cliente": "To compare it with your course page, can I open Chrome on your computer using computer use and fill out the signup form with test information?",
+          "opcoes": [
+            {
+              "t": "You can open Chrome, but only to look at the course page.",
+              "vai": "fim-bom",
+              "nota": 1,
+              "comenta": "It works and it’s safe: with computer use, browsers are view-only, and looking doesn’t change the site. But it wasn’t needed: the built-in browser can already open the page with your login."
+            },
+            {
+              "t": "Go ahead, use Chrome and fill it out with test information.",
+              "vai": "fim-risco",
+              "nota": 0,
+              "comenta": "Two things break the rules: with computer use, browsers are view-only, and filling out a form changes the site."
+            },
+            {
+              "t": "No need. Stay in the built-in browser and don’t fill out any forms.",
+              "vai": "fim-bom",
+              "nota": 2,
+              "comenta": "That’s right. Use the built-in browser for websites, and submitting a form changes the site."
+            }
+          ]
+        },
+        "fim-bom": {
+          "fim": true,
+          "titulo": "A read-only task, from start to finish",
+          "texto": "Claude read, made a list, and saved the file, and nothing changed on the site. Now check: are the number of posts and the date of your last post the same as before?"
+        },
+        "fim-risco": {
+          "fim": true,
+          "titulo": "Stopped here",
+          "texto": "For a read-only task, you log in, and Claude only reads and makes a list. Anything that changes the site or exposes your password is off limits. Start again and try once more."
+        }
+      },
+      "licao": "You log in. Claude reads and makes a list. If anything would change the site, it asks and you decide."
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice: a read-only task on one of your sites",
+      "sub": "You need the Claude app on Mac or Windows. There’s no app for Linux: do E2 by pasting the page text into a chat and asking for the same list.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "E1 · Before",
+          "min": "5 min",
+          "texto": "Choose one of your sites: a channel, store, blog, or community. In the app, open the built-in browser (Cmd + Shift + B on Mac, Ctrl + Shift + B on Windows) and log in yourself. Write down one thing that would change if anything were edited: the number of posts or drafts, or the date of the last edit.",
+          "pronto": "you’re logged in through the app’s browser, and you’ve written down the thing you’re tracking on paper or in a file."
+        },
+        {
+          "id": "e2",
+          "titulo": "E2 · The task",
+          "min": "15 min",
+          "texto": "Adapt the block \"Template · one of your sites\" and paste it into the chat. Wait for the file and the response. Then check the thing you wrote down.",
+          "pronto": "the file with the list exists, you opened one of the links, and the thing you wrote down is the same as before."
+        },
+        {
+          "id": "e3",
+          "titulo": "E3 · Computer use (optional)",
+          "min": "15 min",
+          "texto": "Only if you have a Mac or Windows computer and a Pro, Max, or Ultra plan. Turn on computer use in the app settings (Settings); if you can’t find it, ask Claude where it is in this app. On Mac, allow Accessibility and Screen Recording. Count the files in Desktop’s Prints folder and paste the request \"organize screenshots\". On Windows, don’t use the mouse or keyboard until Claude is done.",
+          "pronto": "the Prints folder has one folder for each month, and the total number of files matches what you counted before."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Test what you learned",
+      "sub": "The explanation appears after your answer.",
+      "perguntas": [
+        {
+          "p": "Carla wants Claude to read customer requests on her store’s website. Which option should she use?",
+          "opcoes": [
+            "Use computer use to open Chrome on her computer and log in to the store account for her.",
+            "Copy the password into the chat so Claude can log in.",
+            "Use the app’s built-in browser, and have her log in herself.",
+            "None. Claude can’t use websites."
+          ],
+          "certa": 2,
+          "explica": "Use the built-in browser for websites (Cmd + Shift + B on Mac, Ctrl + Shift + B on Windows), and log in yourself. A common mistake is to use computer use, where browsers are view-only.",
+          "ref": "diagrama"
+        },
+        {
+          "p": "Which of these statements about computer use is true?",
+          "opcoes": [
+            "It’s off by default and in testing on Mac and Windows, for Pro, Max, and Ultra plans.",
+            "It’s on by default on all plans, including Team and Enterprise, and on Linux too.",
+            "It only works on Linux through the terminal and requires a special API key.",
+            "It works on your phone without your computer turned on, through the Claude app."
+          ],
+          "certa": 0,
+          "explica": "It’s a preview, off by default, for Mac and Windows on Pro, Max, and Ultra plans. It’s not available for Team or Enterprise, and there’s no app for Linux.",
+          "ref": "passos"
+        },
+        {
+          "p": "How can you check that a read-only task didn’t change anything on the site?",
+          "opcoes": [
+            "Ask Claude at the end of the task if it changed anything on the site, and trust its answer.",
+            "Close the app as soon as the task is done.",
+            "Ask Claude to do the task twice and compare the answers.",
+            "Note a sign beforehand (number of posts, date of the last edit), then check it again afterward."
+          ],
+          "certa": 3,
+          "explica": "A sign you note before and after is your own check, not a promise from Claude. Asking Claude is the common mistake: its answer proves nothing.",
+          "ref": "codigo"
+        },
+        {
+          "p": "In the middle of the task, Claude finds a spam post and asks if it can delete it. What should you do in a read-only task?",
+          "opcoes": [
+            "Let it delete the post, because nobody wants spam in the community.",
+            "Don’t delete it. Ask for the post’s link in the list so you can decide later.",
+            "Ask Claude to reply to the post with a polite warning to the author, without deleting anything from the community.",
+            "Change the task to “do whatever needs to be done” and leave."
+          ],
+          "certa": 1,
+          "explica": "Deleting can’t be undone, and replying also changes the site. Claude records what it finds; you decide after looking at the post.",
+          "ref": "simconversa"
+        },
+        {
+          "p": "Computer use asks for access to several apps. Which ones should you allow?",
+          "opcoes": [
+            "All of them, so it won’t stop halfway through.",
+            "None: computer use doesn’t ask for permission.",
+            "Only the app for that task.",
+            "Only the browser, because it’s used most often."
+          ],
+          "certa": 2,
+          "explica": "Allow only what the task needs. The common mistake is allowing everything to “avoid getting in the way”; here, the browser is only for viewing.",
+          "ref": "diagrama"
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "The lesson in three sentences",
+      "itens": [
+        {
+          "t": "Two paths",
+          "texto": "Computer programs through computer use; websites through the built-in browser."
+        },
+        {
+          "t": "Rules in your request",
+          "texto": "Read-only, ask first, and allow only what’s needed. You always handle the login."
+        },
+        {
+          "t": "Before and after",
+          "texto": "Note a sign before the task and check afterward that it hasn’t changed."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Go further",
+      "links": [
+        {
+          "t": "Computer use in Claude Code (official documentation, in English)",
+          "href": "https://code.claude.com/docs/en/computer-use",
+          "icone": "chip"
+        },
+        {
+          "t": "Claude Code in the desktop app (official documentation, in English)",
+          "href": "https://code.claude.com/docs/en/desktop",
+          "icone": "lista"
+        },
+        {
+          "t": "Guide to Claude Code’s 13 new features",
+          "href": "https://inematds.github.io/claude-code-2/guia/",
+          "icone": "arquivo"
+        }
+      ]
+    }
+  ]
+}

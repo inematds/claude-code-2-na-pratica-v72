@@ -1,0 +1,362 @@
+{
+  "slug": "entregar",
+  "num": 6,
+  "menu": "Deliver",
+  "titulo": "Deliver: slides, dashboards, and shared documents",
+  "titulo_curto": "Deliver",
+  "minutos": 15,
+  "lead": "Finished work only matters when it reaches someone. Now you can ask Claude for a presentation, graphic, numbers dashboard, or document, see it finished in the conversation, make changes in plain language, and share it by link. In this lesson, Carla turns lesson 1 into 7 slides and creates a guest document the team can edit together, checking it before sending.",
+  "objetivo": "Turn the work into slides, a dashboard, or a shared document, and check it before sending.",
+  "competencias": [
+    "generate-deliverables",
+    "adjust-in-plain-language",
+    "check-before-sharing"
+  ],
+  "aprende": [
+    {
+      "icone": "lista",
+      "t": "The deliverable types and which plan supports each one"
+    },
+    {
+      "icone": "caneta",
+      "t": "Adjust the piece with words, without another program"
+    },
+    {
+      "icone": "check",
+      "t": "Check 3 numbers or dates before sharing"
+    },
+    {
+      "icone": "compartilhar",
+      "t": "Share with view, comment, or edit access"
+    }
+  ],
+  "hero_alt": "Teacher’s desk: a laptop showing a black-and-yellow presentation about spreadsheets, next to a cup and a notebook with three circled numbers.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "From result to link",
+      "sub": "Tap or click each step. Check it before sharing the link, never after.",
+      "nos": [
+        {
+          "icone": "chat",
+          "titulo": "Ask",
+          "sub": "in words",
+          "detalhe": "Say what you want, where the content comes from, and what it should look like: how many slides, what colors, who will read it. The clearer your request, the fewer back-and-forths later."
+        },
+        {
+          "icone": "lupa",
+          "titulo": "View",
+          "sub": "in the conversation",
+          "detalhe": "The piece appears right in the conversation, without opening another program. Look at it as your student or client will: can they understand it in a few seconds?"
+        },
+        {
+          "icone": "caneta",
+          "titulo": "Adjust",
+          "sub": "in words",
+          "detalhe": "You make changes by saying things like: \"make the text bigger,\" \"remove slide 4,\" \"replace the chart with a table.\" One change at a time is easier to check."
+        },
+        {
+          "icone": "check",
+          "titulo": "Check",
+          "sub": "3 numbers",
+          "forte": true,
+          "detalhe": "Choose 3 numbers or dates in the piece and compare them with the original source: the spreadsheet, calendar, or script. Claude can get a number wrong with complete confidence. If one of the three is wrong, check them all."
+        },
+        {
+          "icone": "compartilhar",
+          "titulo": "Share",
+          "sub": "by link",
+          "itens": [
+            {
+              "icone": "usuario",
+              "t": "view · comment · edit"
+            },
+            {
+              "icone": "chat",
+              "t": "@Claude in a comment"
+            }
+          ],
+          "detalhe": "The piece starts out private: only you can see it. In the Share button, you choose who can access it. In a document, each person can view, comment, or edit. As the doc owner, you can tag @Claude in a comment so it can review the document right there."
+        }
+      ],
+      "legenda": "Asking, viewing, and adjusting can take a few rounds. Checking and sharing happen once, in that order.",
+      "rolagem": true,
+      "rolagem_fim": {
+        "titulo": "Checked and ready to share",
+        "texto": "Describe the piece in words, adjust it in words, check 3 numbers against the source, and only then share the link."
+      }
+    },
+    {
+      "tipo": "passos",
+      "titulo": "What you can ask for",
+      "sub": "The official names and which plans include each one. There is no \"Motion Studio\": the correct name is Claude Motion.",
+      "passos": [
+        {
+          "titulo": "Slides and Design",
+          "sub": "all plans",
+          "texto": [
+            "Claude Slides makes presentations; Claude Design makes graphics, like a post cover or a poster.",
+            "Both are available on all plans. They’re the best place to start."
+          ],
+          "exemplo": {
+            "rot": "Carla",
+            "texto": "7 slides for lesson 1 and a graphic to promote the lesson in the channel."
+          }
+        },
+        {
+          "titulo": "Dashboards",
+          "sub": "beta",
+          "texto": [
+            "A dashboard is a panel of numbers: charts and totals on one screen, built from a spreadsheet or data you provide.",
+            "It’s in beta (testing). Before showing it to anyone, check 3 numbers against the source."
+          ],
+          "exemplo": {
+            "rot": "Carla",
+            "texto": "A dashboard showing course sign-ups by month, built from her spreadsheet."
+          }
+        },
+        {
+          "titulo": "Claude Motion",
+          "sub": "Team and Enterprise",
+          "texto": [
+            "Claude Motion creates animated videos with code and exports them as MP4 files.",
+            "It’s in beta and available only on Team and Enterprise plans. It doesn’t appear on Pro, Max, or Ultra, so stick with Slides and Design."
+          ]
+        },
+        {
+          "titulo": "Claude Docs",
+          "sub": "living document",
+          "texto": [
+            "Claude creates a document you can share by link. Everyone works on the same copy, with no versions lost in email.",
+            "Anyone who opens it needs to sign in with a Claude account. You choose who can view, comment, or edit."
+          ],
+          "exemplo": {
+            "rot": "Carla",
+            "texto": "A list of guests for this month’s livestreams, updated by the moderator."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Carla’s prompts: slides, dashboard, and artwork",
+      "sub": "Works on claude.ai and in the app. Send the script with your request or mention the file if you’re in the Code tab; replace curso-planilhas/… with the path to your file (.md, Word, or PDF; see lesson 2).",
+      "blocos": [
+        {
+          "rot": "1 · Slide request",
+          "icone": "chat",
+          "conteudo": "Create a 7-slide presentation from the lesson 1 script (curso-planilhas/aula-1/roteiro.md).\nAudience: adults who have never used formulas.\nOne idea per slide, no more than 20 words per slide, large text.\nColors: black and yellow.\nSlide 7: an exercise for the student to do on their own."
+        },
+        {
+          "rot": "2 · Word edits",
+          "icone": "caneta",
+          "conteudo": "Slide 3: replace the text with a spreadsheet example with 4 rows.\nSlide 5: larger text and fewer words.\nDon’t change the other slides."
+        },
+        {
+          "rot": "3 · Fact-check request",
+          "icone": "check",
+          "conteudo": "List all numbers, dates, and formulas that appear in the 7 slides.\nFor each one, say which line of the script it’s on.\nMark anything that isn’t in the script with ATTENTION."
+        },
+        {
+          "rot": "4 · Numbers dashboard (Dashboards, beta)",
+          "icone": "grafico",
+          "conteudo": "Create a dashboard from this spreadsheet: <attach the spreadsheet or give the file name>.\nShow subscribers by month in a chart and highlight the period total.\nUse only the numbers in the spreadsheet. Don’t make any up."
+        },
+        {
+          "rot": "5 · An image (Claude Design)",
+          "icone": "caneta",
+          "conteudo": "Create a square image to promote <what you want to promote> on my channel.\nShort title, large text, black and yellow colors.\nNo more than 12 words in the image."
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "The 7 slides",
+            "html": "<ol><li>A spreadsheet isn’t rocket science.</li><li>Cell, row, and column: the address of everything.</li><li>A shopping list with 4 items.</li><li>The first formula: =SOMA(B2:B5).</li><li>When the sum is wrong: a cell with text.</li><li>Copy the formula down.</li><li>Exercise: add up the week’s expenses.</li></ol>"
+          },
+          {
+            "rot": "Fact-check results",
+            "html": "<ul><li><b>=SOMA(B2:B5)</b> (slide 4): script, line 18.</li><li><b>4 items</b> (slide 3): script, line 12.</li><li><b>ATTENTION: \"7 days\"</b> (slide 7): it isn’t in the script; I added it. Want to keep it?</li></ul>"
+          },
+          {
+            "rot": "Common mistakes",
+            "html": "<ul><li><b>Ask for everything again</b> because of one slide: request an edit to just that slide.</li><li><b>Send it without checking the numbers</b>: a pretty slide with the wrong formula makes for a wrong lesson.</li></ul>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Carla’s prompt: the guest document",
+      "sub": "A Claude Doc the team can edit together.",
+      "blocos": [
+        {
+          "rot": "Shared document",
+          "icone": "arquivo",
+          "conteudo": "Create a document to track guests for my community’s live streams in December.\nA table with: name, live stream topic, date, time, and status (invited, confirmed, recorded).\nStart with 3 sample rows marked EXAMPLE.\nBelow the table, add a short list of what to do during the week of the live stream.\nMake it ready to share with my assistant."
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "How to share",
+            "html": "<ol><li>Click <b>Share</b> on the document.</li><li>Choose access, for example <b>Only you</b> or <b>Anyone with the link</b>, plus an email invitation. Options vary by plan.</li><li>For your assistant: send an email invitation with <b>edit</b> permission.</li><li>Test it: send the link to someone on your team and ask them to open it. They’ll sign in with their Claude account.</li></ol>"
+          },
+          {
+            "rot": "@Claude in a comment",
+            "html": "<p>Carla, the doc owner, comments on a live stream row:</p><p><i>\"@Claude, check whether any date falls on a December holiday and let me know here.\"</i></p><p>Claude replies in the comment itself, so Carla doesn’t need to start another conversation.</p>"
+          },
+          {
+            "rot": "Limits",
+            "html": "<ul><li>The document starts out private; you decide whether to share it.</li><li>Anyone who opens it needs a Claude account.</li><li>\"Anyone with the link\" means anyone with the link can open it. Documents that use Claude internally or are connected to your apps can’t use this option.</li></ul>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice: checked deliverables",
+      "sub": "All in claude.ai or the app. No terminal needed.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "E1 · The slides",
+          "min": "20 min",
+          "texto": "Ask for 7 slides based on one of your scripts, lessons, or texts, using Carla’s template. Make at least one word edit. Then run the fact-check request.",
+          "pronto": "the presentation has 7 slides, you made 1 word edit, and you noted 3 numbers, dates, or formulas checked against the original text."
+        },
+        {
+          "id": "e2",
+          "titulo": "E2 · The shared document",
+          "min": "15 min",
+          "texto": "Create a tracking document (guests, deliverables, or weekly tasks) using Carla’s adapted prompt, and share it with someone on your team using the Share button. Choose view, comment, or edit access. They’ll need to sign in with a Claude account to open it.",
+          "pronto": "you replaced the 3 EXAMPLE rows with 3 real live streams (or tasks), checked the dates against your calendar, sent the link to someone on your team, and they opened it."
+        },
+        {
+          "id": "e3",
+          "titulo": "E3 · A request to @Claude",
+          "min": "5 min",
+          "texto": "In your document, leave a comment tagging @Claude with a request to review one row of the table. Only you, the document owner, can call on @Claude; anyone with the link can view, comment, or edit.",
+          "pronto": "Claude’s reply appears in the comment itself."
+        },
+        {
+          "id": "e4",
+          "titulo": "E4 · A dashboard (Dashboards, beta)",
+          "min": "10 min",
+          "texto": "Dashboards is in beta (testing): if you don’t see it, skip this one. Get a simple spreadsheet with about 10 numbers (subscribers, sales, or expenses by month), and paste an adapted version of the \"Numbers dashboard\" prompt.",
+          "pronto": "the dashboard appears in the conversation and you checked 2 of its numbers against the spreadsheet."
+        },
+        {
+          "id": "e5",
+          "titulo": "E5 · An image (Design)",
+          "min": "10 min",
+          "texto": "Paste the \"An image\" prompt with what you want to promote. Make one word edit (color, text size, or wording).",
+          "pronto": "the image appears in the conversation, you made 1 word edit, and you read the text in the image without finding any errors."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Test what you learned",
+      "sub": "The explanation appears after your answer.",
+      "perguntas": [
+        {
+          "p": "Carla has a Pro plan and wants an animated video of the lesson. What does she find?",
+          "opcoes": [
+            "Motion Studio, available on all plans.",
+            "Claude Motion, which exports MP4 on any paid plan.",
+            "Claude Motion is in beta for Team and Enterprise only; on Pro, it uses Slides and Design.",
+            "Claude Design, which turns any artwork into an animated video."
+          ],
+          "certa": 2,
+          "explica": "The official name is Claude Motion (“Motion Studio” doesn’t exist). It’s in beta and only available on Team and Enterprise plans. Slides and Design are available on all plans.",
+          "ref": "passos"
+        },
+        {
+          "p": "Before sending a link to a numbers dashboard, what should you do?",
+          "opcoes": [
+            "Check 3 numbers against the original source.",
+            "Ask Claude to rebuild the dashboard from scratch and compare it.",
+            "Change the colors to make it look more professional.",
+            "Send it and ask the recipient to let you know if they spot an error."
+          ],
+          "certa": 0,
+          "explica": "Claude can get a number wrong with complete confidence. Checking three numbers against the original spreadsheet catches most errors; if one is wrong, check them all.",
+          "ref": "diagrama"
+        },
+        {
+          "p": "Who can tag @Claude in a document comment to have it review the document?",
+          "opcoes": [
+            "Anyone with the link.",
+            "Only someone with a Team plan.",
+            "No one: Claude only reads the document when it’s created.",
+            "You, the document owner."
+          ],
+          "certa": 3,
+          "explica": "Recipients can view, comment, or edit, depending on their permissions. You, the doc owner, are the one who tags @Claude in the comments.",
+          "ref": "codigo"
+        },
+        {
+          "p": "A slide came out with tiny text. What’s the best request?",
+          "opcoes": [
+            "“Redo the whole presentation. It’s bad.”",
+            "“Slide 5: make the text larger and use fewer words. Don’t change the others.”",
+            "Download the presentation and fix it in another program.",
+            "“Make all the slides prettier and more professional, please.”"
+          ],
+          "certa": 1,
+          "explica": "Ask for specific changes in a few words, one at a time, and say where. Asking it to redo everything or make it “prettier” can ruin what was already right.",
+          "ref": "codigo"
+        },
+        {
+          "p": "Carla sent the guest document link to the monitor. What does the monitor need to open it?",
+          "opcoes": [
+            "Nothing: the link opens for anyone, without an account.",
+            "A Team plan, just like Carla’s.",
+            "Sign in with a Claude account.",
+            "Install the Claude app on her computer."
+          ],
+          "certa": 2,
+          "explica": "Anyone opening a Claude Docs document needs to sign in with a Claude account. Carla chooses whether the monitor can view, comment, or edit. A common mistake is assuming the link opens without an account.",
+          "ref": "passos"
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "The lesson in three sentences",
+      "itens": [
+        {
+          "t": "Ask for specific changes in a few words",
+          "texto": "Slides and Design on all plans; Dashboards in beta; Motion on Team and Enterprise only."
+        },
+        {
+          "t": "Check before you share",
+          "texto": "Compare 3 numbers or dates with the original source before sending the link."
+        },
+        {
+          "t": "Share with the right permissions",
+          "texto": "View, comment, or edit; tag @Claude in comments on your document."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Go further",
+      "links": [
+        {
+          "t": "Share Claude artifacts (official help, in English)",
+          "href": "https://support.claude.com/en/articles/9547008-share-artifacts",
+          "icone": "compartilhar"
+        },
+        {
+          "t": "Artifacts in the official documentation (in English)",
+          "href": "https://code.claude.com/docs/en/artifacts",
+          "icone": "arquivo"
+        }
+      ]
+    }
+  ]
+}
